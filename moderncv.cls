@@ -139,7 +139,7 @@
     pdftitle      = {\@firstname{}~\@familyname{} -- \@title{}},
     pdfsubject    = {Resum\'{e} of \@firstname{}~\@familyname{}},
 	colorlinks=true,        % false: boxed links; true: colored links
-	linkcolor=green,        % color of internal links (change box color with linkbordercolor)
+	linkcolor=red,        % color of internal links (change box color with linkbordercolor)
 	citecolor=red,          % color of links to bibliography
 	filecolor=magenta,      % color of file links
 	urlcolor=blue,          % color of external links
