@@ -219,6 +219,7 @@
 \newcommand*{\address}[2]{\def\@addressstreet{#1}\def\@addresscity{#2}}
 \newcommand*{\mobile}[1]{\def\@mobile{#1}}
 \newcommand*{\phone}[1]{\def\@phone{#1}}
+\newcommand*{\birth}[1]{\def\@birth{#1}}
 \newcommand*{\fax}[1]{\def\@fax{#1}}
 \newcommand*{\email}[1]{\def\@email{#1}}
 \newcommand*{\homepage}[2]{\def\@homepage{#1}\def\@homepagetitle{#2}}
@@ -246,6 +247,7 @@
 \newcommand*{\mobilesymbol}{}
 \newcommand*{\phonesymbol}{}
 \newcommand*{\faxsymbol}{}
+\newcommand*{\birthsymbol}{}
 \newcommand*{\emailsymbol}{}
 \newcommand*{\homepagesymbol}{}
 

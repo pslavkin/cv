@@ -41,6 +41,7 @@
 \renewcommand*{\mobilesymbol}{\marvosymbol{72}~}
 \renewcommand*{\phonesymbol}{\marvosymbol{84}~}
 \renewcommand*{\faxsymbol}{\marvosymbol{117}~}
+\renewcommand*{\birthsymbol}{\marvosymbol{124}~}
 \renewcommand*{\emailsymbol}{\marvosymbol{66}~}
 \renewcommand*{\homepagesymbol}{{\Large\marvosymbol{205}}~}
 
@@ -69,7 +70,7 @@
 % lengths
 \newlength{\quotewidth}
 \newlength{\hintscolumnwidth}
-\setlength{\hintscolumnwidth}{0.175\textwidth}
+\setlength{\hintscolumnwidth}{0.185\textwidth}
 \newlength{\separatorcolumnwidth}
 \setlength{\separatorcolumnwidth}{0.025\textwidth}
 \newlength{\maincolumnwidth}
@@ -112,6 +113,7 @@
         \ifthenelse{\equal{\@addresscity}{}}{}{\makenewline\@addresscity}}% if \addresstreet is defined, \addresscity will always be defined but could be empty
       \ifthenelse{\isundefined{\@mobile}}{}{\makenewline\mobilesymbol\@mobile}%
       \ifthenelse{\isundefined{\@phone}}{}{\makenewline\phonesymbol\@phone}%
+      \ifthenelse{\isundefined{\@birth}}{}{\makenewline\birthsymbol\@birth}%
       \ifthenelse{\isundefined{\@fax}}{}{\makenewline\faxsymbol\@fax}%
       \ifthenelse{\isundefined{\@email}}{}{\makenewline\emailsymbol\emaillink{\@email}}%
       \ifthenelse{\isundefined{\@homepage}}{}{%
@@ -213,11 +215,11 @@
 \newlength{\cvitemwithcommentmainlength}
 \newlength{\cvitemwithcommentcommentlength}
 \renewcommand*{\cvitemwithcomment}[4][.25em]{%
-  \savebox{\cvitemwithcommentmainbox}{{\bfseries#3}}%
+	\savebox{\cvitemwithcommentmainbox}{#3}
   \setlength{\cvitemwithcommentmainlength}{\widthof{\usebox{\cvitemwithcommentmainbox}}}%
   \setlength{\cvitemwithcommentcommentlength}{\maincolumnwidth-\separatorcolumnwidth-\cvitemwithcommentmainlength}%
   \cvitem[#1]{#2}{%
-    \begin{minipage}[t]{\cvitemwithcommentmainlength}\bfseries#3\end{minipage}%
+    \begin{minipage}[t]{\cvitemwithcommentmainlength}#3\end{minipage}%
     \hfill% fill of \separatorcolumnwidth
     \begin{minipage}[t]{\cvitemwithcommentcommentlength}\raggedleft\small\itshape#4\end{minipage}}}
 
@@ -267,6 +269,7 @@
         \ifthenelse{\equal{\@addresscity}{}}{}{\makenewline\@addresscity}}%
       \ifthenelse{\isundefined{\@mobile}}{}{\makenewline\mobilesymbol\@mobile}%
       \ifthenelse{\isundefined{\@phone}}{}{\makenewline\phonesymbol\@phone}%
+      \ifthenelse{\isundefined{\@birth}}{}{\makenewline\birthsymbol\@birth}%
       \ifthenelse{\isundefined{\@fax}}{}{\makenewline\faxsymbol\@fax}%
       \ifthenelse{\isundefined{\@email}}{}{\makenewline\emailsymbol\emaillink{\@email}}%
      \ifthenelse{\isundefined{\@homepage}}{}{%
