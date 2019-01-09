@@ -147,6 +147,11 @@
 
 % graphics
 \RequirePackage{graphicx}
+\usepackage{float}
+\usepackage{caption}
+\newfloat{figure}{htbp}{figs}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish, english]{babel}
 
 % headers and footers
 \RequirePackage{fancyhdr}
