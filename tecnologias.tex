@@ -11,10 +11,10 @@
 
    \subsection{Lenguajes de programación}
       \cvitem { Avanzado}   { C, Octave, Verilog, assembler, VHDL}
-      \cvitem { Intermedio} { C++, C\#,  Pascal, bash, makefiles, openHab, Microsoft Visual Studio}
-      \cvitem { Básico}     { Java, Javascript, \textsc { html}, Python}
+      \cvitem { Intermedio} { C++, C\#,  Pascal, bash, makefiles, openHab, Microsoft Visual Studio, Python}
+      \cvitem { Básico}     { Java, Javascript, \textsc { html}}
 
-   \subsection{Microcontroladores, microprocesadores y FPGA utilizados}
+   \subsection{Experiencia con los siguientes Microcontroladores, microprocesadores y FPGA}
 %----------------Colores-------------------------
       \cvitem { Colores}   {
          8 bits
@@ -82,6 +82,25 @@
                      child[nodo] { node[concept] {KE} }
                };
 \end{tikzpicture}
+%-------------ST--------------------------------
+\begin{tikzpicture}
+  \centering
+  \path[mindmap,concept color=black!70,text=white,align=center,
+    every node/.style =            { concept,scale=0.5},
+    root/.style       =            { font =\huge\bfseries,concept color = black!70},
+    level 1 concept/.append style= { font=\large\bfseries, sibling angle=65,level distance= 60pt},
+    level 2 concept/.append style= { font=\normalsize\bfseries,sibling angle=27,level distance= 55pt},
+    bits32/.style     =            { concept color = yellow!80!black,text=black},
+    bits16/.style     =            { concept color = green!50!black},
+    bits8/.style      =            { concept color = orange!80!black},
+    nodo/.style       =            { concept color = blue!50!black,text=white},
+  ]
+    node[root] {ST} [clockwise from= 90]
+         child[bits32] {
+            node[concept] {ARM Cortex M4} [clockwise from=100]
+            child[nodo] { node[concept] {STM32F429ZIT6} }
+         };
+\end{tikzpicture}
 %-------------NXP--------------------------------
 \begin{tikzpicture}
   \centering
@@ -144,6 +163,25 @@
          };
 \end{tikzpicture}
 
+%----------------RABBIT-------------------------
+\begin{tikzpicture}
+  \centering
+  \path[mindmap,concept color=black!70,text=white,align=center,
+    every node/.style =            { concept,scale=0.5},
+    root/.style       =            { font =\huge\bfseries,concept color = black!70},
+    level 1 concept/.append style= { font=\large\bfseries, sibling angle=65,level distance= 60pt},
+    level 2 concept/.append style= { font=\normalsize\bfseries,sibling angle=27,level distance= 55pt},
+    bits32/.style     =            { concept color = yellow!80!black,text=black},
+    bits16/.style     =            { concept color = green!50!black},
+    bits8/.style      =            { concept color = orange!80!black},
+    nodo/.style       =            { concept color = blue!50!black,text=white},
+  ]
+    node[root] {Rabbit} [clockwise from= 90]
+      child[bits8] {
+            node[concept] {Rabbit} [clockwise from=100]
+               child[nodo] { node[concept] {Rabbit2200} }
+         };
+\end{tikzpicture}
 %----------------TEXAS-------------------------
 \begin{tikzpicture}
   \centering
@@ -190,26 +228,6 @@
                child[nodo] { node[concept] {Pic168xa} }
          };
 \end{tikzpicture}
-
-%----------------RABBIT-------------------------
-\begin{tikzpicture}
-  \centering
-  \path[mindmap,concept color=black!70,text=white,align=center,
-    every node/.style =            { concept,scale=0.5},
-    root/.style       =            { font =\huge\bfseries,concept color = black!70},
-    level 1 concept/.append style= { font=\large\bfseries, sibling angle=65,level distance= 60pt},
-    level 2 concept/.append style= { font=\normalsize\bfseries,sibling angle=27,level distance= 55pt},
-    bits32/.style     =            { concept color = yellow!80!black,text=black},
-    bits16/.style     =            { concept color = green!50!black},
-    bits8/.style      =            { concept color = orange!80!black},
-    nodo/.style       =            { concept color = blue!50!black,text=white},
-  ]
-    node[root] {Rabbit} [clockwise from= 90]
-      child[bits8] {
-            node[concept] {Rabbit} [clockwise from=100]
-               child[nodo] { node[concept] {Rabbit2200} }
-         };
-\end{tikzpicture}
 %----------------FPGA-------------------------
 \begin{tikzpicture}
   \centering
@@ -233,17 +251,15 @@
                child[nodo] { node[concept] {Flex 10K10} }
          };
 \end{tikzpicture}
-
-   \end{center}
-
+\end{center}
 
    \subsection{Protocolos de comunicaciones y técnicas digitales}
-      \cvitem{Avanzado   }{TCP, IPv4, SNMP, SMTP, NTP, ARP, Ethernet, UDP, SCI, SPI, I2C, LVDS, USB FS/HS, Zigbee, RFID, PWM, ADC, DAC, 1-Wire, RS232, RS485, PoE+ }
+      \cvitem{Avanzado   }{Ethernet, TCP, IPv4, SNMP, SMTP, NTP, ARP,  UDP, SCI, SPI, I2C, LVDS, USB FS/HS, Zigbee, RFID, PWM, ADC, DAC, 1-Wire, RS232, RS485, PoE+ }
       \cvitem{Intermedio }{IPv6, CAN, 6LoWPAN, IEEE 802.15.4, lwIP, I2S, Radius, Modbus                                                                            }
-      \cvitem{Básico     }{                                                                                                                                        }
+      \cvitem{Básico     }{HTTP, Lora, MIPI                                                                                                                                        }
 
    \subsection{Otras tecnologías de Interés}
       \cvitem{Avanzado   }{Manejo de línea de montaje SMD, Soldado de PCB's manual por horno y ola, Impresión 3D FDM, serigrafía sobre rigido, serigrafía de PCB's,  mecanizado CNC, Manejo de maquina de corte laser, manejo de máquinas herramientas }
-      \cvitem{Intermedio }{Manufactura de PCB's                                                                                                                                                                                                        }
-      \cvitem{Básico     }{                                                                                                                                                                                                                            }
+      \cvitem{Intermedio }{Manufactura de PCB's, soldadura por arco, torneria metalica                                                                                                                                                                                                        }
+      \cvitem{Básico     }{}
 
