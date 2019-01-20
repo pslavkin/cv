@@ -147,6 +147,7 @@
 
 % graphics
 \RequirePackage{graphicx}
+\usepackage[export]{adjustbox}
 \usepackage{float}
 \usepackage{caption}
 \newfloat{figure}{htbp}{figs}
