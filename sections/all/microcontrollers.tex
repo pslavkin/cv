@@ -1,0 +1,234 @@
+\begin{center}
+\begin{tikzpicture}
+  \centering
+  \path[mindmap,concept color=black!70,text=white,align=center,
+    every node/.style =            { concept,scale=0.4},
+    root/.style       =            { font =\huge\bfseries,concept color = black!70},
+    level 1 concept/.append style= { font=\Large\bfseries, sibling angle=65,level distance= 60pt},
+    level 2 concept/.append style= { font=\large\bfseries,sibling angle=27,level distance= 55pt},
+    bits32/.style     =            { concept color = yellow!80!black,text=black},
+    bits16/.style     =            { concept color = green!50!black},
+    bits8/.style      =            { concept color = orange!80!black},
+    nodo/.style       =            { concept color = blue!50!black,text=white},
+  ]
+    node[root] {Freescale} [clockwise from=270]
+               child[bits8] {
+                     node[concept] {68HC9S08} [clockwise from= 40]
+                        child[nodo]{ node[concept] {JM} }
+                        child[nodo]{ node[concept] {MC13x} }
+                        child[nodo]{ node[concept] {MP} }
+                        child[nodo]{ node[concept] {GT} }
+                        child[nodo]{ node[concept] {SH} }
+                        child[nodo]{ node[concept] {SE} }
+                        child[nodo]{ node[concept] {QD} }
+                        child[nodo]{ node[concept] {AD} }
+                        child[nodo]{ node[concept] {QE} }
+               }
+               child[bits16] {
+                     node[concept] {68HC9S12} [clockwise from=200]
+                        child[nodo]{ node[concept] {NE64} }
+                        child[nodo]{ node[concept] {C} }
+               }
+               child[bits32] {
+                     node[concept] {Coldfire V2} [clockwise from=180]
+                        child[nodo]{ node[concept] {MCF51JMx} }
+                        child[nodo]{ node[concept] {MCF522x} }
+               }
+               child[bits32] {
+                     node[concept] {Kinetis ARM Cortex M0} [clockwise from=100]
+                     child[nodo] { node[concept] {E} }
+                     child[nodo] { node[concept] {W} }
+               }
+               child[bits32] {
+                     node[concept] {Kinetis ARM Cortex M4} [clockwise from=0]
+                     child[nodo] { node[concept] {K} }
+                     child[nodo] { node[concept] {KE} }
+               };
+\end{tikzpicture}
+%-------------ST--------------------------------
+\begin{tikzpicture}
+  \centering
+  \path[mindmap,concept color=black!70,text=white,align=center,
+    every node/.style =            { concept,scale=0.4},
+    root/.style       =            { font =\huge\bfseries,concept color = black!70},
+    level 1 concept/.append style= { font=\Large\bfseries, sibling angle=65,level distance= 60pt},
+    level 2 concept/.append style= { font=\normalsize\bfseries,sibling angle=27,level distance= 55pt},
+    bits32/.style     =            { concept color = yellow!80!black,text=black},
+    bits16/.style     =            { concept color = green!50!black},
+    bits8/.style      =            { concept color = orange!80!black},
+    nodo/.style       =            { concept color = blue!50!black,text=white},
+  ]
+    node[root] {ST} [clockwise from= 90]
+         child[bits32] {
+            node[concept] {ARM Cortex M4} [clockwise from=100]
+            child[nodo] { node[concept] {STM32F429ZIT6} }
+         };
+\end{tikzpicture}
+%-------------NXP--------------------------------
+\begin{tikzpicture}
+  \centering
+  \path[mindmap,concept color=black!70,text=white,align=center,
+    every node/.style =            { concept,scale=0.4},
+    root/.style       =            { font =\huge\bfseries,concept color = black!70},
+    level 1 concept/.append style= { font=\Large\bfseries, sibling angle=65,level distance= 60pt},
+    level 2 concept/.append style= { font=\normalsize\bfseries,sibling angle=27,level distance= 55pt},
+    bits32/.style     =            { concept color = yellow!80!black,text=black},
+    bits16/.style     =            { concept color = green!50!black},
+    bits8/.style      =            { concept color = orange!80!black},
+    nodo/.style       =            { concept color = blue!50!black,text=white},
+  ]
+    node[root] {NXP} [clockwise from= 90]
+         child[bits32] {
+            node[concept] {Kinetis ARM Cortex M4} [clockwise from=100]
+            child[nodo] { node[concept] {LPC54628} }
+            child[nodo] { node[concept] {LPC4337} }
+         };
+\end{tikzpicture}
+%----------------MOTOROLA-------------------------
+\begin{tikzpicture}
+  \centering
+  \path[mindmap,concept color=black!70,text=white,align=center,
+    every node/.style =            { concept,scale=0.4},
+    root/.style       =            { font =\huge\bfseries,concept color = black!70},
+    level 1 concept/.append style= { font=\Large\bfseries, sibling angle=65,level distance= 60pt},
+    level 2 concept/.append style= { font=\normalsize\bfseries,sibling angle=27,level distance= 55pt},
+    bits32/.style     =            { concept color = yellow!80!black,text=black},
+    bits16/.style     =            { concept color = green!50!black},
+    bits8/.style      =            { concept color = orange!80!black},
+    nodo/.style       =            { concept color = blue!50!black,text=white},
+  ]
+    node[root] {Motorola} [clockwise from= 90]
+      child[bits8] {
+            node[concept] {68000} [clockwise from=100]
+               child[nodo] { node[concept] {68HC11} }
+               child[nodo] { node[concept] {68HC08} }
+         };
+\end{tikzpicture}
+%----------------ATMEL-------------------------
+\begin{tikzpicture}
+  \centering
+  \path[mindmap,concept color=black!70,text=white,align=center,
+    every node/.style =            { concept,scale=0.4},
+    root/.style       =            { font =\huge\bfseries,concept color = black!70},
+    level 1 concept/.append style= { font=\Large\bfseries, sibling angle=65,level distance= 60pt},
+    level 2 concept/.append style= { font=\normalsize\bfseries,sibling angle=27,level distance= 55pt},
+    bits32/.style     =            { concept color = yellow!80!black,text=black},
+    bits16/.style     =            { concept color = green!50!black},
+    bits8/.style      =            { concept color = orange!80!black},
+    nodo/.style       =            { concept color = blue!50!black,text=white},
+  ]
+    node[root] {Atmel} [clockwise from= 90]
+      child[bits8] {
+            node[concept] {Atmega} [clockwise from=110]
+               child[nodo] { node[concept] {ATmega16 } }
+               child[nodo] { node[concept] {ATmega328 } }
+               child[nodo] { node[concept] {ATtiny85 } }
+         };
+\end{tikzpicture}
+
+%----------------RABBIT-------------------------
+\begin{tikzpicture}
+  \centering
+  \path[mindmap,concept color=black!70,text=white,align=center,
+    every node/.style =            { concept,scale=0.4},
+    root/.style       =            { font =\huge\bfseries,concept color = black!70},
+    level 1 concept/.append style= { font=\Large\bfseries, sibling angle=65,level distance= 60pt},
+    level 2 concept/.append style= { font=\normalsize\bfseries,sibling angle=27,level distance= 55pt},
+    bits32/.style     =            { concept color = yellow!80!black,text=black},
+    bits16/.style     =            { concept color = green!50!black},
+    bits8/.style      =            { concept color = orange!80!black},
+    nodo/.style       =            { concept color = blue!50!black,text=white},
+  ]
+    node[root] {Rabbit} [clockwise from= 90]
+      child[bits8] {
+            node[concept] {Rabbit} [clockwise from=100]
+               child[nodo] { node[concept] {Rabbit2200} }
+         };
+\end{tikzpicture}
+%----------------TEXAS-------------------------
+\begin{tikzpicture}
+  \centering
+  \path[mindmap,concept color=black!70,text=white,align=center,
+    every node/.style =            { concept,scale=0.4},
+    root/.style       =            { font =\huge\bfseries,concept color = black!70},
+    level 1 concept/.append style= { font=\Large\bfseries, sibling angle=65,level distance= 60pt},
+    level 2 concept/.append style= { font=\normalsize\bfseries,sibling angle=27,level distance= 55pt},
+    bits32/.style     =            { concept color = yellow!80!black,text=black},
+    bits16/.style     =            { concept color = green!50!black},
+    bits8/.style      =            { concept color = orange!80!black},
+    nodo/.style       =            { concept color = blue!50!black,text=white},
+  ]
+    node[root] {Texas} [clockwise from= 120]
+      child[bits32] {
+            node[concept] {ARM Cortex M4} [clockwise from=150]
+               child[nodo] { node[concept] {CC3200} }
+               child[nodo] { node[concept] {CC3220} }
+               child[nodo] { node[concept] {TM4C129x} }
+               child[nodo] { node[concept] {TM4C123} }
+         }
+      child[bits16] {
+            node[concept] {MSP430} [clockwise from= 90]
+               child[nodo] { node[concept] {MSP430F147} }
+               child[nodo] { node[concept] {MSP430F2013} }
+         };
+\end{tikzpicture}
+%----------------MICROCHIP-------------------------
+\begin{tikzpicture}
+  \centering
+  \path[mindmap,concept color=black!70,text=white,align=center,
+    every node/.style =            { concept,scale=0.4},
+    root/.style       =            { font =\huge\bfseries,concept color = black!70},
+    level 1 concept/.append style= { font=\Large\bfseries, sibling angle=65,level distance= 60pt},
+    level 2 concept/.append style= { font=\normalsize\bfseries,sibling angle=27,level distance= 55pt},
+    bits32/.style     =            { concept color = yellow!80!black,text=black},
+    bits16/.style     =            { concept color = green!50!black},
+    bits8/.style      =            { concept color = orange!80!black},
+    nodo/.style       =            { concept color = blue!50!black,text=white},
+  ]
+    node[root] {Microchip} [clockwise from= 90]
+      child[bits8] {
+            node[concept] {168} [clockwise from=100]
+               child[nodo] { node[concept] {Pic168xa} }
+         };
+\end{tikzpicture}
+%----------------FPGA-Xilinx------------------------
+\begin{tikzpicture}
+  \centering
+  \path[mindmap,concept color=black!70,text=white,align=center,
+    every node/.style =            { concept,scale=0.4},
+    root/.style       =            { font =\huge\bfseries,concept color = black!70},
+    level 1 concept/.append style= { font=\Large\bfseries, sibling angle=55,level distance= 60pt},
+    level 2 concept/.append style= { font=\normalsize\bfseries,sibling angle=27,level distance= 55pt},
+    marca/.style     =             { concept color = red!80!black,text=white},
+    nodo/.style       =            { concept color = blue!50!black,text=white},
+  ]
+    node[root] {Xilinx} [clockwise from= 120]
+      child[marca] {
+            node[concept] {Fpga Spartan} [clockwise from=100]
+               child[nodo] { node[concept] {Spartan3} }
+               child[nodo] { node[concept] {Spartan6} }
+         }
+      child[marca] {
+            node[concept] {Fpga Artix} [clockwise from= 90]
+               child[nodo] { node[concept] {Arty7} }
+         };
+\end{tikzpicture}
+%----------------FPGA-ALTERA------------------------
+\begin{tikzpicture}
+  \centering
+  \path[mindmap,concept color=black!70,text=white,align=center,
+    every node/.style =            { concept,scale=0.4},
+    root/.style       =            { font =\huge\bfseries,concept color = black!70},
+    level 1 concept/.append style= { font=\Large\bfseries, sibling angle=65,level distance= 60pt},
+    level 2 concept/.append style= { font=\normalsize\bfseries,sibling angle=27,level distance= 55pt},
+    marca/.style     =             { concept color = red!80!black,text=white},
+    nodo/.style       =            { concept color = blue!50!black,text=white},
+  ]
+    node[root] {Altera} [clockwise from=  70]
+      child[marca] {
+            node[concept] {FPGA Flex} [clockwise from=110]
+               child[nodo] { node[concept] {Flex 10K10} }
+         };
+\end{tikzpicture}
+%-----------------------------------------------
+\end{center}
