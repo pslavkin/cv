@@ -1,8 +1,11 @@
-      \newcommand{\LANG}{es}
-      \newcommand{\myplace}{bariloche} %valencia
+      \ifdefined\idiomaEs
+         \newcommand{\LANG}{es}
+      \else
+         \newcommand{\LANG}{us}
+      \fi
       \input{./config/header.tex}
       \input{./config/links.tex} %macros para links a los documentos de gdrivedinamicamente
-      \input{./sections/\LANG/tittle.tex}
+      \input{./sections/all/tittle.tex}
 \begin{document}
       \makecvtitle
       \input{./sections/\LANG/presentacion.tex}
@@ -14,6 +17,7 @@
       \input{./sections/\LANG/tecnologias.tex}
       \input{./sections/\LANG/idiomas.tex}
       \input{./sections/\LANG/recreacion.tex}
-      \input{./sections/all/portfolio.tex}
-%      \input{./sections/\LANG/dni.tex} % para la MSE nada mas
+      \ifdefined\portfolioSi
+         \input{./sections/all/portfolio.tex}
+      \fi
 \end{document}
