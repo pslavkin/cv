@@ -13,7 +13,7 @@
   ]
     node[root] {Freescale} [clockwise from=270]
                child[bits8] {
-                     node[concept] {68HC9S08} [clockwise from= 40]
+                     node[concept] {68HC\\9S08} [clockwise from= 40]
                         child[nodo]{ node[concept] {JM} }
                         child[nodo]{ node[concept] {MC13x} }
                         child[nodo]{ node[concept] {MP} }
@@ -25,14 +25,14 @@
                         child[nodo]{ node[concept] {QE} }
                }
                child[bits16] {
-                     node[concept] {68HC9S12} [clockwise from=200]
+                     node[concept] {68HC\\9S12} [clockwise from=200]
                         child[nodo]{ node[concept] {NE64} }
                         child[nodo]{ node[concept] {C} }
                }
                child[bits32] {
                      node[concept] {Coldfire V2} [clockwise from=180]
-                        child[nodo]{ node[concept] {MCF51JMx} }
-                        child[nodo]{ node[concept] {MCF522x} }
+                        child[nodo]{ node[concept] {MCF\\51JMx} }
+                        child[nodo]{ node[concept] {MCF\\522x} }
                }
                child[bits32] {
                      node[concept] {Kinetis ARM Cortex M0} [clockwise from=100]
@@ -61,7 +61,7 @@
     node[root] {ST} [clockwise from= 90]
          child[bits32] {
             node[concept] {ARM Cortex M4} [clockwise from=100]
-            child[nodo] { node[concept] {STM32F429ZIT6} }
+            child[nodo] { node[concept] {STM32F4\\29ZIT6} }
          };
 \end{tikzpicture}
 %-------------NXP--------------------------------
@@ -80,8 +80,8 @@
     node[root] {NXP} [clockwise from= 90]
          child[bits32] {
             node[concept] {Kinetis ARM Cortex M4} [clockwise from=100]
-            child[nodo] { node[concept] {LPC54628} }
-            child[nodo] { node[concept] {LPC4337} }
+            child[nodo] { node[concept] {LPC54\\628} }
+            child[nodo] { node[concept] {LPC\\4337} }
          };
 \end{tikzpicture}
 %----------------MOTOROLA-------------------------
@@ -120,9 +120,9 @@
     node[root] {Atmel} [clockwise from= 90]
       child[bits8] {
             node[concept] {Atmega} [clockwise from=110]
-               child[nodo] { node[concept] {ATmega16 } }
-               child[nodo] { node[concept] {ATmega328 } }
-               child[nodo] { node[concept] {ATtiny85 } }
+               child[nodo] { node[concept] {ATmega\\16 } }
+               child[nodo] { node[concept] {ATmega\\328 } }
+               child[nodo] { node[concept] {ATtiny\\85 } }
          };
 \end{tikzpicture}
 
@@ -142,7 +142,7 @@
     node[root] {Rabbit} [clockwise from= 90]
       child[bits8] {
             node[concept] {Rabbit} [clockwise from=100]
-               child[nodo] { node[concept] {Rabbit2200} }
+               child[nodo] { node[concept] {Rabbit\\2200} }
          };
 \end{tikzpicture}
 %----------------TEXAS-------------------------
@@ -158,18 +158,22 @@
     bits8/.style      =            { concept color = orange!80!black},
     nodo/.style       =            { concept color = blue!50!black,text=white},
   ]
-    node[root] {Texas} [clockwise from= 120]
+    node[root] {Texas} [clockwise from= 155]
       child[bits32] {
             node[concept] {ARM Cortex M4} [clockwise from=150]
-               child[nodo] { node[concept] {CC3200} }
-               child[nodo] { node[concept] {CC3220} }
-               child[nodo] { node[concept] {TM4C129x} }
-               child[nodo] { node[concept] {TM4C123} }
-         }
+               child[nodo] { node[concept] {CC3200}}
+               child[nodo] { node[concept] {CC3220}}
+               child[nodo] { node[concept] {TM4C\\1294}}
+               child[nodo] { node[concept] {TM4C\\123}}
+            }
+      child[bits32] {
+            node[concept] {C2000 Realtime} [clockwise from=90]
+               child[nodo] { node[concept]{F28379D} }
+            }
       child[bits16] {
-            node[concept] {MSP430} [clockwise from= 90]
-               child[nodo] { node[concept] {MSP430F147} }
-               child[nodo] { node[concept] {MSP430F2013} }
+            node[concept] {MSP430} [clockwise from=90]
+               child[nodo] { node[concept] {F147} }
+               child[nodo] { node[concept] {F2013} }
          };
 \end{tikzpicture}
 %----------------MICROCHIP-------------------------
@@ -188,7 +192,7 @@
     node[root] {Microchip} [clockwise from= 90]
       child[bits8] {
             node[concept] {168} [clockwise from=100]
-               child[nodo] { node[concept] {Pic168xa} }
+               child[nodo] { node[concept] {Pic168\\xa} }
          };
 \end{tikzpicture}
 %----------------FPGA-Xilinx------------------------
@@ -209,8 +213,8 @@
                child[nodo] { node[concept] {Spartan6} }
          }
       child[marca] {
-            node[concept] {Fpga Artix} [clockwise from= 90]
-               child[nodo] { node[concept] {Arty7} }
+            node[concept] {Fpga SoC} [clockwise from= 90]
+               child[nodo] { node[concept] {Zynq-7020} }
          };
 \end{tikzpicture}
 %----------------FPGA-ALTERA------------------------
