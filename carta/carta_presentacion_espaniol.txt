@@ -1,0 +1,16 @@
+carta espaniol para mudanza Barcelona
+----------------------------------------------------------------------
+Hola, mi nombre es Pablo Slavkin, estoy muy interesado en la oferta. Soy ingeniero electrónico especialista en sistemas embebidos y terminando una maestría en sistemas embebidos.
+Cuento con muchos años de experiencia en sistemas de tiempo real para microcontroladores de 8/16/32b y sistemas basados en Linux.
+Codifico fluentemente en ASM, C, C++, bash, python, VHDL, Verilog, sobre baremetal, linux y freeRTOS.
+He desarrollado aplicaciones para Windows, Linux y Android, sobre ncurses, Qt, Visual Studio, tkinter entre otros.
+Experiencia en el uso de protocolos de comunicación como SCI, SPI, RS485, CAN, Ethernet, TCP/IP, USB, Wifi, 802.11, I2C, SPDIF, entre otros.
+Cuento con decenas de diseños de PCB en Orcad y Kicad, manejo fluido de instrumental y herramientas de laboratorio.
+Tengo instrucción en sistemas de certificación, sistemas críticos, metodologías Ágiles, sistema de integración continua y control de versiones con git.
+Estoy buscando mudarme a Barcelona en lo próximo y por ello estaré en la ciudad a fines de Setiembre y me gustaría presentarme. Dejo mis datos de contacto y quedo a su disposición. Mi wapp es 0054 911 6243 3463. Mi Linkedin https://www.linkedin.com/in/pablo-slavkin/
+Saludos cordiales. Pablo Slavkin
+
+carta ingles generica
+----------------------------------------------------------------------
+Hi, I'm very interested in the work , I'm an electronic engineer with a embedded systems specialization with many years of experience in real time microcontrollers coding and embedded dev, ASM, C, C++, bash, python, Linux, VHDL, Verilog, FreeRtos, lwIP and many others, experience in protocols like sci, spi, 485, USB, can, ethernet, wifi, 802.11, i2c and others. You'd call or mail me if you found my CV appropriate. Linkedin:https://www.linkedin.com/in/pablo-slavkin/ wapp:0054 911 6243 3463
+Regards. Pablo Slavkin
