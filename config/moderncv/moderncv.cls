@@ -118,6 +118,9 @@
   \pagenumbering{arabic}% has to be issued before loading hyperref, as to set \thepage and hence to avoid hyperref issuing a warning and setting pdfpagelabels=false
   \RequirePackage[unicode]{hyperref}% unicode is required for unicode pdf metadata
   \hypersetup{
+    colorlinks=true,
+    linkcolor=red,
+    urlcolor=blue,
     breaklinks,
     baseurl       = http://,
     pdfborder     = 0 0 0,
@@ -130,7 +133,9 @@
     pdfauthor     = {\@firstname{}~\@lastname{}},
     pdftitle      = {\@firstname{}~\@lastname{}\notblank{\@title}{ -- \@title}{}},
     pdfsubject    = {Resum\'{e} of \@firstname{}~\@lastname{}},
-    pdfkeywords   = {\@firstname{}~\@lastname{}, curriculum vit\ae{}, resum\'{e}}}}
+    pdfkeywords   = {\@firstname{}~\@lastname{}, curriculum vit\ae{}, resum\'{e}}
+   }
+ }
 
 % graphics
 % graphics
@@ -198,7 +203,8 @@
 % compatibility package with older versions of moderncv
 \RequirePackageWithOptions{moderncvcompatibility}
 
-\RequirePackage{l3regex}
+%\RequirePackage{l3regex} // este paquete ya no hay que agregarlo porque viene en el kernel,
+%sin lo pones no compila
 
 %-------------------------------------------------------------------------------
 %                class definition
