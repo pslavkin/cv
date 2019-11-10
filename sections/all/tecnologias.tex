@@ -1,0 +1,26 @@
+%defino colores para lo bueno mediano y malo
+\definecolor{colorhig}{HTML}{c2cfff}
+\definecolor{colormed}{HTML}{ccd9ff}
+\definecolor{colorlow}{HTML}{d4e0ff}
+\newcommand{\wrapcolorbox}[2][]{\colorbox{#1}{\parbox{\dimexpr\linewidth-2\fboxsep}{#2}}}
+
+\newcommand { \proglangadvanced }{\wrapcolorbox[colorhig] { C, C++, ASM assembler, Verilog, VHDL, Octave}}
+\newcommand { \proglangmedium   }{\wrapcolorbox[colormed] { Python, C\#, Pascal, bash, makefiles, openHab}}
+\newcommand { \proglangbasic    }{\wrapcolorbox[colorlow] { Java, Javascript, \textsc { html}, css, php}}
+
+\newcommand { \osadvanced } {\wrapcolorbox[colorhig] {Linux (Debian, Crunchbang, Bunsenlabs, Ubuntu, Slackware), FreeRTOS, Windows(XP, Seven, Server2003, Office2000) }}
+\newcommand { \osmedium   } {\wrapcolorbox[colormed] {FreeBSD}}
+\newcommand { \osbasic    } {\wrapcolorbox[colorlow] {OSEK}}
+
+\newcommand { \computerprogadvanced } {\wrapcolorbox[colorhig] {vim, mutt, git, mercurial, gnumeric, ssh, bash, crypsetup, screen, tmux, pass, Allegro PCB Router, Slic3r, Pronterface, Mach3, LinuxCNC, Rhinoceros, RhinoCam, Orcad16 ( Design CIS,Layout,Pspice ),  Flash MX, Borland C++ Builder, Octave, Wireshark, gcc, Xilinx (ISE y Vivado), Microsoft Visual Studio, VirtualBox, gdb, openocd, redmine, cups, Swat, Samba, Cura, Freecad, ceedling, anaconda, jupyther, ipython, gnuplot, ncurses, cdk, Kicad, \LaTeX, gtkwave, icarus, ghdl, cocotb}}
+\newcommand { \computerprogmedium   } {\wrapcolorbox[colormed] {OpenOffice, LibreOffice, Eclipse, Matlab, Jenkyns, pyfda, Mathcad, quemu, Arduino IDE, svn, ffmpeg, Openscam, Webadmin, SonarQube }}
+\newcommand { \computerprogbasic    } {\wrapcolorbox[colorlow] {Quartus II, Delphi, Blender }}
+
+\newcommand { \protocoladvanced } {\wrapcolorbox[colorhig]{Ethernet, TCP, IPv4, SNMP, SMTP, NTP, ARP,  UDP, SCI, SPI, I2C, LVDS, USB FS/HS, Zigbee, RFID, PWM, ADC, DAC, 1-Wire, RS232, RS485, PoE+, MQTT }}
+\newcommand { \protocolmedium   } {\wrapcolorbox[colormed]{IPv6, CAN, 6LoWPAN, IEEE 802.15.4, lwIP, I2S, Radius, Modbus                                                                            }}
+\newcommand { \protocolbasic    } {\wrapcolorbox[colorlow]{HTTP, Lora, MIPI                                                                                                                                        }}
+
+\newcommand { \othertechadvanced } {\wrapcolorbox[colorhig]{\dicothertechadv}}
+\newcommand { \othertechmedium   } {\wrapcolorbox[colormed]{\dicothertechmed}}
+\newcommand { \othertechbasic    } {\wrapcolorbox[colorlow]{\dicothertechlow}}
+
