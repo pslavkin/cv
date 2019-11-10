@@ -1,28 +1,29 @@
 \subsection{\href{http://www.wolfcut.es/}{Wolfcut}}
    \hypertarget{subsec:wolfcut}
-   Se desarrolló un sistema embebido para el control on line de una máquina que utiliza un controlador autónomo NK105 que no cuenta con capacidades de control remoto.\\
-   Se utilizó una computadora embebida \textit{beagle bone green wireless} que se comporta como un USB mass storage para el intercambio de archivos con el controlador sin necesidad de conectar y desconectar un pendrive.\\
-   Se intercaló con el cableado del mando manual una placa que permite enviar comandos al controlador emulando el funcionamiento del comando.\\
-   Dentro del embebido se corre un sistema linux compilado expresamente utilizando un cross compiler compilado para arm, se compilo el kernel, un filesystem utilizando build root y se ajustó el sistema configFS para que el embebido se comporte como mass storage y finalmente se implemento una pagina web sobre apache con php para la interacción del usuario tanto desde una PC o desde un móvil.
-   En la figura \ref{fig:wolfcut_capas} se puede ver el modelo de capas implementado y la pagina web de control.
+I've developed a HTML/WIFI remote control for a NK105 based CNC machine for Wolfcut.\\
+I've used a Beagle Bone Green Wireless embedded computer that behaves as an USB mass storage for file exchange eliminating the need of connecting and disconnecting a pendrive.\\
+I've design a small Beagle break board that connect in between the keyboard cable and emulate the actual keyboard.\\
+I've compiled the GCC for the ARM using crosstool-ng, then compile the linux kernel using the GCC generated, a custom file system using buildroot.\\
+I've used the new style configFS to emulate the mass storage profile, and configured an apache deamon for the web GUI and php support for the backend interacion with a C code that do the actual communication with the NK105.\\
+   Figura \ref{fig:wolfcut_capas} shows the implemented layer model and some captures of the web page.\\
      \begin{figure}
       \begin{center}
-         \includegraphics[width=0.3\textwidth]{portfolio/wolfcut1.png}
-         \includegraphics[width=0.3\textwidth]{portfolio/wolfcut2.png}
-         \includegraphics[width=0.3\textwidth]{portfolio/wolfcut3.png}
+         \includegraphics[width=0.3\textwidth]{wolfcut1.png}
+         \includegraphics[width=0.3\textwidth]{wolfcut2.png}
+         \includegraphics[width=0.3\textwidth]{wolfcut3.png}
       \end{center}
-      \caption{Modelo de capas de software y pagina web para controlar remotamente una maquina CNC mediante la intervencion de un controlador NK105.}
+      \caption{Software layer model and the web page designed to remote control the NK105 CNC controller through WIFI.}
       \label{fig:wolfcut_capas}
    \end{figure}
 
-   En las figuras \ref{fig:wolfcut_implementacion} se pueden ver capturas del sistema de compilación.
+   Figure \ref{fig:wolfcut_implementacion} shows some captures of the compilation setup in action.\\
 
      \begin{figure}
       \begin{center}
-         \includegraphics[width=0.3\textwidth]{portfolio/wolfcut4.png}
-         \includegraphics[width=0.3\textwidth]{portfolio/wolfcut5.png}
-         \includegraphics[width=0.3\textwidth]{portfolio/wolfcut6.png}
+         \includegraphics[width=0.3\textwidth]{wolfcut4.png}
+         \includegraphics[width=0.3\textwidth]{wolfcut5.png}
+         \includegraphics[width=0.3\textwidth]{wolfcut6.png}
       \end{center}
-      \caption{Compilación de cross-tool con ng, kernel con gcc y file system con buildroot}
+      \caption{crosstool-ng, kernel and buildroot setup, used in the wifi remote control of NK105}
       \label{fig:wolfcut_implementacion}
    \end{figure}

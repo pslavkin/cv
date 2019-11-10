@@ -1,27 +1,27 @@
-\subsection{\href{http://www.nanocut.com/}{nanocut}}
+\subsection{\href{http://www.nanocut.com/}{Nanocut}}
    \hypertarget{subsec:nanocut}
-   Para la firma nanocut de Moldavia, se desarrolló un controlador de motor \textit{permanent
-   magnet synchronous motor} (PMSM) utilizando una placa de desarrollo de Texas Instruments con un microcontrolador de tiempo real de la linea C2000 sobre la cual se desarrollaron los algoritmos de control de torque, velocidad y posición a lazo cerrados utilizando un encoder óptico relativo.\\
-   Se logró poner en marcha un prototipo que sera la base de hardware y firmware para un nuevo driver genérico de motores para las máquinas CNC que cuenta dicha empresa. \\
-   Se utilizó un método de control vectorial FOC, y se implementaron las transformadas de Clarke/Parke y varios PID's anidados para lograr los objetivos con la máxima performance. \\
-   En la figura \ref{fig:nanocut_electronica} se pueden ver las herramientas de hardware y los algoritmos implementados en funcionamiento.\\
+   Working for Nanocut company at Moldova I've developed a PMSM (\textit{permanent magnet synchronous motor}) servo motor controller using a Texas Instruments development board with a C2000 real-time microcontroller.
+   I've implemented a torque, speed and position closed loop control algorithms using a relative optical encoder as a feedback.
+   I've implemented a FOC vector control method using Clarke / Parke transforms and three nested PID’s.
+   This work will be the hardware and firmware base for a new generic servo driver for using in all the company's machines.
+   Figure \ref{fig:nanocut_electronica} shows the hardware tools and the algorithms implemented.
      \begin{figure}
       \begin{center}
-         \includegraphics[width=0.3\textwidth]{portfolio/nanocut1.jpg}
-         \includegraphics[width=0.3\textwidth]{portfolio/nanocut2.jpg}
-         \includegraphics[width=0.3\textwidth]{portfolio/nanocut3.jpg}
+         \includegraphics[width=0.3\textwidth]{nanocut1.jpg}
+         \includegraphics[width=0.3\textwidth]{nanocut2.jpg}
+         \includegraphics[width=0.3\textwidth]{nanocut3.jpg}
       \end{center}
-      \caption{Herramientas de desarrollo y captura de resultados de los algoritmos para el control de un motor PMSM}
+      \caption{Development tools and algoritm output plots of the PMSM servo driver}
       \label{fig:nanocut_electronica}
    \end{figure}
-   En la figura \ref{fig:nanocut_mecanica} se muestra el prototipo funcionando en los laboratorios de Moldavia.
+   Figure \ref{fig:nanocut_mecanica} shows the prototype running at Nanocu's labs.
   \begin{figure}
       \begin{center}
-         \includegraphics[width=0.3\textwidth]{portfolio/nanocut4.jpg}
-         \includegraphics[width=0.3\textwidth]{portfolio/nanocut5.jpg}
-         \includegraphics[width=0.3\textwidth]{portfolio/nanocut6.jpg}
+         \includegraphics[width=0.3\textwidth]{nanocut4.jpg}
+         \includegraphics[width=0.3\textwidth]{nanocut5.jpg}
+         \includegraphics[width=0.3\textwidth]{nanocut6.jpg}
       \end{center}
-      \caption{Prototipo mecánico para las pruebas de los algoritmos de control de torque, velocidad y posición utilizando un motor PMSM}
+      \caption{Mechanical prototype used fot the PMSM algoritm test, torque, speed and position}
       \label{fig:nanocut_mecanica}
    \end{figure}
 
