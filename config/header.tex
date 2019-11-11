@@ -8,11 +8,10 @@
 \usepackage{verbatim}
 \usepackage{subcaption}
 \usepackage{etoolbox}
-\graphicspath{ {pictures/portfolio/} }
-
-%----------------------------------------------------------------------------------------
-%para generar links de una seccion a otra como no estan numeradas usar
-%\hyperlink{joselito}{link caption}
-%\hypertarget{joselito}{}
-%----------------------------------------------------------------------------------------
+\ifdefined\picHigh
+   \graphicspath{{pictures/portfolio_high/}}
+\fi
+\ifdefined\picLow
+   \graphicspath{{pictures/portfolio_low/}}
+\fi
 
