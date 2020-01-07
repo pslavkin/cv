@@ -1,6 +1,9 @@
-\subsection{{Controlador para Máquina CNC}}
+\subsection{{CNC Machine controller}}
    \hypertarget{subsec:pap}
-   En el marco de la CESE (Especialización en sistemas embebidos), se diseño un controlador para una máquina CNC de 3 ejes, tanto el hardware de potencia, como el firmware de control y el software de gestión que se muestran en la figura \ref{fig:pap} y se puede ver videos en el siguiente link: \href{\linkcncvideos}{videos pap}
+   As a final project for the CESE (Embedded system specialization), I've designed a complete 3 axis CNC machine controller including the firmware for the real time task and Ethernet communication on a cortex M4F, the stepper motor drives and a software for PC to send the GCode files and show the actual position of the machine on real time.\\
+   The machine could be managed over the internet or run completely alone using the embedded controller.\\
+   The pictures of my actual implementation are shown in the figure \ref{fig:pap} and I've upload some videos of the running machine cutting a piece of wood in the following link \href{\linkcncvideos}{videos pap}.
+   On the videos list you will find my public defense of the work at the UBA university.\\
    \begin{figure}
       \begin{center}
          \includegraphics[width=0.24\textwidth]{pap3.jpg}
@@ -8,6 +11,6 @@
          \includegraphics[width=0.24\textwidth]{pap2.jpg}
          \includegraphics[width=0.24\textwidth]{pap1.jpg}
       \end{center}
-      \caption{Sistema de control de máquina CNC, hardware, firmware y software.}
+      \caption{CNC machine system. Hardware, firmware and software developed as my final project for the CESE career.}
       \label{fig:pap}
    \end{figure}

@@ -1,0 +1,75 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Awards	sections/us/premios.tex	/^\\section{Awards}$/;"	s
+Communications protocols and digital techniques	sections/us/tecnologias.tex	/^      \\cvitem { \\dicbasic    } { \\computerprogbasic    }$/;"	u
+Controlador para M   quina CNC	portfolio/es/pap.tex	/^\\subsection{{Controlador para Máquina CNC}}$/;"	u
+Controlador para M   quina CNC	portfolio/us/pap.tex	/^\\subsection{{Controlador para Máquina CNC}}$/;"	u
+Courses and seminars	sections/us/cursos.tex	/^\\section{Courses and seminars}$/;"	s
+Cursos y seminarios	sections/es/cursos.tex	/^\\section{Cursos y seminarios}$/;"	s
+Deportes y actividades recreativas	sections/es/recreacion.tex	/^\\section{Deportes y actividades recreativas}$/;"	s
+Documento Nacional de Identidad - DNI	sections/es/dni.tex	/^\\break$/;"	s
+Dominio de tecnolog   as	sections/es/tecnologias.tex	/^\\input{.\/sections\/all\/tecnologias.tex}$/;"	s
+Educaci   n	sections/es/educacion.tex	/^\\section{Educación}$/;"	s
+Education	sections/us/educacion.tex	/^\\section{Education}$/;"	s
+Experience	sections/us/experiencia.tex	/^\\section{Experience}$/;"	s
+Experiencia	sections/es/experiencia.tex	/^\\section{Experiencia}$/;"	s
+Experiencia con las siguientes aquitecturas de Microcontroladores  microprocesadores y FPGA	sections/es/tecnologias.tex	/^      \\cvitem{\\dicbasic   } { \\othertechbasic    }$/;"	u
+Idiomas	sections/es/idiomas.tex	/^\\section{Idiomas}$/;"	s
+Idioms	sections/us/idiomas.tex	/^\\section{Idioms}$/;"	s
+Lenguajes de programaci   n	sections/es/tecnologias.tex	/^\\section{Dominio de tecnologías}$/;"	u
+Maestria en sistemas embebidos	portfolio/es/mse.tex	/^\\subsection{{Maestria en sistemas embebidos}}$/;"	u
+Microcontrollers  microprocessors and FPGA architectures experience	sections/us/tecnologias.tex	/^      \\cvitem{\\dicbasic   } { \\othertechbasic    }$/;"	u
+Operating Systems	sections/us/tecnologias.tex	/^   \\cvitem { \\dicbasic    }{\\proglangbasic}    $/;"	u
+Other technologies of interest	sections/us/tecnologias.tex	/^      \\cvitem{\\dicbasic    }{ \\protocolbasic    }$/;"	u
+Otras actividades e intereses	sections/es/recreacion.tex	/^   \\cventry { 2014--Presente }{ Guitarra }{              }{                       }{                                                                                                                                                }{ Aprendizaje amateur de guitarra eléctrica y música.}$/;"	s
+Otras tecnolog   as de Inter   s	sections/es/tecnologias.tex	/^      \\cvitem{\\dicbasic    }{ \\protocolbasic    }$/;"	u
+Outstanding Computer Software	sections/us/tecnologias.tex	/^      \\cvitem { \\dicbasic    } { \\osbasic    }$/;"	u
+Portfolio	sections/all/portfolio.tex	/^\\section{Portfolio}$/;"	s
+Premios	sections/es/premios.tex	/^\\section{Premios}$/;"	s
+Presentaci   n	sections/es/presentacion.tex	/^\\section{Presentación}$/;"	s
+Presentation	sections/us/presentacion.tex	/^\\section{Presentation}$/;"	s
+Programas de computadora destacados	sections/es/tecnologias.tex	/^      \\cvitem { \\dicbasic    } { \\osbasic    }$/;"	u
+Programming Languages	sections/us/tecnologias.tex	/^\\section{Technologies Experience}$/;"	u
+Protocolos de comunicaciones y t   cnicas digitales	sections/es/tecnologias.tex	/^      \\cvitem { \\dicbasic    } { \\computerprogbasic    }$/;"	u
+Sistamas Operativos	sections/es/tecnologias.tex	/^      \\cvitem { \\dicbasic    }{\\proglangbasic    }$/;"	u
+Sports and recreational activities	sections/us/recreacion.tex	/^\\section{Sports and recreational activities}$/;"	s
+T   tulos	portfolio/es/titulos.tex	/^\\subsection{Títulos}$/;"	u
+T   tulos	portfolio/us/titulos.tex	/^\\subsection{Títulos}$/;"	u
+Technologies Experience	sections/us/tecnologias.tex	/^\\input{.\/sections\/all\/tecnologias.tex}$/;"	s
+Titulo de grado - ITBA	sections/es/dni.tex	/^\\newpage %me pidio una pagina en blanco extra. waf!$/;"	s
+Trabajos y publicaciones	sections/es/publicaciones.tex	/^\\section{Trabajos y publicaciones}$/;"	s
+Works and Publications	sections/us/publicaciones.tex	/^\\section{Works and Publications}$/;"	s
+bfseries  Docencia	sections/es/experiencia.tex	/^      \\cventry { 2002--2003     }{ Desarrollador de firmware para microcontroladores }{ \\href                                                    { www.pump-control.com.ar      }{ Pump-Control      }  }{                                                                                                                                                    }{ }{ Empresa dedicada principalmente al diseño, desarrollo y producción de controladores electrónicos para la distribución de hidrocarburos. Se trabajó en el área de desarrollo de firmware para microcontroladores de 8bits de la linea Atmel, implementando protocolos de comunicaciones, control de accesos, control de dispenser de combustible, etc.}$/;"	u
+bfseries  Investigaci   n	sections/es/experiencia.tex	/^      \\cventry { 2004--2004} { Curso intensivo de programación de FPGA de Altera usando Quartus II} { ITBA}      { } { } { Se realizó un curso introductorio con actividades practicas usando una placa de evaluación de Altera. \\href { \\linkfpgasig } { ver material}}$/;"	u
+bfseries  Profesional	sections/es/experiencia.tex	/^\\section{Experiencia}$/;"	u
+bfseries  Professional	sections/us/experiencia.tex	/^\\section{Experience}$/;"	u
+href  http    www.digicard.com.ar 	portfolio/es/digicard.tex	/^\\subsection{\\href{http:\/\/www.digicard.com.ar\/}{Digicard S.A.}}$/;"	u
+href  http    www.digicard.com.ar 	portfolio/us/digicard.tex	/^\\subsection{\\href{http:\/\/www.digicard.com.ar\/}{Digicard S.A.}}$/;"	u
+href  http    www.gruponoto.com	portfolio/es/noto.tex	/^\\subsection{\\href{http:\/\/www.gruponoto.com}{Noto Group S.A.}}$/;"	u
+href  http    www.gruponoto.com	portfolio/us/noto.tex	/^\\subsection{\\href{http:\/\/www.gruponoto.com}{Noto Group S.A.}}$/;"	u
+href  http    www.koner.com.ar 	portfolio/es/koner.tex	/^\\subsection{\\href{http:\/\/www.koner.com.ar\/}{Grupo Koner}}$/;"	u
+href  http    www.koner.com.ar 	portfolio/us/koner.tex	/^\\subsection{\\href{http:\/\/www.koner.com.ar\/}{Grupo Koner}}$/;"	u
+href  http    www.nanocut.com 	portfolio/es/nanocut.tex	/^\\subsection{\\href{http:\/\/www.nanocut.com\/}{nanocut}}$/;"	u
+href  http    www.nanocut.com 	portfolio/us/nanocut.tex	/^\\subsection{\\href{http:\/\/www.nanocut.com\/}{Nanocut}}$/;"	u
+href  http    www.piscinanatural.com.ar 	portfolio/es/piscina.tex	/^\\subsection{\\href{http:\/\/www.piscinanatural.com.ar\/}{Piscina Natural}}$/;"	u
+href  http    www.piscinanatural.com.ar 	portfolio/us/piscina.tex	/^\\subsection{\\href{http:\/\/www.piscinanatural.com.ar\/}{Piscina Natural}}$/;"	u
+href  http    www.pointer.com.ar 	portfolio/es/pointer.tex	/^\\subsection{\\href{http:\/\/www.pointer.com.ar\/}{Pointer}}$/;"	u
+href  http    www.pointer.com.ar 	portfolio/us/pointer.tex	/^\\subsection{\\href{http:\/\/www.pointer.com.ar\/}{Pointer}}$/;"	u
+href  http    www.seconsat.com	portfolio/es/seconsat.tex	/^\\subsection{\\href{http:\/\/www.seconsat.com}{Seconsat}}$/;"	u
+href  http    www.seconsat.com	portfolio/us/seconsat.tex	/^\\subsection{\\href{http:\/\/www.seconsat.com}{Seconsat}}$/;"	u
+href  http    www.softron.biz 	portfolio/es/softron.tex	/^\\subsection{\\href{http:\/\/www.softron.biz\/}{Softron}}$/;"	u
+href  http    www.softron.biz 	portfolio/us/softron.tex	/^\\subsection{\\href{http:\/\/www.softron.biz\/}{Softron}}$/;"	u
+href  http    www.wolfcut.es 	portfolio/es/wolfcut.tex	/^\\subsection{\\href{http:\/\/www.wolfcut.es\/}{Wolfcut}}$/;"	u
+href  http    www.wolfcut.es 	portfolio/us/wolfcut.tex	/^\\subsection{\\href{http:\/\/www.wolfcut.es\/}{Wolfcut}}$/;"	u
+href  http    www.xenon.com.ar 	portfolio/es/xenon.tex	/^\\subsection{\\href{http:\/\/www.xenon.com.ar\/}{Xenon S.A.}}$/;"	u
+href  http    www.xenon.com.ar 	portfolio/us/xenon.tex	/^\\subsection{\\href{http:\/\/www.xenon.com.ar\/}{Xenon S.A.}}$/;"	u
+href  https    www.argentina.gob.ar  comision-nacional-de-energia-atomica	portfolio/es/cnea.tex	/^\\subsection{\\href{https:\/\/www.argentina.gob.ar\/comision-nacional-de-energia-atomica}{Comisión Nacional de Energía Atómica}}$/;"	u
+href  https    www.argentina.gob.ar  comision-nacional-de-energia-atomica	portfolio/us/cnea.tex	/^\\subsection{\\href{https:\/\/www.argentina.gob.ar\/comision-nacional-de-energia-atomica}{National Atomic Energy Commission}}$/;"	u
+href  https    www.disenioconingenio.com.ar	portfolio/es/dci.tex	/^\\subsection{\\href{https:\/\/www.disenioconingenio.com.ar}{disenioconingenio}}$/;"	u
+href  https    www.disenioconingenio.com.ar	portfolio/us/dci.tex	/^\\subsection{\\href{https:\/\/www.disenioconingenio.com.ar}{disenioconingenio}}$/;"	u
+href  https    www.lacolmena.com.ar 	portfolio/es/colmena.tex	/^\\subsection{\\href{https:\/\/www.lacolmena.com.ar\/}{La Colmena}}$/;"	u
+href  https    www.lacolmena.com.ar 	portfolio/us/colmena.tex	/^\\subsection{\\href{https:\/\/www.lacolmena.com.ar\/}{La Colmena}}$/;"	u
