@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1591850457 "cv.tex" "cv.pdf" "cv" 1591850463
+["pdflatex"] 1591854117 "cv.tex" "cv.pdf" "cv" 1591854117
   "/home/pslavkin/texmf/tex/latex/moderncv_link/moderncv.cls" 1573229775 31829 ddbe139436888cee215486e552aec1b5 ""
   "/home/pslavkin/texmf/tex/latex/moderncv_link/moderncvbodyi.sty" 1563167563 7263 b0eec674e8a364780faf2f7d5efa2dbe ""
   "/home/pslavkin/texmf/tex/latex/moderncv_link/moderncvcollection.sty" 1563167563 3390 d797a6d60ef49f5acd2d573a9a4ba418 ""
@@ -180,8 +180,8 @@
   "courses/cursolatex.pdf" 1346282427 196930 e49ecd2641f99cb4fe8db76d1d799dd8 ""
   "courses/latam.pdf" 1548602250 334434 904561195fba509356e413546764e779 ""
   "courses/toeic.jpg" 1548555429 40927 dd41d631c08209538b22ec55dc7d5fea ""
-  "cv.aux" 1591850463 20971 7bf81347c3a71098a4bada227fdaa978 ""
-  "cv.out" 1591850463 5366 5efbba0e01349490db628512340743d1 ""
+  "cv.aux" 1591850748 20971 7bf81347c3a71098a4bada227fdaa978 ""
+  "cv.out" 1591850748 5366 5efbba0e01349490db628512340743d1 ""
   "cv.tex" 1591850353 924 7f179d9bcec4104d7eb291061e8d95e5 ""
   "pic/high/cacic.jpg" 1573436335 497795 934c6eff1cb5e518368898a150c75c35 ""
   "pic/high/cara2020.png" 1591845840 81332 b64447ee6e8e6a273ba86e84667a57f8 ""
@@ -306,7 +306,7 @@
   "sections/all/tittle.tex" 1591845993 670 2feb460890b3abe87d705034c1577925 ""
   "sections/us/cursos.tex" 1548642283 3314 e1d0e4bc03c9ff693c29f8adb6720420 ""
   "sections/us/educacion.tex" 1591849906 2025 c41897095b91238c3edb300aee79bd48 ""
-  "sections/us/experiencia.tex" 1591850457 11521 4ea7ece7a99d9d0c546ebe32e0857436 ""
+  "sections/us/experiencia.tex" 1591854097 11516 57cb7841abecdac836d02acbf2e33013 ""
   "sections/us/idiomas.tex" 1580907557 507 c2ba6bb4a2d17c5411e69c77250ce4d5 ""
   "sections/us/premios.tex" 1548642348 702 8937eb4ab809fa27be4f873d2283c17a ""
   "sections/us/presentacion.tex" 1591850028 2676 a47867dc405878a7600ccb644fa70018 ""
@@ -314,7 +314,7 @@
   "sections/us/recreacion.tex" 1563418791 1105 39239de27113c64f4510f20d123d70b4 ""
   "sections/us/tecnologias.tex" 1573424681 1304 51c56326619d559ce4b60b467861d8c4 ""
   (generated)
-  "cv.log"
   "cv.pdf"
-  "cv.out"
   "cv.aux"
+  "cv.out"
+  "cv.log"
