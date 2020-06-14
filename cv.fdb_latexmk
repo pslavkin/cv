@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1591854117 "cv.tex" "cv.pdf" "cv" 1591854117
+["pdflatex"] 1592145484 "cv.tex" "cv.pdf" "cv" 1592145491
   "/home/pslavkin/texmf/tex/latex/moderncv_link/moderncv.cls" 1573229775 31829 ddbe139436888cee215486e552aec1b5 ""
   "/home/pslavkin/texmf/tex/latex/moderncv_link/moderncvbodyi.sty" 1563167563 7263 b0eec674e8a364780faf2f7d5efa2dbe ""
   "/home/pslavkin/texmf/tex/latex/moderncv_link/moderncvcollection.sty" 1563167563 3390 d797a6d60ef49f5acd2d573a9a4ba418 ""
@@ -180,8 +180,8 @@
   "courses/cursolatex.pdf" 1346282427 196930 e49ecd2641f99cb4fe8db76d1d799dd8 ""
   "courses/latam.pdf" 1548602250 334434 904561195fba509356e413546764e779 ""
   "courses/toeic.jpg" 1548555429 40927 dd41d631c08209538b22ec55dc7d5fea ""
-  "cv.aux" 1591850748 20971 7bf81347c3a71098a4bada227fdaa978 ""
-  "cv.out" 1591850748 5366 5efbba0e01349490db628512340743d1 ""
+  "cv.aux" 1592145490 20971 7bf81347c3a71098a4bada227fdaa978 ""
+  "cv.out" 1592145490 5366 5efbba0e01349490db628512340743d1 ""
   "cv.tex" 1591850353 924 7f179d9bcec4104d7eb291061e8d95e5 ""
   "pic/high/cacic.jpg" 1573436335 497795 934c6eff1cb5e518368898a150c75c35 ""
   "pic/high/cara2020.png" 1591845840 81332 b64447ee6e8e6a273ba86e84667a57f8 ""
@@ -300,7 +300,7 @@
   "portfolio/us/titulos.tex" 1573418646 5730 12da5a3f094a9a7a4ceb498e36eaf09a ""
   "portfolio/us/wolfcut.tex" 1573418646 1859 12b112e24fc01d7d537d440a8a46d21e ""
   "portfolio/us/xenon.tex" 1573419281 859 6727a5d06f0b91d1cc56448e609b9f29 ""
-  "sections/all/microcontrollers.tex" 1573400124 15038 81676ad8dac16cbeae8ce242c206a31a ""
+  "sections/all/microcontrollers.tex" 1592145483 15035 131eb4cfa912ba4d286e755375f59fbf ""
   "sections/all/portfolio.tex" 1574058112 624 4998e5a792cb0b5bbeef641ae6860391 ""
   "sections/all/tecnologias.tex" 1573417207 2556 3d44af106c7f6f5939d31afd67c78760 ""
   "sections/all/tittle.tex" 1591845993 670 2feb460890b3abe87d705034c1577925 ""
@@ -314,7 +314,7 @@
   "sections/us/recreacion.tex" 1563418791 1105 39239de27113c64f4510f20d123d70b4 ""
   "sections/us/tecnologias.tex" 1573424681 1304 51c56326619d559ce4b60b467861d8c4 ""
   (generated)
-  "cv.pdf"
   "cv.aux"
   "cv.out"
   "cv.log"
+  "cv.pdf"
