@@ -1,0 +1,10 @@
+* agrear fotos de placas virgenes varias o por proyecto
+* agregue fotos de calidad en partkeepr de pileta snuevo
+* agregar proyecto leds curvo
+* agregar nuevas tecnoologias 
+   * smartfusion
+   * libero
+   * u-boot
+   *reliance edge
+* hacer un resumen de tecnologias de software mas atractivo que una lista
+
