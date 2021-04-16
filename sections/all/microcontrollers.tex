@@ -217,6 +217,43 @@
                child[nodo] { node[concept] {Pic168\\xa} }
          };
 \end{tikzpicture}
+%----------------MOTOROLA-------------------------
+\begin{tikzpicture}
+  \centering
+  \path[mindmap,concept color=black!70,text=white,align=center,
+    every node/.style =            { concept,scale=0.4},
+    root/.style       =            { font =\huge\bfseries,concept color = black!70},
+    level 1 concept/.append style= { font=\Large\bfseries, sibling angle=65,level distance= 60pt},
+    level 2 concept/.append style= { font=\normalsize\bfseries,sibling angle=27,level distance= 55pt},
+    bits32/.style     =            { concept color = yellow!80!black,text=black},
+    bits16/.style     =            { concept color = green!50!black},
+    bits8/.style      =            { concept color = orange!80!black},
+    nodo/.style       =            { concept color = blue!50!black,text=white},
+  ]
+    node[root] {Motorola} [clockwise from= 90]
+      child[bits8] {
+            node[concept] {68000} [clockwise from=100]
+               child[nodo] { node[concept] {68HC11} }
+               child[nodo] { node[concept] {68HC08} }
+         };
+\end{tikzpicture}
+%----------------MICROSEMI-------------------------
+\begin{tikzpicture}
+  \centering
+  \path[mindmap,concept color     = black!70,text   = white,align                        = center,
+    every node/.style             = { concept,scale = 0.4},
+    root/.style                   = { font          = \huge\bfseries,concept color       = black!70},
+    level 1 concept/.append style = { font          = \Large\bfseries, sibling angle     = 55,level distance = 60pt},
+    level 2 concept/.append style = { font          = \normalsize\bfseries,sibling angle = 27,level distance = 55pt},
+    marca/.style                  = { concept color = red!80!black,text                  = white},
+    nodo/.style                   = { concept color = blue!50!black,text                 = white},
+  ]
+    node[root] {Microsemi FPGA} [clockwise from= 90]
+      child[marca] {
+            node[concept] {SoC M2GL} [clockwise from=100]
+               child[nodo] { node[concept] {M2GL025\\-VF256} }
+         };
+\end{tikzpicture}
 %----------------FPGA-Xilinx------------------------
 \begin{tikzpicture}
   \centering
@@ -254,26 +291,6 @@
       child[marca] {
             node[concept] {FPGA Flex} [clockwise from=110]
                child[nodo] { node[concept] {Flex 10K10} }
-         };
-\end{tikzpicture}
-%----------------MOTOROLA-------------------------
-\begin{tikzpicture}
-  \centering
-  \path[mindmap,concept color=black!70,text=white,align=center,
-    every node/.style =            { concept,scale=0.4},
-    root/.style       =            { font =\huge\bfseries,concept color = black!70},
-    level 1 concept/.append style= { font=\Large\bfseries, sibling angle=65,level distance= 60pt},
-    level 2 concept/.append style= { font=\normalsize\bfseries,sibling angle=27,level distance= 55pt},
-    bits32/.style     =            { concept color = yellow!80!black,text=black},
-    bits16/.style     =            { concept color = green!50!black},
-    bits8/.style      =            { concept color = orange!80!black},
-    nodo/.style       =            { concept color = blue!50!black,text=white},
-  ]
-    node[root] {Motorola} [clockwise from= 90]
-      child[bits8] {
-            node[concept] {68000} [clockwise from=100]
-               child[nodo] { node[concept] {68HC11} }
-               child[nodo] { node[concept] {68HC08} }
          };
 \end{tikzpicture}
 %----------------SBC single board computers------------------------
