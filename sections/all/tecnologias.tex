@@ -8,12 +8,12 @@
 \newcommand { \proglangmedium   }{\wrapcolorbox[colormed] { C\#, Pascal, bash, makefiles, openHab, flask, Javascript, \textsc { html}, css, }}
 \newcommand { \proglangbasic    }{\wrapcolorbox[colorlow] { Java, php}}
 
-\newcommand { \osadvanced } {\wrapcolorbox[colorhig] {Linux (Debian, Crunchbang, Bunsenlabs, Ubuntu, Slackware), FreeRTOS, Windows(Win10, Seven, XP, NT, Server2003) }}
-\newcommand { \osmedium   } {\wrapcolorbox[colormed] {FreeBSD, Linux Manjaro}}
+\newcommand { \osadvanced } {\wrapcolorbox[colorhig] {Linux (Manjaro, Debian, Crunchbang, Bunsenlabs, Ubuntu, Slackware), FreeRTOS, Windows(Win10, Seven, XP, NT, Server2003) }}
+\newcommand { \osmedium   } {\wrapcolorbox[colormed] {FreeBSD}}
 \newcommand { \osbasic    } {\wrapcolorbox[colorlow] {OSEK, plan9, VXWorks, RTems}}
 
 \newcommand { \computerprogadvanced } {\wrapcolorbox[colorhig] {
-         \begin{tabular} {lllll}
+         \begin{tabular} {llll}
             \textbf{vim}\yearinc{15}      &\textbf{git}\yearinc{8}   &mercurial                 &bash\\
             ssh                           &anaconda                  &pyfda                     &jupyther\\
             ipython                       &screen                    &\textbf{tmux}\yearinc{6}  &Kicad\\
@@ -27,12 +27,20 @@
             icarus                        &ghdl                      &cocotb                    &redmine\\
             cups                          &Swat                      &Samba                     &ceedling\\
             crypsetup                     &Wireshark                 &VirtualBox                &pass\\
-            gnuplot                       &LibreOffice               &Freecad                   &
+            gnuplot                       &LibreOffice               &Freecad                   &numpy
          \end{tabular}
          }
       } 
-\newcommand { \computerprogmedium   } {\wrapcolorbox[colormed] {OpenOffice, Eclipse, Matlab, Jenkyns, Mathcad, quemu, Arduino IDE, svn, ffmpeg, Openscam, Webadmin, SonarQube }}
-\newcommand { \computerprogbasic    } {\wrapcolorbox[colorlow] {Quartus II, Delphi, Blender, Krita }}
+\newcommand {\computerprogmedium} {\wrapcolorbox[colormed] {
+         \begin{tabular} {llll}
+            OpenOffice &Eclipse           &Matlab       &Jenkyns\\
+            Mathcad    &quemu             &Arduino IDE  &svn\\
+            ffmpeg     &Openscam          &Webadmin     &SonarQube\\
+            gitlab     &gitlab runners    &CD/CI        &\\
+         \end{tabular}
+         }
+      } 
+\newcommand { \computerprogbasic    } {\wrapcolorbox[colorlow] {Quartus II, Delphi, Blender, Krita, odoo ERP }}
 
 \newcommand { \softtechadvanced } {\wrapcolorbox[colorhig] {
          \begin{tabular} {llllllllll}
@@ -42,13 +50,13 @@
       } 
 \newcommand { \softtechmedium   } {\wrapcolorbox[colormed] {
          \begin{tabular} {llllllllll}
-            & & & & & & & & &
+            NASA CFS & & & & & & & & &
          \end{tabular}
          }
       } 
 \newcommand { \softtechbasic    } {\wrapcolorbox[colorlow] {
          \begin{tabular} {llllllllll}
-            Yocto& & & & & & & & &
+            Yocto& nmigen& & & & & & & &
          \end{tabular}
          }
       } 

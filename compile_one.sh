@@ -6,5 +6,5 @@
 ##us
 #latexmk -pvc -pdf -pdflatex='pdflatex "\def\picLow{}\def\idiomaUs{}\def\portfolioSi{}\def\direccionBrc{}\input{cv}"'
 #latexmk -pvc -pdf -pdflatex='pdflatex "\def\picLow{}\def\idiomaUs{}\def\portfolioNo{}\def\direccionBrc{}\input{cv}"'
-latexmk -pvc -pdf -pdflatex='pdflatex "\def\picHigh{}\def\idiomaUs{}\def\portfolioSi{}\def\direccionBrc{}\input{cv}"'
+latexmk -pvc -pdf -pdflatex='pdflatex "\def\picHigh{}\def\idiomaUs{}\def\portfolioSi{}\def\direccionValencia{}\input{cv}"'
 #latexmk -pvc -pdf -pdflatex='pdflatex "\def\picHigh{}\def\idiomaUs{}\def\portfolioNo{}\def\direccionBrc{}\input{cv}"'

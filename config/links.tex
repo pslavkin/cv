@@ -1,7 +1,8 @@
 \ifdefined\direccionBrc
    \newcommand { \place }  {Dos Valles, G01, Bariloche}
    \newcommand { \country} {Río Negro, Argentina}
-\else
+\fi
+\ifdefined\direccionValencia
    \newcommand { \place   }{Urb. Tancat de L'Alter 126, 46220 Picassent}
    \newcommand { \country }{Valencia, España}
 \fi
@@ -9,10 +10,12 @@
 %OJO con los espacios en las direcciones http, porque no anda si hay espacio entre las llaves.
 %para el nombre del comendo no pasa nada pero para el link, despues el visor se queja
 
-\newcommand {\linkunicen                }{https://www.unicen.edu.ar/}
-\newcommand {\linkuba                   }{http://www.uba.ar/}
-\newcommand {\linkmsepsfvideos          }{https://www.youtube.com/watch?v=wolBKfNj-eQ&list=PLaVGhvAByUcJgg4DVjolgptm3EXtZw3pF}
-\newcommand {\linkmsepsfmaterial        }{https://github.com/pslavkin/mse_15psf_pslavkin}
+\newcommand {\linkunicen                  }{https://www.unicen.edu.ar/}
+\newcommand {\linkuba                     }{http://www.uba.ar/}
+\newcommand {\linkmsepsfvideos            }{https://www.youtube.com/watch?v=wolBKfNj-eQ&list=PLaVGhvAByUcJgg4DVjolgptm3EXtZw3pF}
+\newcommand {\linkmsepsfmaterial          }{https://github.com/pslavkin/mse_15psf_pslavkin}
+\newcommand {\linkmsepsftwentyonematerial }{https://github.com/pslavkin/psf_2021}
+\newcommand {\linkmsepsftwentyonevideos}{}
 \newcommand {\linkengarts               }{https://www.engineeredarts.co.uk}
 \newcommand {\linknovo                  }{https://www.novo.space}
 \newcommand {\linkjackenodunicen        }{https://github.com/pslavkin/cv/raw/master/courses/tecnicas_digigales_jackenod.pdf}
@@ -30,7 +33,15 @@
 \newcommand {\linkcncinforme            }{https://github.com/pslavkin/cv/raw/master/papers/LSE-FIUBA-Trabajo-Final-CESE-Pablo-Slavkin-2018.pdf}
 \newcommand {\linkcncpresentacion       }{https://github.com/pslavkin/cv/raw/master/papers/LSE-FIUBA-Trabajo-Final-CESE-Pablo-Slavkin-2018-Presentacion.pdf}
 \newcommand {\linkcncvideos             }{https://www.youtube.com/watch?v=6d_BThhQETw&list=PLW6TA4Tyq4ZSgRsPMySvUVsNLAdlOprv3}
+\newcommand {\linkcncmaterialuba        }{http://laboratorios.fi.uba.ar/lse/tesis.html\#Especializacion}
 \newcommand {\linkcncdefensa            }{https://youtu.be/dBg7hzKlytI?t=5432}
+
+\newcommand {\linknkhackinforme         }{https://github.com/pslavkin/cv/raw/master/papers/LSE-FIUBA-Trabajo-Final-MSE-Pablo-Slavkin-2021.pdf}
+\newcommand {\linknkhackpresentacion    }{https://github.com/pslavkin/cv/raw/master/papers/LSE-FIUBA-Trabajo-Final-MSE-Pablo-Slavkin-2021-Presentacion.pdf}
+\newcommand {\linknkhackvideos          }{https://www.youtube.com/watch?v=Jv-0jBY-riM}
+\newcommand {\linknkhackmaterialuba     }{http://laboratorios.fi.uba.ar/lse/tesis.html\#MaestriaSE}
+\newcommand {\linknkhackdefensa         }{https://youtu.be/uQfzEXFT4n8?t=2897}
+
 \newcommand {\linkledcovervideos        }{https://www.youtube.com/watch?v=Nse-13q3K44&list=PLW6TA4Tyq4ZQOTjY04W8N4TztO8KE8lJb}
 \newcommand {\linkhangovideos           }{https://www.youtube.com/watch?v=6DcVH3cskDw&list=PLW6TA4Tyq4ZQ31ItL6zjCoVH7Mv3uosIi}
 \newcommand {\linklampmatrixvideo       }{https://www.youtube.com/watch?v=SgzpLwRCK-Y&list=PLW6TA4Tyq4ZQc0jw90JeZfpEA1iWP8qDJ}
@@ -56,6 +67,7 @@
 \newcommand { \linkitba                  }{https://www.itba.edu.ar/grado/ingenieria-electronica/}
 \newcommand { \linkcese                  }{http://laboratorios.fi.uba.ar/lse/especializacion.html}
 \newcommand { \linkmse                   }{http://laboratorios.fi.uba.ar/lse/maestria.html}
+\newcommand { \linkmseanalitico          }{https://github.com/pslavkin/cv/raw/master/papers/constancia_mse.pdf}
 \newcommand { \linkdoctorado             }{http://posgrado.frba.utn.edu.ar/carreras/doctorado.php}
 \newcommand { \linksaseseven             }{https://github.com/pslavkin/cv/raw/master/pic/original/sase2017.jpg}
 \newcommand { \linksasesix               }{https://}

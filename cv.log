@@ -1,11 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2021.5.20)  21 MAY 2021 09:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.9.12)  12 SEP 2021 18:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**\def\picHigh{}\def\idiomaUs{}\def\portfolioSi{}\def\direccionBrc{}\input{cv} 
--recorder cv.tex
- (./cv.tex
-(./config/header.tex
+**\def\picLow{}\def\idiomaUs{}\def\portfolioSi{}\def\direccionValencia{}\input{
+cv}
+ (./cv.tex (./config/header.tex
 (/home/pslavkin/texmf/tex/latex/modern_cv_link/moderncv.cls
 Document Class: moderncv 2015/07/28 v2.0.0 modern curriculum vitae and letter d
 ocument class
@@ -14,7 +13,7 @@ File: size11.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 )
 (/usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count177
+\etb@tempcnta=\count179
 )
 (/usr/share/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
@@ -46,7 +45,7 @@ Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
 \everycr=\toks16
 \minrowclearance=\skip49
 )
-\rownum=\count178
+\rownum=\count180
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
 Package xcolor Info: Model `RGB' extended on input line 1364.
@@ -70,7 +69,7 @@ Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
 )
 (/usr/share/texmf-dist/tex/latex/lm/lmodern.sty
-Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
+Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
 LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
@@ -129,67 +128,114 @@ Package graphics Info: Driver file: pdftex.def on input line 105.
 \Gin@req@height=\dimen140
 \Gin@req@width=\dimen141
 )
+(/usr/share/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+Package: adjustbox 2020/08/19 v1.3 Adjusting TeX boxes (trim, clip, ...)
 
-! LaTeX Error: File `adjustbox.sty' not found.
+(/usr/share/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
 
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: sty)
+(/usr/share/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks18
+\XKV@tempa@toks=\toks19
+)
+\XKV@depth=\count181
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/usr/share/texmf-dist/tex/latex/adjustbox/adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+)
+(/usr/share/texmf-dist/tex/latex/adjustbox/trimclip.sty
+Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
 
-Enter file name: 
+(/usr/share/texmf-dist/tex/latex/collectbox/collectbox.sty
+Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
+\collectedbox=\box49
+)
+\tc@llx=\dimen142
+\tc@lly=\dimen143
+\tc@urx=\dimen144
+\tc@ury=\dimen145
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+
+(/usr/share/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
+File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen146
+\adjbox@Height=\dimen147
+\adjbox@Depth=\dimen148
+\adjbox@Totalheight=\dimen149
+\adjbox@pwidth=\dimen150
+\adjbox@pheight=\dimen151
+\adjbox@pdepth=\dimen152
+\adjbox@ptotalheight=\dimen153
+
+(/usr/share/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
+\c@checkoddpage=\count182
+)
+(/usr/share/texmf-dist/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box50
+\sift@deathcycles=\count183
+\@vwid@loff=\dimen154
+\@vwid@roff=\dimen155
+))
 (/usr/share/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count179
-\float@exts=\toks18
-\float@box=\box49
-\@float@everytoks=\toks19
-\@floatcapt=\box50
+\c@float@type=\count184
+\float@exts=\toks20
+\float@box=\box51
+\@float@everytoks=\toks21
+\@floatcapt=\box52
 )
 (/usr/share/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2020/10/26 v3.5g Customizing captions (AR)
 
 (/usr/share/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
-\captionmargin=\dimen142
-\captionmargin@=\dimen143
-\captionwidth=\dimen144
-\caption@tempdima=\dimen145
-\caption@indent=\dimen146
-\caption@parindent=\dimen147
-\caption@hangindent=\dimen148
+\captionmargin=\dimen156
+\captionmargin@=\dimen157
+\captionwidth=\dimen158
+\caption@tempdima=\dimen159
+\caption@indent=\dimen160
+\caption@parindent=\dimen161
+\caption@hangindent=\dimen162
 \abovecaptionskip=\skip50
 \belowcaptionskip=\skip51
 Package caption Info: Document class w/o caption stuff detected.
 )
-\c@caption@flags=\count180
-\c@continuedfloat=\count181
+\c@caption@flags=\count185
+\c@continuedfloat=\count186
 Package caption Info: float package is loaded.
 )
-\@float@every@figure=\toks20
-\c@figure=\count182
+\@float@every@figure=\toks22
+\c@figure=\count187
 
 (/usr/share/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2020/08/01 v1.3d Input encoding file
-\inpenc@prehook=\toks21
-\inpenc@posthook=\toks22
+\inpenc@prehook=\toks23
+\inpenc@posthook=\toks24
 )
 (/usr/share/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2020/10/27 3.51 The Babel package
+Package: babel 2021/03/24 3.56 The Babel package
 
 (/usr/share/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2020/10/27 3.51 Babel common definitions
-\babel@savecnt=\count183
-\U@D=\dimen149
-\l@babelnohyphens=\language86
+File: babel.def 2021/03/24 3.56 Babel common definitions
+\babel@savecnt=\count188
+\U@D=\dimen163
+\l@babelnohyphens=\language87
 
 (/usr/share/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read2
 )
-\bbl@dirlevel=\count184
+\bbl@dirlevel=\count189
 
 (/usr/share/texmf-dist/tex/generic/babel-spanish/spanish.ldf
 Language: spanish.ldf 2016/03/03 v5.0p Spanish support from the babel system
-\es@quottoks=\toks23
-\es@quotdepth=\count185
+\es@quottoks=\toks25
+\es@quotdepth=\count190
 Package babel Info: Making " an active character on input line 561.
 Package babel Info: Making . an active character on input line 662.
 Package babel Info: Making < an active character on input line 707.
@@ -205,8 +251,8 @@ Package babel Info: \l@newzealand = using hyphenrules for ukenglish
 (babel)             (\language21) on input line 108.
 ))
 (/usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
-s
+Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and foote
+rs
 \f@nch@headwidth=\skip52
 \f@nch@O@elh=\skip53
 \f@nch@O@erh=\skip54
@@ -220,63 +266,62 @@ s
 (/home/pslavkin/texmf/tex/latex/modern_cv_link/tweaklist.sty)
 (/usr/share/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count186
-\calc@Bcount=\count187
-\calc@Adimen=\dimen150
-\calc@Bdimen=\dimen151
+\calc@Acount=\count191
+\calc@Bcount=\count192
+\calc@Adimen=\dimen164
+\calc@Bdimen=\dimen165
 \calc@Askip=\skip61
 \calc@Bskip=\skip62
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count188
+\calc@Ccount=\count193
 \calc@Cskip=\skip63
 )
 (/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 (/usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2020-12-03 L3 programming layer (loader) 
+Package: expl3 2021-02-18 L3 programming layer (loader) 
 
 (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
-\l__kernel_color_stack_int=\count189
-\l__pdf_internal_box=\box51
+File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count194
+\l__pdf_internal_box=\box53
 ))
-Package: xparse 2020-10-27 L3 Experimental document command parser
-
-(/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse-generic.tex))
+(/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse-2020-10-01.sty
+(/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse-generic.tex)))
 (/usr/share/texmf-dist/tex/latex/microtype/microtype.sty
-Package: microtype 2019/11/18 v2.7d Micro-typographical refinements (RS)
-\MT@toks=\toks24
-\MT@count=\count190
+Package: microtype 2021/03/14 v2.8c Micro-typographical refinements (RS)
+\MT@toks=\toks26
+\MT@count=\count195
 LaTeX Info: Redefining \textls on input line 790.
-\MT@outer@kern=\dimen152
-LaTeX Info: Redefining \textmicrotypecontext on input line 1354.
-\MT@listname@count=\count191
+\MT@outer@kern=\dimen166
+LaTeX Info: Redefining \textmicrotypecontext on input line 1374.
+\MT@listname@count=\count196
 
 (/usr/share/texmf-dist/tex/latex/microtype/microtype-pdftex.def
-File: microtype-pdftex.def 2019/11/18 v2.7d Definitions specific to pdftex (RS)
+File: microtype-pdftex.def 2021/03/14 v2.8c Definitions specific to pdftex (RS)
 
-LaTeX Info: Redefining \lsstyle on input line 914.
-LaTeX Info: Redefining \lslig on input line 914.
+LaTeX Info: Redefining \lsstyle on input line 915.
+LaTeX Info: Redefining \lslig on input line 915.
 \MT@outer@space=\skip64
 )
 Package microtype Info: Loading configuration file microtype.cfg.
 
 (/usr/share/texmf-dist/tex/latex/microtype/microtype.cfg
-File: microtype.cfg 2019/11/18 v2.7d microtype main configuration file (RS)
+File: microtype.cfg 2021/03/14 v2.8c microtype main configuration file (RS)
 ))
 (/home/pslavkin/texmf/tex/latex/modern_cv_link/moderncvcollection.sty
 Package: moderncvcollection 2015/07/28 v2.0.0 moderncv collections
-\c@collection@iterator=\count192
+\c@collection@iterator=\count197
 )
 (/home/pslavkin/texmf/tex/latex/modern_cv_link/moderncvcompatibility.sty
 Package: moderncvcompatibility 2015/07/28 v2.0.0 modern curriculum vitae and le
 tter compatibility patches
 )
-\c@collection@phones@count=\count193
-\c@collection@socials@count=\count194
-\c@cvcolumnscounter=\count195
-\c@cvcolumnsautowidthcounter=\count196
-\c@tmpiteratorcounter=\count197
+\c@collection@phones@count=\count198
+\c@collection@socials@count=\count199
+\c@cvcolumnscounter=\count266
+\c@cvcolumnsautowidthcounter=\count267
+\c@tmpiteratorcounter=\count268
 \cvcolumnsdummywidth=\skip65
 \cvcolumnswidth=\skip66
 \cvcolumnsautowidth=\skip67
@@ -295,85 +340,85 @@ tter icons: marvosym
 (/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
 (/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks25
-\pgfutil@tempdima=\dimen153
-\pgfutil@tempdimb=\dimen154
+\pgfutil@everybye=\toks27
+\pgfutil@tempdima=\dimen167
+\pgfutil@tempdimb=\dimen168
 
 (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex))
 (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box52
+\pgfutil@abb=\box54
 )
 (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
 (/usr/share/texmf-dist/tex/generic/pgf/pgf.revision.tex)
-Package: pgfrcs 2020/12/01 v3.1.7a (3.1.7a)
+Package: pgfrcs 2020/12/27 v3.1.8b (3.1.8b)
 ))
-Package: pgf 2020/12/01 v3.1.7a (3.1.7a)
+Package: pgf 2020/12/27 v3.1.8b (3.1.8b)
 
 (/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
 (/usr/share/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
 (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
-Package: pgfsys 2020/12/01 v3.1.7a (3.1.7a)
+Package: pgfsys 2020/12/27 v3.1.8b (3.1.8b)
 
 (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks26
-\pgfkeys@temptoks=\toks27
+\pgfkeys@pathtoks=\toks28
+\pgfkeys@temptoks=\toks29
 
 (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
-\pgfkeys@tmptoks=\toks28
+\pgfkeys@tmptoks=\toks30
 ))
-\pgf@x=\dimen155
-\pgf@y=\dimen156
-\pgf@xa=\dimen157
-\pgf@ya=\dimen158
-\pgf@xb=\dimen159
-\pgf@yb=\dimen160
-\pgf@xc=\dimen161
-\pgf@yc=\dimen162
-\pgf@xd=\dimen163
-\pgf@yd=\dimen164
+\pgf@x=\dimen169
+\pgf@y=\dimen170
+\pgf@xa=\dimen171
+\pgf@ya=\dimen172
+\pgf@xb=\dimen173
+\pgf@yb=\dimen174
+\pgf@xc=\dimen175
+\pgf@yc=\dimen176
+\pgf@xd=\dimen177
+\pgf@yd=\dimen178
 \w@pgf@writea=\write3
 \r@pgf@reada=\read3
-\c@pgf@counta=\count198
-\c@pgf@countb=\count199
-\c@pgf@countc=\count266
-\c@pgf@countd=\count267
-\t@pgf@toka=\toks29
-\t@pgf@tokb=\toks30
-\t@pgf@tokc=\toks31
-\pgf@sys@id@count=\count268
+\c@pgf@counta=\count269
+\c@pgf@countb=\count270
+\c@pgf@countc=\count271
+\c@pgf@countd=\count272
+\t@pgf@toka=\toks31
+\t@pgf@tokb=\toks32
+\t@pgf@tokc=\toks33
+\pgf@sys@id@count=\count273
 
 (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
-File: pgf.cfg 2020/12/01 v3.1.7a (3.1.7a)
+File: pgf.cfg 2020/12/27 v3.1.8b (3.1.8b)
 )
 Driver file for pgf: pgfsys-pdftex.def
 
 (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
-File: pgfsys-pdftex.def 2020/12/01 v3.1.7a (3.1.7a)
+File: pgfsys-pdftex.def 2020/12/27 v3.1.8b (3.1.8b)
 
 (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
-File: pgfsys-common-pdf.def 2020/12/01 v3.1.7a (3.1.7a)
+File: pgfsys-common-pdf.def 2020/12/27 v3.1.8b (3.1.8b)
 )))
 (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
-File: pgfsyssoftpath.code.tex 2020/12/01 v3.1.7a (3.1.7a)
-\pgfsyssoftpath@smallbuffer@items=\count269
-\pgfsyssoftpath@bigbuffer@items=\count270
+File: pgfsyssoftpath.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfsyssoftpath@smallbuffer@items=\count274
+\pgfsyssoftpath@bigbuffer@items=\count275
 )
 (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
-File: pgfsysprotocol.code.tex 2020/12/01 v3.1.7a (3.1.7a)
+File: pgfsysprotocol.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 ))
 (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
-Package: pgfcore 2020/12/01 v3.1.7a (3.1.7a)
+Package: pgfcore 2020/12/27 v3.1.8b (3.1.8b)
 
 (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
 (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
 (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen165
-\pgfmath@count=\count271
-\pgfmath@box=\box53
-\pgfmath@toks=\toks32
-\pgfmath@stack@operand=\toks33
-\pgfmath@stack@operation=\toks34
+\pgfmath@dimen=\dimen179
+\pgfmath@count=\count276
+\pgfmath@box=\box55
+\pgfmath@toks=\toks34
+\pgfmath@stack@operand=\toks35
+\pgfmath@stack@operation=\toks36
 )
 (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
 (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex)
@@ -386,102 +431,102 @@ x) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex)
 (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex)
 (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics
 .code.tex))) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count272
+\c@pgfmathroundto@lastzeros=\count277
 )) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
 (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
-File: pgfcorepoints.code.tex 2020/12/01 v3.1.7a (3.1.7a)
-\pgf@picminx=\dimen166
-\pgf@picmaxx=\dimen167
-\pgf@picminy=\dimen168
-\pgf@picmaxy=\dimen169
-\pgf@pathminx=\dimen170
-\pgf@pathmaxx=\dimen171
-\pgf@pathminy=\dimen172
-\pgf@pathmaxy=\dimen173
-\pgf@xx=\dimen174
-\pgf@xy=\dimen175
-\pgf@yx=\dimen176
-\pgf@yy=\dimen177
-\pgf@zx=\dimen178
-\pgf@zy=\dimen179
+File: pgfcorepoints.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@picminx=\dimen180
+\pgf@picmaxx=\dimen181
+\pgf@picminy=\dimen182
+\pgf@picmaxy=\dimen183
+\pgf@pathminx=\dimen184
+\pgf@pathmaxx=\dimen185
+\pgf@pathminy=\dimen186
+\pgf@pathmaxy=\dimen187
+\pgf@xx=\dimen188
+\pgf@xy=\dimen189
+\pgf@yx=\dimen190
+\pgf@yy=\dimen191
+\pgf@zx=\dimen192
+\pgf@zy=\dimen193
 )
 (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
-File: pgfcorepathconstruct.code.tex 2020/12/01 v3.1.7a (3.1.7a)
-\pgf@path@lastx=\dimen180
-\pgf@path@lasty=\dimen181
+File: pgfcorepathconstruct.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@path@lastx=\dimen194
+\pgf@path@lasty=\dimen195
 ) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
-File: pgfcorepathusage.code.tex 2020/12/01 v3.1.7a (3.1.7a)
-\pgf@shorten@end@additional=\dimen182
-\pgf@shorten@start@additional=\dimen183
+File: pgfcorepathusage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@shorten@end@additional=\dimen196
+\pgf@shorten@start@additional=\dimen197
 )
 (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
-File: pgfcorescopes.code.tex 2020/12/01 v3.1.7a (3.1.7a)
-\pgfpic=\box54
-\pgf@hbox=\box55
-\pgf@layerbox@main=\box56
-\pgf@picture@serial@count=\count273
+File: pgfcorescopes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfpic=\box56
+\pgf@hbox=\box57
+\pgf@layerbox@main=\box58
+\pgf@picture@serial@count=\count278
 )
 (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
-File: pgfcoregraphicstate.code.tex 2020/12/01 v3.1.7a (3.1.7a)
-\pgflinewidth=\dimen184
+File: pgfcoregraphicstate.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgflinewidth=\dimen198
 )
 (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.t
 ex
-File: pgfcoretransformations.code.tex 2020/12/01 v3.1.7a (3.1.7a)
-\pgf@pt@x=\dimen185
-\pgf@pt@y=\dimen186
-\pgf@pt@temp=\dimen187
+File: pgfcoretransformations.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@pt@x=\dimen199
+\pgf@pt@y=\dimen256
+\pgf@pt@temp=\dimen257
 ) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
-File: pgfcorequick.code.tex 2020/12/01 v3.1.7a (3.1.7a)
+File: pgfcorequick.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )
 (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
-File: pgfcoreobjects.code.tex 2020/12/01 v3.1.7a (3.1.7a)
+File: pgfcoreobjects.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )
 (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.te
 x
-File: pgfcorepathprocessing.code.tex 2020/12/01 v3.1.7a (3.1.7a)
+File: pgfcorepathprocessing.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 ) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
-File: pgfcorearrows.code.tex 2020/12/01 v3.1.7a (3.1.7a)
-\pgfarrowsep=\dimen188
+File: pgfcorearrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfarrowsep=\dimen258
 )
 (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
-File: pgfcoreshade.code.tex 2020/12/01 v3.1.7a (3.1.7a)
-\pgf@max=\dimen189
-\pgf@sys@shading@range@num=\count274
-\pgf@shadingcount=\count275
+File: pgfcoreshade.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@max=\dimen259
+\pgf@sys@shading@range@num=\count279
+\pgf@shadingcount=\count280
 )
 (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
-File: pgfcoreimage.code.tex 2020/12/01 v3.1.7a (3.1.7a)
+File: pgfcoreimage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 
 (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
-File: pgfcoreexternal.code.tex 2020/12/01 v3.1.7a (3.1.7a)
-\pgfexternal@startupbox=\box57
+File: pgfcoreexternal.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfexternal@startupbox=\box59
 ))
 (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
-File: pgfcorelayers.code.tex 2020/12/01 v3.1.7a (3.1.7a)
+File: pgfcorelayers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )
 (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
-File: pgfcoretransparency.code.tex 2020/12/01 v3.1.7a (3.1.7a)
+File: pgfcoretransparency.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 ) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
-File: pgfcorepatterns.code.tex 2020/12/01 v3.1.7a (3.1.7a)
+File: pgfcorepatterns.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )
 (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
-File: pgfcorerdf.code.tex 2020/12/01 v3.1.7a (3.1.7a)
+File: pgfcorerdf.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )))
 (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
-File: pgfmoduleshapes.code.tex 2020/12/01 v3.1.7a (3.1.7a)
-\pgfnodeparttextbox=\box58
+File: pgfmoduleshapes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfnodeparttextbox=\box60
 )
 (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
-File: pgfmoduleplot.code.tex 2020/12/01 v3.1.7a (3.1.7a)
+File: pgfmoduleplot.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )
 (/usr/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
-Package: pgfcomp-version-0-65 2020/12/01 v3.1.7a (3.1.7a)
-\pgf@nodesepstart=\dimen190
-\pgf@nodesepend=\dimen191
+Package: pgfcomp-version-0-65 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@nodesepstart=\dimen260
+\pgf@nodesepend=\dimen261
 )
 (/usr/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
-Package: pgfcomp-version-1-18 2020/12/01 v3.1.7a (3.1.7a)
+Package: pgfcomp-version-1-18 2020/12/27 v3.1.8b (3.1.8b)
 ))
 (/usr/share/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
 (/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
@@ -489,50 +534,50 @@ Package: pgfcomp-version-1-18 2020/12/01 v3.1.7a (3.1.7a)
 (/usr/share/texmf-dist/tex/latex/pgf/math/pgfmath.sty
 (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
 (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
-Package: pgffor 2020/12/01 v3.1.7a (3.1.7a)
+Package: pgffor 2020/12/27 v3.1.8b (3.1.8b)
 
 (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen192
-\pgffor@skip=\dimen193
-\pgffor@stack=\toks35
-\pgffor@toks=\toks36
+\pgffor@iter=\dimen262
+\pgffor@skip=\dimen263
+\pgffor@stack=\toks37
+\pgffor@toks=\toks38
 ))
 (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
-Package: tikz 2020/12/01 v3.1.7a (3.1.7a)
+Package: tikz 2020/12/27 v3.1.8b (3.1.8b)
 
 (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.te
 x
-File: pgflibraryplothandlers.code.tex 2020/12/01 v3.1.7a (3.1.7a)
-\pgf@plot@mark@count=\count276
-\pgfplotmarksize=\dimen194
+File: pgflibraryplothandlers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@plot@mark@count=\count281
+\pgfplotmarksize=\dimen264
 )
-\tikz@lastx=\dimen195
-\tikz@lasty=\dimen196
-\tikz@lastxsaved=\dimen197
-\tikz@lastysaved=\dimen198
-\tikz@lastmovetox=\dimen199
-\tikz@lastmovetoy=\dimen256
-\tikzleveldistance=\dimen257
-\tikzsiblingdistance=\dimen258
-\tikz@figbox=\box59
-\tikz@figbox@bg=\box60
-\tikz@tempbox=\box61
-\tikz@tempbox@bg=\box62
-\tikztreelevel=\count277
-\tikznumberofchildren=\count278
-\tikznumberofcurrentchild=\count279
-\tikz@fig@count=\count280
+\tikz@lastx=\dimen265
+\tikz@lasty=\dimen266
+\tikz@lastxsaved=\dimen267
+\tikz@lastysaved=\dimen268
+\tikz@lastmovetox=\dimen269
+\tikz@lastmovetoy=\dimen270
+\tikzleveldistance=\dimen271
+\tikzsiblingdistance=\dimen272
+\tikz@figbox=\box61
+\tikz@figbox@bg=\box62
+\tikz@tempbox=\box63
+\tikz@tempbox@bg=\box64
+\tikztreelevel=\count282
+\tikznumberofchildren=\count283
+\tikznumberofcurrentchild=\count284
+\tikz@fig@count=\count285
  (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
-File: pgfmodulematrix.code.tex 2020/12/01 v3.1.7a (3.1.7a)
-\pgfmatrixcurrentrow=\count281
-\pgfmatrixcurrentcolumn=\count282
-\pgf@matrix@numberofcolumns=\count283
+File: pgfmodulematrix.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfmatrixcurrentrow=\count286
+\pgfmatrixcurrentcolumn=\count287
+\pgf@matrix@numberofcolumns=\count288
 )
-\tikz@expandcount=\count284
+\tikz@expandcount=\count289
 
 (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
 topaths.code.tex
-File: tikzlibrarytopaths.code.tex 2020/12/01 v3.1.7a (3.1.7a)
+File: tikzlibrarytopaths.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 ))))
 (/home/pslavkin/texmf/tex/latex/modern_cv_link/moderncvheadi.sty
 Package: moderncvheadi 2015/07/28 v2.0.0 modern curriculum vitae and letter hea
@@ -555,7 +600,7 @@ LaTeX Font Info:    Trying to load font information for U+mvs on input line 46.
 \listitemcolumnwidth=\skip77
 \listdoubleitemcolumnwidth=\skip78
 \baseletterheight=\skip79
-\cvitemwithcommentbox=\box63
+\cvitemwithcommentbox=\box65
 \cvitemwithcommentskilllength=\skip80
 \cvitemwithcommentcommentlength=\skip81
 ))
@@ -569,72 +614,70 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
 (/usr/share/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count285
-\Gm@cntv=\count286
-\c@Gm@tempcnt=\count287
-\Gm@bindingoffset=\dimen259
-\Gm@wd@mp=\dimen260
-\Gm@odd@mp=\dimen261
-\Gm@even@mp=\dimen262
-\Gm@layoutwidth=\dimen263
-\Gm@layoutheight=\dimen264
-\Gm@layouthoffset=\dimen265
-\Gm@layoutvoffset=\dimen266
-\Gm@dimlist=\toks37
+\Gm@cnth=\count290
+\Gm@cntv=\count291
+\c@Gm@tempcnt=\count292
+\Gm@bindingoffset=\dimen273
+\Gm@wd@mp=\dimen274
+\Gm@odd@mp=\dimen275
+\Gm@even@mp=\dimen276
+\Gm@layoutwidth=\dimen277
+\Gm@layoutheight=\dimen278
+\Gm@layouthoffset=\dimen279
+\Gm@layoutvoffset=\dimen280
+\Gm@dimlist=\toks39
 )
 (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
 mindmap.code.tex
-File: tikzlibrarymindmap.code.tex 2020/12/01 v3.1.7a (3.1.7a)
+File: tikzlibrarymindmap.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 
 (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
 trees.code.tex
-File: tikzlibrarytrees.code.tex 2020/12/01 v3.1.7a (3.1.7a)
+File: tikzlibrarytrees.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )
 (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
 decorations.code.tex
 (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
-\pgfdecoratedcompleteddistance=\dimen267
-\pgfdecoratedremainingdistance=\dimen268
-\pgfdecoratedinputsegmentcompleteddistance=\dimen269
-\pgfdecoratedinputsegmentremainingdistance=\dimen270
-\pgf@decorate@distancetomove=\dimen271
-\pgf@decorate@repeatstate=\count288
-\pgfdecorationsegmentamplitude=\dimen272
-\pgfdecorationsegmentlength=\dimen273
+\pgfdecoratedcompleteddistance=\dimen281
+\pgfdecoratedremainingdistance=\dimen282
+\pgfdecoratedinputsegmentcompleteddistance=\dimen283
+\pgfdecoratedinputsegmentremainingdistance=\dimen284
+\pgf@decorate@distancetomove=\dimen285
+\pgf@decorate@repeatstate=\count293
+\pgfdecorationsegmentamplitude=\dimen286
+\pgfdecorationsegmentlength=\dimen287
 )
-\tikz@lib@dec@box=\box64
+\tikz@lib@dec@box=\box66
 ))
 (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
 shadows.code.tex
-File: tikzlibraryshadows.code.tex 2020/12/01 v3.1.7a (3.1.7a)
+File: tikzlibraryshadows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 
 (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
 fadings.code.tex
-File: tikzlibraryfadings.code.tex 2020/12/01 v3.1.7a (3.1.7a)
+File: tikzlibraryfadings.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 
 (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings.code.tex
-File: pgflibraryfadings.code.tex 2020/12/01 v3.1.7a (3.1.7a)
+File: pgflibraryfadings.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )))
 (/usr/share/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks38
-\verbatim@line=\toks39
+\every@verbatim=\toks40
+\verbatim@line=\toks41
 \verbatim@in@stream=\read4
 )
 (/usr/share/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2020/10/07 v1.3j Sub-captions (AR)
-\c@subfigure=\count289
+\c@subfigure=\count294
 )
+(/usr/share/texmf-dist/tex/latex/fontawesome/fontawesome.sty
+Package: fontawesome 2016/05/15 v4.6.3.1 font awesome icons
 
-! LaTeX Error: File `fontawesome.sty' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: sty)
-
-Enter file name: 
-) (./config/links.tex) (./config/dictionary.tex) (./sections/all/tittle.tex)
+(/usr/share/texmf-dist/tex/latex/fontawesome/fontawesomesymbols-generic.tex)
+(/usr/share/texmf-dist/tex/latex/fontawesome/fontawesomesymbols-pdftex.tex)))
+(./config/links.tex) (./config/dictionary.tex) (./sections/all/tittle.tex)
 (/usr/share/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2020-05-15 v7.00e Hypertext links for LaTeX
+Package: hyperref 2021-02-27 v7.00k Hypertext links for LaTeX
 
 (/usr/share/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
@@ -671,14 +714,18 @@ Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 (/usr/share/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 )
-\@linkdim=\dimen274
-\Hy@linkcounter=\count290
-\Hy@pagecounter=\count291
+\@linkdim=\dimen288
+\Hy@linkcounter=\count295
+\Hy@pagecounter=\count296
 
 (/usr/share/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2020-05-15 v7.00e Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2021-02-27 v7.00k Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
+)
+(/usr/share/texmf-dist/tex/latex/hyperref/hyperref-langpatches.def
+File: hyperref-langpatches.def 2021-02-27 v7.00k Hyperref: patches for babel la
+nguages
 )
 (/usr/share/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
@@ -686,24 +733,24 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 (/usr/share/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count292
-Package hyperref Info: Option `unicode' set `true' on input line 4338.
+\Hy@SavedSpaceFactor=\count297
 
 (/usr/share/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2020-05-15 v7.00e Hyperref: PDF Unicode definition (HO)
+File: puenc.def 2021-02-27 v7.00k Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Hyper figures OFF on input line 4464.
-Package hyperref Info: Link nesting OFF on input line 4469.
-Package hyperref Info: Hyper index ON on input line 4472.
-Package hyperref Info: Plain pages OFF on input line 4479.
-Package hyperref Info: Backreferencing OFF on input line 4484.
+Package hyperref Info: Option `unicode' set `true' on input line 4073.
+Package hyperref Info: Hyper figures OFF on input line 4192.
+Package hyperref Info: Link nesting OFF on input line 4197.
+Package hyperref Info: Hyper index ON on input line 4200.
+Package hyperref Info: Plain pages OFF on input line 4207.
+Package hyperref Info: Backreferencing OFF on input line 4212.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4717.
-\c@Hy@tempcnt=\count293
-LaTeX Info: Redefining \url on input line 5076.
-\XeTeXLinkMargin=\dimen275
+Package hyperref Info: Bookmarks ON on input line 4445.
+\c@Hy@tempcnt=\count298
+LaTeX Info: Redefining \url on input line 4804.
+\XeTeXLinkMargin=\dimen289
 
 (/usr/share/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -712,40 +759,40 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count294
-\Field@Width=\dimen276
-\Fld@charsize=\dimen277
-Package hyperref Info: Hyper figures OFF on input line 6347.
-Package hyperref Info: Link nesting OFF on input line 6352.
-Package hyperref Info: Hyper index ON on input line 6355.
-Package hyperref Info: backreferencing OFF on input line 6362.
-Package hyperref Info: Link coloring OFF on input line 6367.
-Package hyperref Info: Link coloring with OCG OFF on input line 6372.
-Package hyperref Info: PDF/A mode OFF on input line 6377.
-LaTeX Info: Redefining \ref on input line 6417.
-LaTeX Info: Redefining \pageref on input line 6421.
+\Fld@menulength=\count299
+\Field@Width=\dimen290
+\Fld@charsize=\dimen291
+Package hyperref Info: Hyper figures OFF on input line 6075.
+Package hyperref Info: Link nesting OFF on input line 6080.
+Package hyperref Info: Hyper index ON on input line 6083.
+Package hyperref Info: backreferencing OFF on input line 6090.
+Package hyperref Info: Link coloring OFF on input line 6095.
+Package hyperref Info: Link coloring with OCG OFF on input line 6100.
+Package hyperref Info: PDF/A mode OFF on input line 6105.
+LaTeX Info: Redefining \ref on input line 6145.
+LaTeX Info: Redefining \pageref on input line 6149.
 
 (/usr/share/texmf-dist/tex/latex/base/atbegshi-ltx.sty
 Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi packa
 ge
 with kernel methods
 )
-\Hy@abspage=\count295
-\c@Item=\count296
-\c@Hfootnote=\count297
+\Hy@abspage=\count300
+\c@Item=\count301
+\c@Hfootnote=\count302
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
 (/usr/share/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2020-05-15 v7.00e Hyperref driver for pdfTeX
+File: hpdftex.def 2021-02-27 v7.00k Hyperref driver for pdfTeX
 
 (/usr/share/texmf-dist/tex/latex/base/atveryend-ltx.sty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery packag
 e
 with kernel methods
 )
-\Fld@listcount=\count298
-\c@bookmark@seq@number=\count299
+\Fld@listcount=\count303
+\c@bookmark@seq@number=\count304
 
 (/usr/share/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
@@ -765,8 +812,23 @@ LaTeX Font Info:    Trying to load font information for T1+lmr on input line 11
 .
 
 (/usr/share/texmf-dist/tex/latex/lm/t1lmr.fd
-File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) (./cv.aux)
+File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+) (./cv.aux
+
+LaTeX Warning: Label `fig:titulos_del_itba' multiply defined.
+
+
+LaTeX Warning: Label `fig:titulos_del_itba' multiply defined.
+
+
+LaTeX Warning: Label `fig:latex' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:latex' multiply defined.
+
+)
+\openout1 = `cv.aux'.
+
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
 LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
@@ -787,23 +849,22 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
 LaTeX Font Info:    Trying to load font information for T1+lmss on input line 1
 1.
-
-(/usr/share/texmf-dist/tex/latex/lm/t1lmss.fd
-File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+ (/usr/share/texmf-dist/tex/latex/lm/t1lmss.fd
+File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count300
-\scratchdimen=\dimen278
-\scratchbox=\box65
-\nofMPsegments=\count301
-\nofMParguments=\count302
-\everyMPshowfont=\toks40
-\MPscratchCnt=\count303
-\MPscratchDim=\dimen279
-\MPnumerator=\count304
-\makeMPintoPDFobject=\count305
-\everyMPtoPDFconversion=\toks41
+\scratchcounter=\count305
+\scratchdimen=\dimen292
+\scratchbox=\box67
+\nofMPsegments=\count306
+\nofMParguments=\count307
+\everyMPshowfont=\toks42
+\MPscratchCnt=\count308
+\MPscratchDim=\dimen293
+\MPnumerator=\count309
+\makeMPintoPDFobject=\count310
+\everyMPtoPDFconversion=\toks43
 ) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -822,7 +883,7 @@ Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
-Package microtype Info: Using default expansion set `basictext'.
+Package microtype Info: Using default expansion set `alltext-nott'.
 LaTeX Info: Redefining \showhyphens on input line 11.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
@@ -868,7 +929,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 Package hyperref Info: Link coloring ON on input line 11.
 (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
-Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
 (/usr/share/texmf-dist/tex/latex/refcount/refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
@@ -876,18 +937,24 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/share/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count306
+\c@section@level=\count311
 )
 LaTeX Info: Redefining \ref on input line 11.
 LaTeX Info: Redefining \pageref on input line 11.
 LaTeX Info: Redefining \nameref on input line 11.
+
+(./cv.out) (./cv.out)
 \@outlinefile=\write4
-\makecvheaddetailsbox=\box66
+\openout4 = `cv.out'.
+
+\pagenumberwidth=\skip83
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 11.
+\makecvheaddetailsbox=\box68
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
 2.
-
-(/usr/share/texmf-dist/tex/latex/lm/ot1lmr.fd
-File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+ (/usr/share/texmf-dist/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 (/usr/share/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
@@ -897,19 +964,19 @@ LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
 2.
 
 (/usr/share/texmf-dist/tex/latex/lm/omllmm.fd
-File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
 12.
 
 (/usr/share/texmf-dist/tex/latex/lm/omslmsy.fd
-File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
 12.
 
 (/usr/share/texmf-dist/tex/latex/lm/omxlmex.fd
-File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10> on input line 12.
@@ -921,15 +988,15 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (/usr/share/texmf-dist/tex/latex/microtype/mt-mvs.cfg
 File: mt-mvs.cfg 2006/07/05 v1.1 microtype config. file: Marvosym Euro (RS)
 )
-\makecvheadpicturebox=\box67
-<pic/high//cara2020_novo.png, id=35, 745.78625pt x 568.1225pt>
-File: pic/high//cara2020_novo.png Graphic file (type png)
-<use pic/high//cara2020_novo.png>
-Package pdftex.def Info: pic/high//cara2020_novo.png  used on input line 12.
+\makecvheadpicturebox=\box69
+<pic/low//cara2020_novo.png, id=192, 745.78625pt x 568.1225pt>
+File: pic/low//cara2020_novo.png Graphic file (type png)
+<use pic/low//cara2020_novo.png>
+Package pdftex.def Info: pic/low//cara2020_novo.png  used on input line 12.
 (pdftex.def)             Requested size: 130.0pt x 99.02415pt.
-\makecvheaddetailswidth=\skip83
-\makecvheadpicturewidth=\skip84
-\makecvheadnamebox=\box68
+\makecvheaddetailswidth=\skip84
+\makecvheadpicturewidth=\skip85
+\makecvheadnamebox=\box70
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10.95> on input line 12.
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -938,56 +1005,50 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 12.
 
 (./sections/us/presentacion.tex
-
-LaTeX Warning: Reference `fig:ofi_dci' on page 1 undefined on input line 20.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 29--33
+Underfull \hbox (badness 10000) in paragraph at lines 28--32
 
  []
 
-<pic/high//ofi_dci1.png, id=38, 932.48375pt x 551.05875pt>
-File: pic/high//ofi_dci1.png Graphic file (type png)
-<use pic/high//ofi_dci1.png>
-Package pdftex.def Info: pic/high//ofi_dci1.png  used on input line 36.
-(pdftex.def)             Requested size: 161.32767pt x 95.3352pt.
-<pic/high//ofi_dci2.png, id=39, 984.67876pt x 692.5875pt>
-File: pic/high//ofi_dci2.png Graphic file (type png)
-<use pic/high//ofi_dci2.png>
-Package pdftex.def Info: pic/high//ofi_dci2.png  used on input line 37.
-(pdftex.def)             Requested size: 161.32767pt x 113.46883pt.
-<pic/high//ofi_dci5.png, id=40, 1065.9825pt x 721.69624pt>
-File: pic/high//ofi_dci5.png Graphic file (type png)
-<use pic/high//ofi_dci5.png>
-Package pdftex.def Info: pic/high//ofi_dci5.png  used on input line 38.
-(pdftex.def)             Requested size: 161.32767pt x 109.21883pt.
+<pic/low//ofi_dci1.png, id=198, 233.87375pt x 138.5175pt>
+File: pic/low//ofi_dci1.png Graphic file (type png)
+<use pic/low//ofi_dci1.png>
+Package pdftex.def Info: pic/low//ofi_dci1.png  used on input line 35.
+(pdftex.def)             Requested size: 161.32767pt x 95.55391pt.
+<pic/low//ofi_dci2.png, id=199, 251.94125pt x 177.66376pt>
+File: pic/low//ofi_dci2.png Graphic file (type png)
+<use pic/low//ofi_dci2.png>
+Package pdftex.def Info: pic/low//ofi_dci2.png  used on input line 36.
+(pdftex.def)             Requested size: 161.32767pt x 113.76405pt.
+<pic/low//ofi_dci5.png, id=200, 222.8325pt x 174.6525pt>
+File: pic/low//ofi_dci5.png Graphic file (type png)
+<use pic/low//ofi_dci5.png>
+Package pdftex.def Info: pic/low//ofi_dci5.png  used on input line 37.
+(pdftex.def)             Requested size: 161.32767pt x 126.44792pt.
 ) (./sections/us/educacion.tex
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 3.
  [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./pic/high//cara2020_novo.
-png>]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./pic/low//cara2020_novo.p
+ng>]
 LaTeX Font Info:    Trying to load font information for TS1+lmss on input line 
 7.
 
 (/usr/share/texmf-dist/tex/latex/lm/ts1lmss.fd
-File: ts1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+File: ts1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmss' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-) (./sections/us/experiencia.tex [2 <./pic/high//ofi_dci1.png> <./pic/high//ofi
-_dci2.png> <./pic/high//ofi_dci5.png>]) (./sections/us/cursos.tex [3]) (./secti
-ons/us/premios.tex
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 3.
+) (./sections/us/experiencia.tex [2 <./pic/low//ofi_dci1.png> <./pic/low//ofi_d
+ci2.png> <./pic/low//ofi_dci5.png>]) (./sections/us/cursos.tex [3]) (./sections
+/us/premios.tex
 LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <10.95> not available
 (Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 5.
 )
-(./sections/us/publicaciones.tex) (./sections/us/tecnologias.tex
-(./sections/all/tecnologias.tex) [4]
+(./sections/us/publicaciones.tex [4]) (./sections/us/tecnologias.tex
+(./sections/all/tecnologias.tex)
 
 LaTeX Font Warning: Font shape `T1/lmss/m/sc' in size <10.95> not available
 (Font)              Font shape `T1/lmr/m/sc' tried instead on input line 5.
@@ -995,331 +1056,830 @@ LaTeX Font Warning: Font shape `T1/lmss/m/sc' in size <10.95> not available
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
-(./sections/all/microcontrollers.tex [5]
-Overfull \hbox (2.82408pt too wide) in paragraph at lines 199--199
- [][][]\T1/lmss/bx/n/10.95 F28379D[] 
+[5] (./sections/all/microcontrollers.tex
+Overfull \hbox (1.914pt too wide) in paragraph at lines 199--199
+ [][][]\T1/lmss/bx/n/10.95 (-20) F28379D[] 
  []
 
 
-Overfull \hbox (6.50438pt too wide) in paragraph at lines 255--255
- [][][]\T1/lmss/bx/n/10.95 M2GL025 
+Overfull \hbox (5.52069pt too wide) in paragraph at lines 255--255
+ [][][]\T1/lmss/bx/n/10.95 (-20) M2GL025 
  []
 
 
-Overfull \hbox (1.9873pt too wide) in paragraph at lines 277--277
- [][][]\T1/lmss/bx/n/10.95 Spartan3[] 
+Overfull \hbox (1.08728pt too wide) in paragraph at lines 277--277
+ [][][]\T1/lmss/bx/n/10.95 (-20) Spartan3[] 
  []
 
 
-Overfull \hbox (1.9873pt too wide) in paragraph at lines 277--277
- [][][]\T1/lmss/bx/n/10.95 Spartan6[] 
+Overfull \hbox (1.08728pt too wide) in paragraph at lines 277--277
+ [][][]\T1/lmss/bx/n/10.95 (-20) Spartan6[] 
  []
 
-)) (./sections/us/idiomas.tex) (./sections/us/recreacion.tex [6]) [7]
+[6])) (./sections/us/idiomas.tex) (./sections/us/recreacion.tex) [7]
 (./sections/all/portfolio.tex (./portfolio/us/engineered_arts.tex
-
-LaTeX Warning: Reference `fig:engineered_arts1' on page 8 undefined on input li
-ne 3.
-
-<pic/high//engineered_arts1.png, id=212, 606.265pt x 471.7625pt>
-File: pic/high//engineered_arts1.png Graphic file (type png)
-<use pic/high//engineered_arts1.png>
-Package pdftex.def Info: pic/high//engineered_arts1.png  used on input line 6.
-(pdftex.def)             Requested size: 161.32767pt x 125.53474pt.
-<pic/high//engineered_arts2.png, id=213, 730.73pt x 573.14125pt>
-File: pic/high//engineered_arts2.png Graphic file (type png)
-<use pic/high//engineered_arts2.png>
-Package pdftex.def Info: pic/high//engineered_arts2.png  used on input line 7.
-(pdftex.def)             Requested size: 161.32767pt x 126.53748pt.
-<pic/high//engineered_arts3.png, id=214, 790.955pt x 634.37pt>
-File: pic/high//engineered_arts3.png Graphic file (type png)
-<use pic/high//engineered_arts3.png>
-Package pdftex.def Info: pic/high//engineered_arts3.png  used on input line 8.
-(pdftex.def)             Requested size: 161.32767pt x 129.38846pt.
-) (./portfolio/us/nanocut.tex
-
-LaTeX Warning: Reference `fig:nanocut_electronica' on page 8 undefined on input
- line 7.
-
-<pic/high//nanocut1.jpg, id=218, 917.4275pt x 687.56876pt>
-File: pic/high//nanocut1.jpg Graphic file (type jpg)
-<use pic/high//nanocut1.jpg>
-Package pdftex.def Info: pic/high//nanocut1.jpg  used on input line 10.
-(pdftex.def)             Requested size: 161.32767pt x 120.90337pt.
-<pic/high//nanocut2.jpg, id=219, 968.61874pt x 739.76375pt>
-File: pic/high//nanocut2.jpg Graphic file (type jpg)
-<use pic/high//nanocut2.jpg>
-Package pdftex.def Info: pic/high//nanocut2.jpg  used on input line 11.
-(pdftex.def)             Requested size: 161.32767pt x 123.2071pt.
-<pic/high//nanocut3.jpg, id=220, 1015.795pt x 722.7pt>
-File: pic/high//nanocut3.jpg Graphic file (type jpg)
-<use pic/high//nanocut3.jpg>
-Package pdftex.def Info: pic/high//nanocut3.jpg  used on input line 12.
-(pdftex.def)             Requested size: 161.32767pt x 114.77422pt.
-
-LaTeX Warning: Reference `fig:nanocut_mecanica' on page 8 undefined on input li
-ne 17.
-
-<pic/high//nanocut4.jpg, id=221, 948.54375pt x 717.68124pt>
-File: pic/high//nanocut4.jpg Graphic file (type jpg)
-<use pic/high//nanocut4.jpg>
-Package pdftex.def Info: pic/high//nanocut4.jpg  used on input line 20.
-(pdftex.def)             Requested size: 161.32767pt x 122.05894pt.
-<pic/high//nanocut5.jpg, id=222, 945.5325pt x 708.6475pt>
-File: pic/high//nanocut5.jpg Graphic file (type jpg)
-<use pic/high//nanocut5.jpg>
-Package pdftex.def Info: pic/high//nanocut5.jpg  used on input line 21.
-(pdftex.def)             Requested size: 161.32767pt x 120.91182pt.
-<pic/high//nanocut6.jpg, id=223, 951.555pt x 511.9125pt>
-File: pic/high//nanocut6.jpg Graphic file (type jpg)
-<use pic/high//nanocut6.jpg>
-Package pdftex.def Info: pic/high//nanocut6.jpg  used on input line 22.
-(pdftex.def)             Requested size: 161.32767pt x 86.78963pt.
-[8 <./pic/high//engineered_arts1.png> <./pic/high//engineered_arts2.png> <./pic
-/high//engineered_arts3.png> <./pic/high//nanocut1.jpg> <./pic/high//nanocut2.j
-pg> <./pic/high//nanocut3.jpg> <./pic/high//nanocut4.jpg> <./pic/high//nanocut5
-.jpg> <./pic/high//nanocut6.jpg>]
-
-LaTeX Warning: Reference `fig:nanocut_3_0_1' on page 9 undefined on input line 
-60.
-
-<pic/high//nanocut_3_0_1.jpg, id=239, 690.58pt x 611.28375pt>
-File: pic/high//nanocut_3_0_1.jpg Graphic file (type jpg)
-<use pic/high//nanocut_3_0_1.jpg>
-Package pdftex.def Info: pic/high//nanocut_3_0_1.jpg  used on input line 64.
-(pdftex.def)             Requested size: 161.32767pt x 142.8029pt.
-<pic/high//nanocut_3_0_2.jpg, id=240, 965.6075pt x 853.1875pt>
-File: pic/high//nanocut_3_0_2.jpg Graphic file (type jpg)
-<use pic/high//nanocut_3_0_2.jpg>
-Package pdftex.def Info: pic/high//nanocut_3_0_2.jpg  used on input line 65.
-(pdftex.def)             Requested size: 161.32767pt x 142.54039pt.
-<pic/high//nanocut_3_0_3.jpg, id=241, 1556.81625pt x 1379.1525pt>
-File: pic/high//nanocut_3_0_3.jpg Graphic file (type jpg)
-<use pic/high//nanocut_3_0_3.jpg>
-Package pdftex.def Info: pic/high//nanocut_3_0_3.jpg  used on input line 66.
-(pdftex.def)             Requested size: 161.32767pt x 142.91078pt.
-
-LaTeX Warning: Reference `fig:nanocut_3_0_2' on page 9 undefined on input line 
-71.
-
-<pic/high//nanocut_3_0_4.jpg, id=242, 840.13875pt x 786.94pt>
-File: pic/high//nanocut_3_0_4.jpg Graphic file (type jpg)
-<use pic/high//nanocut_3_0_4.jpg>
-Package pdftex.def Info: pic/high//nanocut_3_0_4.jpg  used on input line 74.
-(pdftex.def)             Requested size: 161.32767pt x 151.10516pt.
-<pic/high//nanocut_3_0_5.jpg, id=243, 1408.26125pt x 1317.92375pt>
-File: pic/high//nanocut_3_0_5.jpg Graphic file (type jpg)
-<use pic/high//nanocut_3_0_5.jpg>
-Package pdftex.def Info: pic/high//nanocut_3_0_5.jpg  used on input line 75.
-(pdftex.def)             Requested size: 161.32767pt x 150.9648pt.
-<pic/high//nanocut_3_0_6.jpg, id=244, 1693.32625pt x 1584.92125pt>
-File: pic/high//nanocut_3_0_6.jpg Graphic file (type jpg)
-<use pic/high//nanocut_3_0_6.jpg>
-Package pdftex.def Info: pic/high//nanocut_3_0_6.jpg  used on input line 76.
-(pdftex.def)             Requested size: 161.32767pt x 150.98021pt.
-
-LaTeX Warning: Reference `fig:nanocut_3_0_3' on page 9 undefined on input line 
-82.
-
-<pic/high//nanocut_3_0_mounted_board_4.jpg, id=245, 899.36pt x 616.3025pt>
-File: pic/high//nanocut_3_0_mounted_board_4.jpg Graphic file (type jpg)
-<use pic/high//nanocut_3_0_mounted_board_4.jpg>
-Package pdftex.def Info: pic/high//nanocut_3_0_mounted_board_4.jpg  used on inp
-ut line 85.
-(pdftex.def)             Requested size: 161.32767pt x 110.5535pt.
-<pic/high//nanocut_3_0_mounted_board_2.jpg, id=246, 1251.67625pt x 847.165pt>
-File: pic/high//nanocut_3_0_mounted_board_2.jpg Graphic file (type jpg)
-<use pic/high//nanocut_3_0_mounted_board_2.jpg>
-Package pdftex.def Info: pic/high//nanocut_3_0_mounted_board_2.jpg  used on inp
-ut line 86.
-(pdftex.def)             Requested size: 161.32767pt x 109.17874pt.
-<pic/high//nanocut_3_0_mounted_board_3.jpg, id=247, 866.23625pt x 920.43875pt>
-File: pic/high//nanocut_3_0_mounted_board_3.jpg Graphic file (type jpg)
-<use pic/high//nanocut_3_0_mounted_board_3.jpg>
-Package pdftex.def Info: pic/high//nanocut_3_0_mounted_board_3.jpg  used on inp
-ut line 87.
-(pdftex.def)             Requested size: 107.54904pt x 114.26805pt.
-) (./portfolio/us/wolfcut.tex [9pdfTeX warning (ext4): destination with the sam
-e identifier (name{subsec:nanocut}) has been already used, duplicate ignored
+<pic/low//engineered_arts1.png, id=376, 203.76125pt x 158.5925pt>
+File: pic/low//engineered_arts1.png Graphic file (type png)
+<use pic/low//engineered_arts1.png>
+Package pdftex.def Info: pic/low//engineered_arts1.png  used on input line 6.
+(pdftex.def)             Requested size: 161.32767pt x 125.56981pt.
+<pic/low//engineered_arts2.png, id=377, 188.705pt x 147.55125pt>
+File: pic/low//engineered_arts2.png Graphic file (type png)
+<use pic/low//engineered_arts2.png>
+Package pdftex.def Info: pic/low//engineered_arts2.png  used on input line 7.
+(pdftex.def)             Requested size: 161.32767pt x 126.1441pt.
+<pic/low//engineered_arts3.png, id=378, 179.67125pt x 145.54375pt>
+File: pic/low//engineered_arts3.png Graphic file (type png)
+<use pic/low//engineered_arts3.png>
+Package pdftex.def Info: pic/low//engineered_arts3.png  used on input line 8.
+(pdftex.def)             Requested size: 161.32767pt x 130.69278pt.
+)
+(./portfolio/us/nanocut.tex
+<pic/low//nanocut1.jpg, id=383, 273.02pt x 204.765pt>
+File: pic/low//nanocut1.jpg Graphic file (type jpg)
+<use pic/low//nanocut1.jpg>
+Package pdftex.def Info: pic/low//nanocut1.jpg  used on input line 10.
+(pdftex.def)             Requested size: 161.32767pt x 120.99463pt.
+<pic/low//nanocut2.jpg, id=384, 337.26pt x 273.02pt>
+File: pic/low//nanocut2.jpg Graphic file (type jpg)
+<use pic/low//nanocut2.jpg>
+Package pdftex.def Info: pic/low//nanocut2.jpg  used on input line 11.
+(pdftex.def)             Requested size: 161.32767pt x 130.59819pt.
+<pic/low//nanocut3.jpg, id=385, 359.3425pt x 243.91125pt>
+File: pic/low//nanocut3.jpg Graphic file (type jpg)
+<use pic/low//nanocut3.jpg>
+Package pdftex.def Info: pic/low//nanocut3.jpg  used on input line 12.
+(pdftex.def)             Requested size: 161.32767pt x 109.50595pt.
+<pic/low//nanocut4.jpg, id=387, 365.365pt x 259.97125pt>
+File: pic/low//nanocut4.jpg Graphic file (type jpg)
+<use pic/low//nanocut4.jpg>
+Package pdftex.def Info: pic/low//nanocut4.jpg  used on input line 20.
+(pdftex.def)             Requested size: 161.32767pt x 114.79231pt.
+<pic/low//nanocut5.jpg, id=388, 299.1175pt x 223.83624pt>
+File: pic/low//nanocut5.jpg Graphic file (type jpg)
+<use pic/low//nanocut5.jpg>
+Package pdftex.def Info: pic/low//nanocut5.jpg  used on input line 21.
+(pdftex.def)             Requested size: 161.32767pt x 120.72632pt.
+<pic/low//nanocut6.jpg, id=389, 438.63875pt x 323.2075pt>
+File: pic/low//nanocut6.jpg Graphic file (type jpg)
+<use pic/low//nanocut6.jpg>
+Package pdftex.def Info: pic/low//nanocut6.jpg  used on input line 22.
+(pdftex.def)             Requested size: 161.32767pt x 118.87473pt.
+ [8 <./pic/low//engineered_arts1.png> <./pic/low//engineered_arts2.png> <./pic/
+low//engineered_arts3.png> <./pic/low//nanocut1.jpg> <./pic/low//nanocut2.jpg> 
+<./pic/low//nanocut3.jpg> <./pic/low//nanocut4.jpg> <./pic/low//nanocut5.jpg> <
+./pic/low//nanocut6.jpg>]
+<pic/low//nanocut_3_0_1.jpg, id=403, 306.14375pt x 271.0125pt>
+File: pic/low//nanocut_3_0_1.jpg Graphic file (type jpg)
+<use pic/low//nanocut_3_0_1.jpg>
+Package pdftex.def Info: pic/low//nanocut_3_0_1.jpg  used on input line 64.
+(pdftex.def)             Requested size: 161.32767pt x 142.813pt.
+<pic/low//nanocut_3_0_2.jpg, id=404, 234.8775pt x 206.7725pt>
+File: pic/low//nanocut_3_0_2.jpg Graphic file (type jpg)
+<use pic/low//nanocut_3_0_2.jpg>
+Package pdftex.def Info: pic/low//nanocut_3_0_2.jpg  used on input line 65.
+(pdftex.def)             Requested size: 161.32767pt x 142.02322pt.
+<pic/low//nanocut_3_0_3.jpg, id=405, 389.455pt x 345.29pt>
+File: pic/low//nanocut_3_0_3.jpg Graphic file (type jpg)
+<use pic/low//nanocut_3_0_3.jpg>
+Package pdftex.def Info: pic/low//nanocut_3_0_3.jpg  used on input line 66.
+(pdftex.def)             Requested size: 161.32767pt x 143.02924pt.
+<pic/low//nanocut_3_0_4.jpg, id=407, 210.7875pt x 196.735pt>
+File: pic/low//nanocut_3_0_4.jpg Graphic file (type jpg)
+<use pic/low//nanocut_3_0_4.jpg>
+Package pdftex.def Info: pic/low//nanocut_3_0_4.jpg  used on input line 74.
+(pdftex.def)             Requested size: 161.32767pt x 150.5738pt.
+<pic/low//nanocut_3_0_5.jpg, id=408, 341.275pt x 320.19624pt>
+File: pic/low//nanocut_3_0_5.jpg Graphic file (type jpg)
+<use pic/low//nanocut_3_0_5.jpg>
+Package pdftex.def Info: pic/low//nanocut_3_0_5.jpg  used on input line 75.
+(pdftex.def)             Requested size: 161.32767pt x 151.3668pt.
+<pic/low//nanocut_3_0_6.jpg, id=409, 410.53375pt x 384.43625pt>
+File: pic/low//nanocut_3_0_6.jpg Graphic file (type jpg)
+<use pic/low//nanocut_3_0_6.jpg>
+Package pdftex.def Info: pic/low//nanocut_3_0_6.jpg  used on input line 76.
+(pdftex.def)             Requested size: 161.32767pt x 151.06754pt.
+<pic/low//nanocut_3_0_mounted_board_4.jpg, id=411, 423.5825pt x 290.08376pt>
+File: pic/low//nanocut_3_0_mounted_board_4.jpg Graphic file (type jpg)
+<use pic/low//nanocut_3_0_mounted_board_4.jpg>
+Package pdftex.def Info: pic/low//nanocut_3_0_mounted_board_4.jpg  used on inpu
+t line 85.
+(pdftex.def)             Requested size: 161.32767pt x 110.48083pt.
+<pic/low//nanocut_3_0_mounted_board_2.jpg, id=412, 537.00626pt x 363.3575pt>
+File: pic/low//nanocut_3_0_mounted_board_2.jpg Graphic file (type jpg)
+<use pic/low//nanocut_3_0_mounted_board_2.jpg>
+Package pdftex.def Info: pic/low//nanocut_3_0_mounted_board_2.jpg  used on inpu
+t line 86.
+(pdftex.def)             Requested size: 161.32767pt x 109.15778pt.
+<pic/low//nanocut_3_0_mounted_board_3.jpg, id=413, 383.4325pt x 407.5225pt>
+File: pic/low//nanocut_3_0_mounted_board_3.jpg Graphic file (type jpg)
+<use pic/low//nanocut_3_0_mounted_board_3.jpg>
+Package pdftex.def Info: pic/low//nanocut_3_0_mounted_board_3.jpg  used on inpu
+t line 87.
+(pdftex.def)             Requested size: 107.54904pt x 114.3045pt.
+)
+(./portfolio/us/wolfcut.tex [9pdfTeX warning (ext4): destination with the same 
+identifier (name{subsec:nanocut}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
 l.1 ...ion{\href{http://www.wolfcut.es/}{Wolfcut}}
-                                                   <./pic/high//nanocut_3_0_1.j
-pg> <./pic/high//nanocut_3_0_2.jpg> <./pic/high//nanocut_3_0_3.jpg> <./pic/high
-//nanocut_3_0_4.jpg> <./pic/high//nanocut_3_0_5.jpg> <./pic/high//nanocut_3_0_6
-.jpg>]
-
-LaTeX Warning: Reference `fig:wolfcut_capas' on page 10 undefined on input line
- 8.
-
-<pic/high//wolfcut1.png, id=255, 916.42375pt x 578.16pt>
-File: pic/high//wolfcut1.png Graphic file (type png)
-<use pic/high//wolfcut1.png>
-Package pdftex.def Info: pic/high//wolfcut1.png  used on input line 11.
-(pdftex.def)             Requested size: 161.32767pt x 101.7794pt.
-<pic/high//wolfcut2.png, id=256, 909.3975pt x 668.4975pt>
-File: pic/high//wolfcut2.png Graphic file (type png)
-<use pic/high//wolfcut2.png>
-Package pdftex.def Info: pic/high//wolfcut2.png  used on input line 12.
-(pdftex.def)             Requested size: 161.32767pt x 118.59027pt.
-<pic/high//wolfcut3.png, id=257, 654.19406pt x 426.84468pt>
-File: pic/high//wolfcut3.png Graphic file (type png)
-<use pic/high//wolfcut3.png>
-Package pdftex.def Info: pic/high//wolfcut3.png  used on input line 13.
-(pdftex.def)             Requested size: 161.32767pt x 105.25848pt.
-
-LaTeX Warning: Reference `fig:wolfcut_implementacion' on page 10 undefined on i
-nput line 19.
-
+                                                   <./pic/low//nanocut_3_0_1.jp
+g> <./pic/low//nanocut_3_0_2.jpg> <./pic/low//nanocut_3_0_3.jpg> <./pic/low//na
+nocut_3_0_4.jpg> <./pic/low//nanocut_3_0_5.jpg> <./pic/low//nanocut_3_0_6.jpg>]
+<pic/low//wolfcut1.png, id=423, 455.7025pt x 287.0725pt>
+File: pic/low//wolfcut1.png Graphic file (type png)
+<use pic/low//wolfcut1.png>
+Package pdftex.def Info: pic/low//wolfcut1.png  used on input line 11.
+(pdftex.def)             Requested size: 161.32767pt x 101.6289pt.
+<pic/low//wolfcut2.png, id=424, 255.95625pt x 187.70125pt>
+File: pic/low//wolfcut2.png Graphic file (type png)
+<use pic/low//wolfcut2.png>
+Package pdftex.def Info: pic/low//wolfcut2.png  used on input line 12.
+(pdftex.def)             Requested size: 161.32767pt x 118.30682pt.
+<pic/low//wolfcut3.png, id=425, 426.84468pt x 278.54062pt>
+File: pic/low//wolfcut3.png Graphic file (type png)
+<use pic/low//wolfcut3.png>
+Package pdftex.def Info: pic/low//wolfcut3.png  used on input line 13.
+(pdftex.def)             Requested size: 161.32767pt x 105.27701pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 19--20
 
  []
 
-<pic/high//wolfcut4.png, id=259, 796.9775pt x 456.70625pt>
-File: pic/high//wolfcut4.png Graphic file (type png)
-<use pic/high//wolfcut4.png>
-Package pdftex.def Info: pic/high//wolfcut4.png  used on input line 23.
-(pdftex.def)             Requested size: 161.32767pt x 92.44766pt.
-<pic/high//wolfcut5.png, id=260, 1371.1225pt x 770.88pt>
-File: pic/high//wolfcut5.png Graphic file (type png)
-<use pic/high//wolfcut5.png>
-Package pdftex.def Info: pic/high//wolfcut5.png  used on input line 24.
-(pdftex.def)             Requested size: 161.32767pt x 90.70192pt.
-<pic/high//wolfcut6.png, id=261, 1371.1225pt x 770.88pt>
-File: pic/high//wolfcut6.png Graphic file (type png)
-<use pic/high//wolfcut6.png>
-Package pdftex.def Info: pic/high//wolfcut6.png  used on input line 25.
-(pdftex.def)             Requested size: 161.32767pt x 90.70192pt.
-) (./portfolio/us/noto.tex [10 <./pic/high//nanocut_3_0_mounted_board_4.jpg> <.
-/pic/high//nanocut_3_0_mounted_board_2.jpg> <./pic/high//nanocut_3_0_mounted_bo
-ard_3.jpg> <./pic/high//wolfcut1.png> <./pic/high//wolfcut2.png> <./pic/high//w
-olfcut3.png> <./pic/high//wolfcut4.png> <./pic/high//wolfcut5.png> <./pic/high/
-/wolfcut6.png>]
+<pic/low//wolfcut4.png, id=427, 331.2375pt x 190.7125pt>
+File: pic/low//wolfcut4.png Graphic file (type png)
+<use pic/low//wolfcut4.png>
+Package pdftex.def Info: pic/low//wolfcut4.png  used on input line 23.
+(pdftex.def)             Requested size: 161.32767pt x 92.88538pt.
+<pic/low//wolfcut5.png, id=428, 407.5225pt x 229.85875pt>
+File: pic/low//wolfcut5.png Graphic file (type png)
+<use pic/low//wolfcut5.png>
+Package pdftex.def Info: pic/low//wolfcut5.png  used on input line 24.
+(pdftex.def)             Requested size: 161.32767pt x 90.99487pt.
+<pic/low//wolfcut6.png, id=429, 446.66875pt x 251.94125pt>
+File: pic/low//wolfcut6.png Graphic file (type png)
+<use pic/low//wolfcut6.png>
+Package pdftex.def Info: pic/low//wolfcut6.png  used on input line 25.
+(pdftex.def)             Requested size: 161.32767pt x 90.99478pt.
+) (./portfolio/us/noto.tex
+Overfull \hbox (4.49997pt too wide) has occurred while \output is active
+[]|\T1/lmss/m/sl/10 (-20) 10/[][]21[][] 
+ []
 
-LaTeX Warning: Reference `fig:noto1' on page 11 undefined on input line 13.
-
-
-LaTeX Warning: Reference `fig:noto2' on page 11 undefined on input line 13.
-
-
-LaTeX Warning: Reference `fig:noto3' on page 11 undefined on input line 13.
-
-<pic/high//noto5.jpg, id=274, 610.28pt x 457.71pt>
-File: pic/high//noto5.jpg Graphic file (type jpg)
-<use pic/high//noto5.jpg>
-Package pdftex.def Info: pic/high//noto5.jpg  used on input line 16.
-(pdftex.def)             Requested size: 129.06377pt x 96.7994pt.
-<pic/high//noto6.jpg, id=275, 459.21562pt x 280.04625pt>
-File: pic/high//noto6.jpg Graphic file (type jpg)
-<use pic/high//noto6.jpg>
-Package pdftex.def Info: pic/high//noto6.jpg  used on input line 17.
-(pdftex.def)             Requested size: 129.06377pt x 78.70724pt.
-<pic/high//noto7.jpg, id=276, 630.355pt x 408.52625pt>
-File: pic/high//noto7.jpg Graphic file (type jpg)
-<use pic/high//noto7.jpg>
-Package pdftex.def Info: pic/high//noto7.jpg  used on input line 18.
-(pdftex.def)             Requested size: 129.06377pt x 83.64244pt.
-<pic/high//noto8.jpg, id=277, 642.4pt x 481.8pt>
-File: pic/high//noto8.jpg Graphic file (type jpg)
-<use pic/high//noto8.jpg>
-Package pdftex.def Info: pic/high//noto8.jpg  used on input line 19.
-(pdftex.def)             Requested size: 129.06377pt x 96.79204pt.
-<pic/high//noto9.jpg, id=278, 439.6425pt x 409.53pt>
-File: pic/high//noto9.jpg Graphic file (type jpg)
-<use pic/high//noto9.jpg>
-Package pdftex.def Info: pic/high//noto9.jpg  used on input line 26.
-(pdftex.def)             Requested size: 129.06377pt x 120.2229pt.
-<pic/high//noto10.jpg, id=279, 499.8675pt x 474.77374pt>
-File: pic/high//noto10.jpg Graphic file (type jpg)
-<use pic/high//noto10.jpg>
-Package pdftex.def Info: pic/high//noto10.jpg  used on input line 27.
-(pdftex.def)             Requested size: 129.06377pt x 122.5834pt.
-<pic/high//noto11.jpg, id=280, 542.025pt x 474.77374pt>
-File: pic/high//noto11.jpg Graphic file (type jpg)
-<use pic/high//noto11.jpg>
-Package pdftex.def Info: pic/high//noto11.jpg  used on input line 28.
-(pdftex.def)             Requested size: 129.06377pt x 113.04971pt.
-<pic/high//noto12.jpg, id=281, 321.2pt x 240.9pt>
-File: pic/high//noto12.jpg Graphic file (type jpg)
-<use pic/high//noto12.jpg>
-Package pdftex.def Info: pic/high//noto12.jpg  used on input line 29.
+[10 <./pic/low//nanocut_3_0_mounted_board_4.jpg> <./pic/low//nanocut_3_0_mounte
+d_board_2.jpg> <./pic/low//nanocut_3_0_mounted_board_3.jpg> <./pic/low//wolfcut
+1.png> <./pic/low//wolfcut2.png> <./pic/low//wolfcut3.png> <./pic/low//wolfcut4
+.png> <./pic/low//wolfcut5.png> <./pic/low//wolfcut6.png>]
+<pic/low//noto5.jpg, id=444, 305.14pt x 228.855pt>
+File: pic/low//noto5.jpg Graphic file (type jpg)
+<use pic/low//noto5.jpg>
+Package pdftex.def Info: pic/low//noto5.jpg  used on input line 16.
 (pdftex.def)             Requested size: 129.06377pt x 96.79938pt.
-<pic/high//noto1.jpg, id=282, 572.1375pt x 399.4925pt>
-File: pic/high//noto1.jpg Graphic file (type jpg)
-<use pic/high//noto1.jpg>
-Package pdftex.def Info: pic/high//noto1.jpg  used on input line 36.
+<pic/low//noto6.jpg, id=445, 459.21562pt x 280.04625pt>
+File: pic/low//noto6.jpg Graphic file (type jpg)
+<use pic/low//noto6.jpg>
+Package pdftex.def Info: pic/low//noto6.jpg  used on input line 17.
+(pdftex.def)             Requested size: 129.06377pt x 78.70724pt.
+<pic/low//noto7.jpg, id=446, 315.1775pt x 204.765pt>
+File: pic/low//noto7.jpg Graphic file (type jpg)
+<use pic/low//noto7.jpg>
+Package pdftex.def Info: pic/low//noto7.jpg  used on input line 18.
+(pdftex.def)             Requested size: 129.06377pt x 83.85107pt.
+<pic/low//noto8.jpg, id=447, 642.4pt x 481.8pt>
+File: pic/low//noto8.jpg Graphic file (type jpg)
+<use pic/low//noto8.jpg>
+Package pdftex.def Info: pic/low//noto8.jpg  used on input line 19.
+(pdftex.def)             Requested size: 129.06377pt x 96.79204pt.
+<pic/low//noto9.jpg, id=448, 219.82124pt x 204.765pt>
+File: pic/low//noto9.jpg Graphic file (type jpg)
+<use pic/low//noto9.jpg>
+Package pdftex.def Info: pic/low//noto9.jpg  used on input line 26.
+(pdftex.def)             Requested size: 129.06377pt x 120.22601pt.
+<pic/low//noto10.jpg, id=449, 249.93375pt x 237.88875pt>
+File: pic/low//noto10.jpg Graphic file (type jpg)
+<use pic/low//noto10.jpg>
+Package pdftex.def Info: pic/low//noto10.jpg  used on input line 27.
+(pdftex.def)             Requested size: 129.06377pt x 122.84619pt.
+<pic/low//noto11.jpg, id=450, 271.0125pt x 237.88875pt>
+File: pic/low//noto11.jpg Graphic file (type jpg)
+<use pic/low//noto11.jpg>
+Package pdftex.def Info: pic/low//noto11.jpg  used on input line 28.
+(pdftex.def)             Requested size: 129.06377pt x 113.29234pt.
+<pic/low//noto12.jpg, id=451, 160.6pt x 120.45pt>
+File: pic/low//noto12.jpg Graphic file (type jpg)
+<use pic/low//noto12.jpg>
+Package pdftex.def Info: pic/low//noto12.jpg  used on input line 29.
+(pdftex.def)             Requested size: 129.06377pt x 96.80121pt.
+<pic/low//noto1.jpg, id=452, 286.06876pt x 199.74625pt>
+File: pic/low//noto1.jpg Graphic file (type jpg)
+<use pic/low//noto1.jpg>
+Package pdftex.def Info: pic/low//noto1.jpg  used on input line 36.
 (pdftex.def)             Requested size: 129.06377pt x 90.11966pt.
-<pic/high//noto2.jpg, id=283, 582.175pt x 430.60875pt>
-File: pic/high//noto2.jpg Graphic file (type jpg)
-<use pic/high//noto2.jpg>
-Package pdftex.def Info: pic/high//noto2.jpg  used on input line 37.
-(pdftex.def)             Requested size: 129.06377pt x 95.45697pt.
-<pic/high//noto3.jpg, id=284, 356.33125pt x 255.95625pt>
-File: pic/high//noto3.jpg Graphic file (type jpg)
-<use pic/high//noto3.jpg>
-Package pdftex.def Info: pic/high//noto3.jpg  used on input line 38.
+<pic/low//noto2.jpg, id=453, 291.0875pt x 215.80624pt>
+File: pic/low//noto2.jpg Graphic file (type jpg)
+<use pic/low//noto2.jpg>
+Package pdftex.def Info: pic/low//noto2.jpg  used on input line 37.
+(pdftex.def)             Requested size: 129.06377pt x 95.68607pt.
+<pic/low//noto3.jpg, id=454, 356.33125pt x 255.95625pt>
+File: pic/low//noto3.jpg Graphic file (type jpg)
+<use pic/low//noto3.jpg>
+Package pdftex.def Info: pic/low//noto3.jpg  used on input line 38.
 (pdftex.def)             Requested size: 129.06377pt x 92.70657pt.
-<pic/high//noto4.jpg, id=285, 583.17876pt x 441.65pt>
-File: pic/high//noto4.jpg Graphic file (type jpg)
-<use pic/high//noto4.jpg>
-Package pdftex.def Info: pic/high//noto4.jpg  used on input line 39.
-(pdftex.def)             Requested size: 129.06377pt x 97.73611pt.
-) (./portfolio/us/mse.tex
+<pic/low//noto4.jpg, id=455, 292.09125pt x 220.825pt>
+File: pic/low//noto4.jpg Graphic file (type jpg)
+<use pic/low//noto4.jpg>
+Package pdftex.def Info: pic/low//noto4.jpg  used on input line 39.
+(pdftex.def)             Requested size: 129.06377pt x 97.57774pt.
+)
+(./portfolio/us/mse.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
-! Undefined control sequence.
-l.7       You'd see my public \faGithub
-                                       \ repository in this \href{\linkgithu...
+LaTeX Font Info:    Trying to load font information for U+fontawesometwo on inp
+ut line 7.
+(/usr/share/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
+File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
+)
+<pic/low//mse_4_daso_asciinema.jpg, id=459, 470.14355pt x 310.83871pt>
+File: pic/low//mse_4_daso_asciinema.jpg Graphic file (type jpg)
+<use pic/low//mse_4_daso_asciinema.jpg>
+Package pdftex.def Info: pic/low//mse_4_daso_asciinema.jpg  used on input line 
+10.
+(pdftex.def)             Requested size: 322.65533pt x 213.33113pt.
 
-? X
- 
+Underfull \hbox (badness 10000) in paragraph at lines 6--16
+
+ []
+
+) (./portfolio/us/pap.tex
+<pic/low//pap3.jpg, id=462, 268.00125pt x 224.84pt>
+File: pic/low//pap3.jpg Graphic file (type jpg)
+<use pic/low//pap3.jpg>
+Package pdftex.def Info: pic/low//pap3.jpg  used on input line 9.
+(pdftex.def)             Requested size: 129.06377pt x 108.27533pt.
+<pic/low//pap4.jpg, id=463, 487.8225pt x 487.8225pt>
+File: pic/low//pap4.jpg Graphic file (type jpg)
+<use pic/low//pap4.jpg>
+Package pdftex.def Info: pic/low//pap4.jpg  used on input line 10.
+(pdftex.def)             Requested size: 129.06377pt x 129.06392pt.
+<pic/low//pap2.jpg, id=464, 804.00375pt x 602.25pt>
+File: pic/low//pap2.jpg Graphic file (type jpg)
+<use pic/low//pap2.jpg>
+Package pdftex.def Info: pic/low//pap2.jpg  used on input line 11.
+(pdftex.def)             Requested size: 129.06377pt x 96.67441pt.
+<pic/low//pap1.jpg, id=465, 685.56125pt x 385.44pt>
+File: pic/low//pap1.jpg Graphic file (type jpg)
+<use pic/low//pap1.jpg>
+Package pdftex.def Info: pic/low//pap1.jpg  used on input line 12.
+(pdftex.def)             Requested size: 129.06377pt x 72.56389pt.
+) (./portfolio/us/dci.tex
+Overfull \hbox (4.49997pt too wide) has occurred while \output is active
+[]|\T1/lmss/m/sl/10 (-20) 11/[][]21[][] 
+ []
+
+[11 <./pic/low//noto5.jpg> <./pic/low//noto6.jpg> <./pic/low//noto7.jpg> <./pic
+/low//noto8.jpg> <./pic/low//noto9.jpg> <./pic/low//noto10.jpg> <./pic/low//not
+o11.jpg> <./pic/low//noto12.jpg> <./pic/low//noto1.jpg> <./pic/low//noto2.jpg> 
+<./pic/low//noto3.jpg> <./pic/low//noto4.jpg>]
+<pic/low//rfid5.jpg, id=480, 424.58624pt x 320.19624pt>
+File: pic/low//rfid5.jpg Graphic file (type jpg)
+<use pic/low//rfid5.jpg>
+Package pdftex.def Info: pic/low//rfid5.jpg  used on input line 9.
+(pdftex.def)             Requested size: 129.06377pt x 97.32991pt.
+<pic/low//rfid2.jpg, id=481, 565.11125pt x 563.10374pt>
+File: pic/low//rfid2.jpg Graphic file (type jpg)
+<use pic/low//rfid2.jpg>
+Package pdftex.def Info: pic/low//rfid2.jpg  used on input line 10.
+(pdftex.def)             Requested size: 129.06377pt x 128.60036pt.
+<pic/low//rfid3.jpg, id=482, 582.175pt x 539.01375pt>
+File: pic/low//rfid3.jpg Graphic file (type jpg)
+<use pic/low//rfid3.jpg>
+Package pdftex.def Info: pic/low//rfid3.jpg  used on input line 11.
+(pdftex.def)             Requested size: 129.06377pt x 119.4881pt.
+<pic/low//rfid4.jpg, id=483, 722.7pt x 541.02126pt>
+File: pic/low//rfid4.jpg Graphic file (type jpg)
+<use pic/low//rfid4.jpg>
+Package pdftex.def Info: pic/low//rfid4.jpg  used on input line 12.
+(pdftex.def)             Requested size: 129.06377pt x 96.61188pt.
+<pic/low//hango1.jpg, id=487, 364.36125pt x 273.02pt>
+File: pic/low//hango1.jpg Graphic file (type jpg)
+<use pic/low//hango1.jpg>
+Package pdftex.def Info: pic/low//hango1.jpg  used on input line 26.
+(pdftex.def)             Requested size: 129.06377pt x 96.70822pt.
+<pic/low//hango2.jpg, id=488, 342.27875pt x 256.96pt>
+File: pic/low//hango2.jpg Graphic file (type jpg)
+<use pic/low//hango2.jpg>
+Package pdftex.def Info: pic/low//hango2.jpg  used on input line 27.
+(pdftex.def)             Requested size: 129.06377pt x 96.89299pt.
+<pic/low//hango3.jpg, id=489, 460.72125pt x 256.96pt>
+File: pic/low//hango3.jpg Graphic file (type jpg)
+<use pic/low//hango3.jpg>
+Package pdftex.def Info: pic/low//hango3.jpg  used on input line 28.
+(pdftex.def)             Requested size: 129.06377pt x 71.97968pt.
+<pic/low//hango4.jpg, id=490, 510.90875pt x 382.42876pt>
+File: pic/low//hango4.jpg Graphic file (type jpg)
+<use pic/low//hango4.jpg>
+Package pdftex.def Info: pic/low//hango4.jpg  used on input line 29.
+(pdftex.def)             Requested size: 129.06377pt x 96.6048pt.
+<pic/low//hango5.jpg, id=491, 513.92pt x 414.54875pt>
+File: pic/low//hango5.jpg Graphic file (type jpg)
+<use pic/low//hango5.jpg>
+Package pdftex.def Info: pic/low//hango5.jpg  used on input line 36.
+(pdftex.def)             Requested size: 129.06377pt x 104.10501pt.
+<pic/low//hango6.jpg, id=492, 403.5075pt x 417.56pt>
+File: pic/low//hango6.jpg Graphic file (type jpg)
+<use pic/low//hango6.jpg>
+Package pdftex.def Info: pic/low//hango6.jpg  used on input line 37.
+(pdftex.def)             Requested size: 129.06377pt x 133.5582pt.
+<pic/low//hango7.jpg, id=493, 385.44pt x 308.15125pt>
+File: pic/low//hango7.jpg Graphic file (type jpg)
+<use pic/low//hango7.jpg>
+Package pdftex.def Info: pic/low//hango7.jpg  used on input line 38.
+(pdftex.def)             Requested size: 129.06377pt x 103.18076pt.
+<pic/low//hango8.jpg, id=494, 404.51125pt x 355.3275pt>
+File: pic/low//hango8.jpg Graphic file (type jpg)
+<use pic/low//hango8.jpg>
+Package pdftex.def Info: pic/low//hango8.jpg  used on input line 39.
+(pdftex.def)             Requested size: 129.06377pt x 113.37096pt.
+) (./portfolio/us/cnea.tex
+Overfull \hbox (4.49997pt too wide) has occurred while \output is active
+[]|\T1/lmss/m/sl/10 (-20) 12/[][]21[][] 
+ []
+
+[12 <./pic/low//mse_4_daso_asciinema.jpg> <./pic/low//pap3.jpg> <./pic/low//pap
+4.jpg> <./pic/low//pap2.jpg> <./pic/low//pap1.jpg>]
+<pic/low//cnea_mesa1.jpg, id=506, 407.15492pt x 305.3662pt>
+File: pic/low//cnea_mesa1.jpg Graphic file (type jpg)
+<use pic/low//cnea_mesa1.jpg>
+Package pdftex.def Info: pic/low//cnea_mesa1.jpg  used on input line 9.
+(pdftex.def)             Requested size: 129.06377pt x 96.79659pt.
+<pic/low//cnea_mesa2.jpg, id=507, 318.18875pt x 233.87375pt>
+File: pic/low//cnea_mesa2.jpg Graphic file (type jpg)
+<use pic/low//cnea_mesa2.jpg>
+Package pdftex.def Info: pic/low//cnea_mesa2.jpg  used on input line 10.
+(pdftex.def)             Requested size: 129.06377pt x 94.86108pt.
+<pic/low//cnea_coin1.jpg, id=508, 329.79549pt x 247.34662pt>
+File: pic/low//cnea_coin1.jpg Graphic file (type jpg)
+<use pic/low//cnea_coin1.jpg>
+Package pdftex.def Info: pic/low//cnea_coin1.jpg  used on input line 11.
+(pdftex.def)             Requested size: 129.06377pt x 96.80069pt.
+<pic/low//cnea_coin2.jpg, id=509, 271.0125pt x 225.84375pt>
+File: pic/low//cnea_coin2.jpg Graphic file (type jpg)
+<use pic/low//cnea_coin2.jpg>
+Package pdftex.def Info: pic/low//cnea_coin2.jpg  used on input line 12.
+(pdftex.def)             Requested size: 129.06377pt x 107.55602pt.
+<pic/low//cnea_cuipet1.jpg, id=510, 529.98pt x 298.11375pt>
+File: pic/low//cnea_cuipet1.jpg Graphic file (type jpg)
+<use pic/low//cnea_cuipet1.jpg>
+Package pdftex.def Info: pic/low//cnea_cuipet1.jpg  used on input line 19.
+(pdftex.def)             Requested size: 129.06377pt x 72.59953pt.
+<pic/low//cnea_cuipet5.jpg, id=511, 549.05125pt x 309.155pt>
+File: pic/low//cnea_cuipet5.jpg Graphic file (type jpg)
+<use pic/low//cnea_cuipet5.jpg>
+Package pdftex.def Info: pic/low//cnea_cuipet5.jpg  used on input line 20.
+(pdftex.def)             Requested size: 129.06377pt x 72.6703pt.
+<pic/low//cnea_cuipet3.jpg, id=512, 481.8pt x 271.0125pt>
+File: pic/low//cnea_cuipet3.jpg Graphic file (type jpg)
+<use pic/low//cnea_cuipet3.jpg>
+Package pdftex.def Info: pic/low//cnea_cuipet3.jpg  used on input line 21.
+(pdftex.def)             Requested size: 129.06377pt x 72.5954pt.
+<pic/low//cnea_cuipet4.jpg, id=513, 529.98pt x 298.11375pt>
+File: pic/low//cnea_cuipet4.jpg Graphic file (type jpg)
+<use pic/low//cnea_cuipet4.jpg>
+Package pdftex.def Info: pic/low//cnea_cuipet4.jpg  used on input line 22.
+(pdftex.def)             Requested size: 129.06377pt x 72.59953pt.
+)
+(./portfolio/us/seconsat.tex
+<pic/low//seconsat1.jpg, id=516, 204.765pt x 154.5775pt>
+File: pic/low//seconsat1.jpg Graphic file (type jpg)
+<use pic/low//seconsat1.jpg>
+Package pdftex.def Info: pic/low//seconsat1.jpg  used on input line 8.
+(pdftex.def)             Requested size: 263.50214pt x 198.93169pt.
+<pic/low//seconsat2.jpg, id=517, 308.15125pt x 201.75375pt>
+File: pic/low//seconsat2.jpg Graphic file (type jpg)
+<use pic/low//seconsat2.jpg>
+Package pdftex.def Info: pic/low//seconsat2.jpg  used on input line 9.
+(pdftex.def)             Requested size: 263.50214pt x 172.5351pt.
+) (./portfolio/us/xenon.tex
+<pic/low//xenon4.jpg, id=520, 321.2pt x 240.9pt>
+File: pic/low//xenon4.jpg Graphic file (type jpg)
+<use pic/low//xenon4.jpg>
+Package pdftex.def Info: pic/low//xenon4.jpg  used on input line 8.
+(pdftex.def)             Requested size: 129.06377pt x 96.79938pt.
+<pic/low//xenon1.jpg, id=521, 481.8pt x 361.35pt>
+File: pic/low//xenon1.jpg Graphic file (type jpg)
+<use pic/low//xenon1.jpg>
+Package pdftex.def Info: pic/low//xenon1.jpg  used on input line 9.
+(pdftex.def)             Requested size: 129.06377pt x 96.79387pt.
+<pic/low//xenon2.jpg, id=522, 803.0pt x 803.0pt>
+File: pic/low//xenon2.jpg Graphic file (type jpg)
+<use pic/low//xenon2.jpg>
+Package pdftex.def Info: pic/low//xenon2.jpg  used on input line 10.
+(pdftex.def)             Requested size: 129.06377pt x 129.0585pt.
+<pic/low//xenon3.jpg, id=523, 321.2pt x 240.9pt>
+File: pic/low//xenon3.jpg Graphic file (type jpg)
+<use pic/low//xenon3.jpg>
+Package pdftex.def Info: pic/low//xenon3.jpg  used on input line 11.
+(pdftex.def)             Requested size: 129.06377pt x 96.79938pt.
+)
+(./portfolio/us/pointer.tex
+Overfull \hbox (4.49997pt too wide) has occurred while \output is active
+[]|\T1/lmss/m/sl/10 (-20) 13/[][]21[][] 
+ []
+
+[13 <./pic/low//rfid5.jpg> <./pic/low//rfid2.jpg> <./pic/low//rfid3.jpg> <./pic
+/low//rfid4.jpg> <./pic/low//hango1.jpg> <./pic/low//hango2.jpg> <./pic/low//ha
+ngo3.jpg> <./pic/low//hango4.jpg> <./pic/low//hango5.jpg> <./pic/low//hango6.jp
+g> <./pic/low//hango7.jpg> <./pic/low//hango8.jpg>]
+Overfull \hbox (4.49997pt too wide) has occurred while \output is active
+[]|\T1/lmss/m/sl/10 (-20) 14/[][]21[][] 
+ []
+
+[14 <./pic/low//cnea_mesa1.jpg> <./pic/low//cnea_mesa2.jpg> <./pic/low//cnea_co
+in1.jpg> <./pic/low//cnea_coin2.jpg> <./pic/low//cnea_cuipet1.jpg> <./pic/low//
+cnea_cuipet5.jpg> <./pic/low//cnea_cuipet3.jpg> <./pic/low//cnea_cuipet4.jpg> <
+./pic/low//seconsat1.jpg> <./pic/low//seconsat2.jpg>]
+<pic/low//pointer1.jpg, id=542, 153.57375pt x 200.75pt>
+File: pic/low//pointer1.jpg Graphic file (type jpg)
+<use pic/low//pointer1.jpg>
+Package pdftex.def Info: pic/low//pointer1.jpg  used on input line 9.
+(pdftex.def)             Requested size: 129.06377pt x 168.72073pt.
+<pic/low//pointer2.jpg, id=543, 188.705pt x 231.86626pt>
+File: pic/low//pointer2.jpg Graphic file (type jpg)
+<use pic/low//pointer2.jpg>
+Package pdftex.def Info: pic/low//pointer2.jpg  used on input line 10.
+(pdftex.def)             Requested size: 129.06377pt x 158.5833pt.
+<pic/low//pointer3.jpg, id=544, 305.14pt x 403.5075pt>
+File: pic/low//pointer3.jpg Graphic file (type jpg)
+<use pic/low//pointer3.jpg>
+Package pdftex.def Info: pic/low//pointer3.jpg  used on input line 11.
+(pdftex.def)             Requested size: 129.06377pt x 170.6726pt.
+<pic/low//pointer4.jpg, id=545, 368.37625pt x 591.20876pt>
+File: pic/low//pointer4.jpg Graphic file (type jpg)
+<use pic/low//pointer4.jpg>
+Package pdftex.def Info: pic/low//pointer4.jpg  used on input line 12.
+(pdftex.def)             Requested size: 129.06377pt x 207.13364pt.
+)
+(./portfolio/us/piscina.tex
+<pic/low//piscina1.jpg, id=548, 444.66125pt x 333.245pt>
+File: pic/low//piscina1.jpg Graphic file (type jpg)
+<use pic/low//piscina1.jpg>
+Package pdftex.def Info: pic/low//piscina1.jpg  used on input line 9.
+(pdftex.def)             Requested size: 129.06377pt x 96.725pt.
+<pic/low//piscina5.jpg, id=549, 534.99875pt x 401.5pt>
+File: pic/low//piscina5.jpg Graphic file (type jpg)
+<use pic/low//piscina5.jpg>
+Package pdftex.def Info: pic/low//piscina5.jpg  used on input line 10.
+(pdftex.def)             Requested size: 129.06377pt x 96.8582pt.
+<pic/low//piscina3.jpg, id=550, 604.2575pt x 453.695pt>
+File: pic/low//piscina3.jpg Graphic file (type jpg)
+<use pic/low//piscina3.jpg>
+Package pdftex.def Info: pic/low//piscina3.jpg  used on input line 11.
+(pdftex.def)             Requested size: 129.06377pt x 96.90562pt.
+<pic/low//piscina4.jpg, id=551, 321.2pt x 240.9pt>
+File: pic/low//piscina4.jpg Graphic file (type jpg)
+<use pic/low//piscina4.jpg>
+Package pdftex.def Info: pic/low//piscina4.jpg  used on input line 12.
+(pdftex.def)             Requested size: 129.06377pt x 96.79938pt.
+) (./portfolio/us/colmena.tex
+<pic/low//colmena1.jpg, id=555, 1496.59125pt x 1121.18875pt>
+File: pic/low//colmena1.jpg Graphic file (type jpg)
+<use pic/low//colmena1.jpg>
+Package pdftex.def Info: pic/low//colmena1.jpg  used on input line 6.
+(pdftex.def)             Requested size: 129.06377pt x 96.67697pt.
+<pic/low//colmena2.jpg, id=556, 1606.0pt x 1204.5pt>
+File: pic/low//colmena2.jpg Graphic file (type jpg)
+<use pic/low//colmena2.jpg>
+Package pdftex.def Info: pic/low//colmena2.jpg  used on input line 7.
+(pdftex.def)             Requested size: 129.06377pt x 96.78468pt.
+<pic/low//colmena3.jpg, id=557, 367.3725pt x 258.9675pt>
+File: pic/low//colmena3.jpg Graphic file (type jpg)
+<use pic/low//colmena3.jpg>
+Package pdftex.def Info: pic/low//colmena3.jpg  used on input line 8.
+(pdftex.def)             Requested size: 129.06377pt x 90.9798pt.
+<pic/low//colmena4.jpg, id=558, 151.56625pt x 148.555pt>
+File: pic/low//colmena4.jpg Graphic file (type jpg)
+<use pic/low//colmena4.jpg>
+Package pdftex.def Info: pic/low//colmena4.jpg  used on input line 9.
+(pdftex.def)             Requested size: 129.06377pt x 126.50128pt.
+
+Overfull \hbox (4.49997pt too wide) has occurred while \output is active
+[]|\T1/lmss/m/sl/10 (-20) 15/[][]21[][] 
+ []
+
+[15 <./pic/low//xenon4.jpg> <./pic/low//xenon1.jpg> <./pic/low//xenon2.jpg> <./
+pic/low//xenon3.jpg> <./pic/low//pointer1.jpg> <./pic/low//pointer2.jpg> <./pic
+/low//pointer3.jpg> <./pic/low//pointer4.jpg>]
+<pic/low//ledcover1.jpg, id=571, 218.8175pt x 151.56625pt>
+File: pic/low//ledcover1.jpg Graphic file (type jpg)
+<use pic/low//ledcover1.jpg>
+Package pdftex.def Info: pic/low//ledcover1.jpg  used on input line 18.
+(pdftex.def)             Requested size: 129.06377pt x 89.39786pt.
+<pic/low//ledcover2.jpg, id=572, 307.1475pt x 251.94125pt>
+File: pic/low//ledcover2.jpg Graphic file (type jpg)
+<use pic/low//ledcover2.jpg>
+Package pdftex.def Info: pic/low//ledcover2.jpg  used on input line 19.
+(pdftex.def)             Requested size: 129.06377pt x 105.86458pt.
+<pic/low//ledcover3.jpg, id=573, 315.1775pt x 236.885pt>
+File: pic/low//ledcover3.jpg Graphic file (type jpg)
+<use pic/low//ledcover3.jpg>
+Package pdftex.def Info: pic/low//ledcover3.jpg  used on input line 20.
+(pdftex.def)             Requested size: 129.06377pt x 97.0042pt.
+<pic/low//ledcover4.jpg, id=574, 344.28625pt x 258.9675pt>
+File: pic/low//ledcover4.jpg Graphic file (type jpg)
+<use pic/low//ledcover4.jpg>
+Package pdftex.def Info: pic/low//ledcover4.jpg  used on input line 21.
+(pdftex.def)             Requested size: 129.06377pt x 97.08095pt.
+) (./portfolio/us/koner.tex
+<pic/low//koner1.jpg, id=576, 586.19pt x 439.6425pt>
+File: pic/low//koner1.jpg Graphic file (type jpg)
+<use pic/low//koner1.jpg>
+Package pdftex.def Info: pic/low//koner1.jpg  used on input line 8.
+(pdftex.def)             Requested size: 241.9874pt x 181.48892pt.
+<pic/low//koner2.jpg, id=577, 534.99875pt x 401.5pt>
+File: pic/low//koner2.jpg Graphic file (type jpg)
+<use pic/low//koner2.jpg>
+Package pdftex.def Info: pic/low//koner2.jpg  used on input line 9.
+(pdftex.def)             Requested size: 241.9874pt x 181.60454pt.
+)
+(./portfolio/us/digicard.tex
+<pic/low//digicard1.jpg, id=580, 353.32pt x 277.035pt>
+File: pic/low//digicard1.jpg Graphic file (type jpg)
+<use pic/low//digicard1.jpg>
+Package pdftex.def Info: pic/low//digicard1.jpg  used on input line 6.
+(pdftex.def)             Requested size: 129.06377pt x 101.19936pt.
+<pic/low//digicard2.jpg, id=581, 156.0789pt x 83.2016pt>
+File: pic/low//digicard2.jpg Graphic file (type jpg)
+<use pic/low//digicard2.jpg>
+Package pdftex.def Info: pic/low//digicard2.jpg  used on input line 7.
+(pdftex.def)             Requested size: 129.06377pt x 68.79958pt.
+<pic/low//digicard3.jpg, id=582, 588.1975pt x 440.64626pt>
+File: pic/low//digicard3.jpg Graphic file (type jpg)
+<use pic/low//digicard3.jpg>
+Package pdftex.def Info: pic/low//digicard3.jpg  used on input line 8.
+(pdftex.def)             Requested size: 129.06377pt x 96.68697pt.
+<pic/low//digicard4.jpg, id=583, 343.88475pt x 294.50024pt>
+File: pic/low//digicard4.jpg Graphic file (type jpg)
+<use pic/low//digicard4.jpg>
+Package pdftex.def Info: pic/low//digicard4.jpg  used on input line 9.
+(pdftex.def)             Requested size: 129.06377pt x 110.53168pt.
+) (./portfolio/us/softron.tex
+<pic/low//softron1.jpg, id=587, 551.05875pt x 413.545pt>
+File: pic/low//softron1.jpg Graphic file (type jpg)
+<use pic/low//softron1.jpg>
+Package pdftex.def Info: pic/low//softron1.jpg  used on input line 8.
+(pdftex.def)             Requested size: 129.06377pt x 96.85495pt.
+<pic/low//softron2.jpg, id=588, 578.16pt x 392.46625pt>
+File: pic/low//softron2.jpg Graphic file (type jpg)
+<use pic/low//softron2.jpg>
+Package pdftex.def Info: pic/low//softron2.jpg  used on input line 9.
+(pdftex.def)             Requested size: 129.06377pt x 87.60641pt.
+<pic/low//softron3.jpg, id=589, 475.7775pt x 467.7475pt>
+File: pic/low//softron3.jpg Graphic file (type jpg)
+<use pic/low//softron3.jpg>
+Package pdftex.def Info: pic/low//softron3.jpg  used on input line 10.
+(pdftex.def)             Requested size: 129.06377pt x 126.8859pt.
+<pic/low//softron4.jpg, id=590, 442.65375pt x 397.485pt>
+File: pic/low//softron4.jpg Graphic file (type jpg)
+<use pic/low//softron4.jpg>
+Package pdftex.def Info: pic/low//softron4.jpg  used on input line 11.
+(pdftex.def)             Requested size: 129.06377pt x 115.8924pt.
+)
+(./portfolio/us/titulos.tex
+Overfull \hbox (4.49997pt too wide) has occurred while \output is active
+[]|\T1/lmss/m/sl/10 (-20) 16/[][]21[][] 
+ []
+
+[16 <./pic/low//piscina1.jpg> <./pic/low//piscina5.jpg> <./pic/low//piscina3.jp
+g> <./pic/low//piscina4.jpg> <./pic/low//colmena1.jpg> <./pic/low//colmena2.jpg
+> <./pic/low//colmena3.jpg> <./pic/low//colmena4.jpg> <./pic/low//ledcover1.jpg
+> <./pic/low//ledcover2.jpg> <./pic/low//ledcover3.jpg> <./pic/low//ledcover4.j
+pg>]
+<pic/low//titulo_itba.jpg, id=601, 739.76375pt x 596.2275pt>
+File: pic/low//titulo_itba.jpg Graphic file (type jpg)
+<use pic/low//titulo_itba.jpg>
+Package pdftex.def Info: pic/low//titulo_itba.jpg  used on input line 7.
+(pdftex.def)             Requested size: 241.9874pt x 195.03621pt.
+
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 7--8
+[][] 
+ []
+
+<pic/low//foto_entrega_titulo.jpg, id=602, 613.29124pt x 420.57124pt>
+File: pic/low//foto_entrega_titulo.jpg Graphic file (type jpg)
+<use pic/low//foto_entrega_titulo.jpg>
+Package pdftex.def Info: pic/low//foto_entrega_titulo.jpg  used on input line 1
+3.
+(pdftex.def)             Requested size: 241.9874pt x 165.94734pt.
+
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 13--14
+[][] 
+ []
+
+<pic/low//medalla_i+d_1.jpg, id=603, 276.03125pt x 206.7725pt>
+File: pic/low//medalla_i+d_1.jpg Graphic file (type jpg)
+<use pic/low//medalla_i+d_1.jpg>
+Package pdftex.def Info: pic/low//medalla_i+d_1.jpg  used on input line 19.
+(pdftex.def)             Requested size: 129.06015pt x 96.68143pt.
+<pic/low//medalla_i+d_2.jpg, id=604, 302.12875pt x 226.8475pt>
+File: pic/low//medalla_i+d_2.jpg Graphic file (type jpg)
+<use pic/low//medalla_i+d_2.jpg>
+Package pdftex.def Info: pic/low//medalla_i+d_2.jpg  used on input line 20.
+(pdftex.def)             Requested size: 129.06015pt x 96.90216pt.
+<pic/low//robot.jpg, id=605, 959.585pt x 583.17876pt>
+File: pic/low//robot.jpg Graphic file (type jpg)
+<use pic/low//robot.jpg>
+Package pdftex.def Info: pic/low//robot.jpg  used on input line 27.
+(pdftex.def)             Requested size: 295.76602pt x 179.75131pt.
+
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+<pic/low//robotdiario.jpg, id=606, 398.48875pt x 513.92pt>
+File: pic/low//robotdiario.jpg Graphic file (type jpg)
+<use pic/low//robotdiario.jpg>
+Package pdftex.def Info: pic/low//robotdiario.jpg  used on input line 41.
+(pdftex.def)             Requested size: 215.09808pt x 277.40288pt.
+
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 41--42
+ [] 
+ []
+
+<pic/low//inteligencia_artificial.jpg, id=607, 152.2488pt x 96.36pt>
+File: pic/low//inteligencia_artificial.jpg Graphic file (type jpg)
+<use pic/low//inteligencia_artificial.jpg>
+Package pdftex.def Info: pic/low//inteligencia_artificial.jpg  used on input li
+ne 48.
+(pdftex.def)             Requested size: 295.76602pt x 187.22925pt.
+
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 48--49
+[][] 
+ []
+
+<pic/low//sadio.jpg, id=608, 141.4083pt x 96.72134pt>
+File: pic/low//sadio.jpg Graphic file (type jpg)
+<use pic/low//sadio.jpg>
+Package pdftex.def Info: pic/low//sadio.jpg  used on input line 61.
+(pdftex.def)             Requested size: 241.9874pt x 165.5177pt.
+
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 61--62
+[][] 
+ []
+
+<pic/low//cacic.jpg, id=611, 142.25145pt x 81.54465pt>
+File: pic/low//cacic.jpg Graphic file (type jpg)
+<use pic/low//cacic.jpg>
+Package pdftex.def Info: pic/low//cacic.jpg  used on input line 67.
+(pdftex.def)             Requested size: 241.9874pt x 138.7186pt.
+
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 67--68
+[][] 
+ []
+
+<courses/cursolatex.pdf, id=615, 845.1575pt x 597.23125pt>
+File: courses/cursolatex.pdf Graphic file (type pdf)
+<use courses/cursolatex.pdf>
+Package pdftex.def Info: courses/cursolatex.pdf  used on input line 80.
+(pdftex.def)             Requested size: 241.9874pt x 170.99638pt.
+
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 80--81
+[][] 
+ []
+
+<pic/low//clase_robot_siglo21.jpg, id=618, 465.74pt x 309.155pt>
+File: pic/low//clase_robot_siglo21.jpg Graphic file (type jpg)
+<use pic/low//clase_robot_siglo21.jpg>
+Package pdftex.def Info: pic/low//clase_robot_siglo21.jpg  used on input line 8
+6.
+(pdftex.def)             Requested size: 241.9874pt x 160.62943pt.
+
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 86--87
+[][] 
+ []
+
+<courses/toeic.jpg, id=621, 149.358pt x 67.2111pt>
+File: courses/toeic.jpg Graphic file (type jpg)
+<use courses/toeic.jpg>
+Package pdftex.def Info: courses/toeic.jpg  used on input line 92.
+(pdftex.def)             Requested size: 241.9874pt x 108.90395pt.
+
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 92--93
+[][] 
+ []
+
+<courses/latam_2018.pdf, id=624, 845.07718pt x 597.55246pt>
+File: courses/latam_2018.pdf Graphic file (type pdf)
+<use courses/latam_2018.pdf>
+Package pdftex.def Info: courses/latam_2018.pdf  used on input line 98.
+(pdftex.def)             Requested size: 241.9874pt x 171.10658pt.
+
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 98--99
+[][] 
+ []
+
+
+
+pdfTeX warning: pdflatex (file ./courses/latam_2020.pdf): PDF inclusion: found 
+PDF version <1.7>, but at most version <1.5> allowed
+<courses/latam_2020.pdf, id=627, 722.7pt x 542.025pt>
+File: courses/latam_2020.pdf Graphic file (type pdf)
+<use courses/latam_2020.pdf>
+Package pdftex.def Info: courses/latam_2020.pdf  used on input line 104.
+(pdftex.def)             Requested size: 241.9874pt x 181.49059pt.
+
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 104--105
+[][] 
+ []
+
+<pic/low//codility_palladium_certificate.png, id=631, 438.63875pt x 346.29375pt
+>
+File: pic/low//codility_palladium_certificate.png Graphic file (type png)
+<use pic/low//codility_palladium_certificate.png>
+Package pdftex.def Info: pic/low//codility_palladium_certificate.png  used on i
+nput line 117.
+(pdftex.def)             Requested size: 241.9874pt x 191.04338pt.
+
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 117--118
+[][] 
+ []
+
+))
+Overfull \hbox (4.49997pt too wide) has occurred while \output is active
+[]|\T1/lmss/m/sl/10 (-20) 17/[][]21[][] 
+ []
+
+[17 <./pic/low//koner1.jpg> <./pic/low//koner2.jpg> <./pic/low//digicard1.jpg> 
+<./pic/low//digicard2.jpg> <./pic/low//digicard3.jpg> <./pic/low//digicard4.jpg
+> <./pic/low//softron1.jpg> <./pic/low//softron2.jpg> <./pic/low//softron3.jpg>
+ <./pic/low//softron4.jpg>]
+Overfull \hbox (4.49997pt too wide) has occurred while \output is active
+[]|\T1/lmss/m/sl/10 (-20) 18/[][]21[][] 
+ []
+
+[18 <./pic/low//titulo_itba.jpg> <./pic/low//foto_entrega_titulo.jpg> <./pic/lo
+w//medalla_i+d_1.jpg> <./pic/low//medalla_i+d_2.jpg> <./pic/low//robot.jpg>]
+Overfull \hbox (4.49997pt too wide) has occurred while \output is active
+[]|\T1/lmss/m/sl/10 (-20) 19/[][]21[][] 
+ []
+
+[19pdfTeX warning (ext4): destination with the same identifier (name{figure.29}
+) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.26 \end{document}
+                    <./pic/low//robotdiario.jpg> <./pic/low//inteligencia_artif
+icial.jpg> <./pic/low//sadio.jpg> <./pic/low//cacic.jpg>]
+Overfull \hbox (4.49997pt too wide) has occurred while \output is active
+[]|\T1/lmss/m/sl/10 (-20) 20/[][]21[][] 
+ []
+
+[20 <./courses/cursolatex.pdf> <./pic/low//clase_robot_siglo21.jpg> <./courses/
+toeic.jpg> <./courses/latam_2018.pdf
+
+pdfTeX warning: pdflatex (file ./courses/latam_2018.pdf): PDF inclusion: multip
+le pdfs with page group included in a single page
+> <./courses/latam_2020.pdf
+
+pdfTeX warning: pdflatex (file ./courses/latam_2020.pdf): PDF inclusion: multip
+le pdfs with page group included in a single page
+>]
+Overfull \hbox (4.49997pt too wide) has occurred while \output is active
+[]|\T1/lmss/m/sl/10 (-20) 21/[][]21[][] 
+ []
+
+[21 <./pic/low//codility_palladium_certificate.png>] (./cv.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package rerunfilecheck Info: File `cv.out' has not changed.
+(rerunfilecheck)             Checksum: F350C98956D88D40F365937594D82B40;5884.
+ ) 
 Here is how much of TeX's memory you used:
- 26415 strings out of 479383
- 486510 string characters out of 5875830
- 1019159 words of memory out of 5000000
- 42761 multiletter control sequences out of 15000+600000
- 496584 words of font info for 136 fonts, out of 8000000 for 9000
+ 29381 strings out of 478994
+ 535977 string characters out of 5864751
+ 1060114 words of memory out of 5000000
+ 45730 multiletter control sequences out of 15000+600000
+ 506778 words of font info for 205 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 115i,23n,115p,1121b,1283s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{subsec:cnea} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsec:digicard} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsec:seconsat} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsec:dci} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{subsec:koner} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsec:softron} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsec:piscina} has been referenced but does not ex
-ist, replaced by a fixed one
-
-{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf-dist/font
-s/enc/dvips/lm/lm-ts1.enc}</usr/share/texmf-dist/fonts/type1/public/lm/lmcsc10.
-pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf-d
-ist/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf-dist/fonts/type1/public/
-lm/lmss17.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmss8.pfb></usr/shar
-e/texmf-dist/fonts/type1/public/lm/lmssbo10.pfb></usr/share/texmf-dist/fonts/ty
-pe1/public/lm/lmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsso10
-.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsso12.pfb></usr/share/texmf
--dist/fonts/type1/public/lm/lmsso17.pfb></usr/share/texmf-dist/fonts/type1/publ
-ic/lm/lmsso8.pfb></usr/share/texmf-dist/fonts/type1/public/marvosym/marvosym.pf
-b>
-Output written on cv.pdf (10 pages, 10031683 bytes).
+ 126i,23n,137p,837b,1265s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}{/usr/s
+hare/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf-dist/fonts/enc/d
+vips/lm/lm-ts1.enc}</usr/share/texmf-dist/fonts/type1/public/fontawesome/FontAw
+esome.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/share/
+texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf-dist/fonts/type1/
+public/lm/lmss12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmss17.pfb></
+usr/share/texmf-dist/fonts/type1/public/lm/lmss8.pfb></usr/share/texmf-dist/fon
+ts/type1/public/lm/lmssbo10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lm
+ssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsso10.pfb></usr/share
+/texmf-dist/fonts/type1/public/lm/lmsso12.pfb></usr/share/texmf-dist/fonts/type
+1/public/lm/lmsso17.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsso8.pfb
+></usr/share/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb>
+Output written on cv.pdf (21 pages, 5700178 bytes).
 PDF statistics:
- 343 PDF objects out of 1000 (max. 8388607)
- 245 compressed objects within 3 object streams
- 57 named destinations out of 1000 (max. 500000)
- 31583 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 805 PDF objects out of 1000 (max. 8388607)
+ 596 compressed objects within 6 object streams
+ 124 named destinations out of 1000 (max. 500000)
+ 60427 words of extra memory for PDF output out of 61914 (max. 10000000)
 
