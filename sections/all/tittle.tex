@@ -6,8 +6,14 @@
    \title { Resume }
 }
 \address             {\place}{\country}
-\mobile              { (+54)(911) 6 243 3463}
-\phone               { (+54)(911) 3 003 3463}
+\ifdefined\direccionValencia
+   \mobile              { (+34)(633) 75 68 35}
+%   \phone               { (+34)(633) 75 68 35}
+\fi
+\ifdefined\direccionBrc
+   \mobile              { (+54)(911) 6 243 3463}
+%   \phone               { (+54)(911) 3 003 3463}
+\fi
 \email               { slavkin.pablo@gmail.com}
 \extrainfo           {13/12/1976}
 \social[github][\linkgithub]{github}
