@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.9.12)  15 NOV 2021 11:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.9.12)  25 NOV 2021 08:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1008,32 +1008,28 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 12.
 
 (./sections/us/presentacion.tex
-Underfull \hbox (badness 10000) in paragraph at lines 28--32
-
- []
-
 <pic/low//ofi_dci_brc_2021_1.jpg, id=209, 1927.2pt x 1084.05pt>
 File: pic/low//ofi_dci_brc_2021_1.jpg Graphic file (type jpg)
 <use pic/low//ofi_dci_brc_2021_1.jpg>
-Package pdftex.def Info: pic/low//ofi_dci_brc_2021_1.jpg  used on input line 35
+Package pdftex.def Info: pic/low//ofi_dci_brc_2021_1.jpg  used on input line 34
 .
 (pdftex.def)             Requested size: 161.32767pt x 90.74529pt.
 <pic/low//ofi_dci_brc_2021_2.jpg, id=210, 1927.2pt x 1084.05pt>
 File: pic/low//ofi_dci_brc_2021_2.jpg Graphic file (type jpg)
 <use pic/low//ofi_dci_brc_2021_2.jpg>
-Package pdftex.def Info: pic/low//ofi_dci_brc_2021_2.jpg  used on input line 36
+Package pdftex.def Info: pic/low//ofi_dci_brc_2021_2.jpg  used on input line 35
 .
 (pdftex.def)             Requested size: 161.32767pt x 90.74529pt.
 <pic/low//ofi_dci_brc_2021_4.jpg, id=211, 1927.2pt x 1084.05pt>
 File: pic/low//ofi_dci_brc_2021_4.jpg Graphic file (type jpg)
 <use pic/low//ofi_dci_brc_2021_4.jpg>
-Package pdftex.def Info: pic/low//ofi_dci_brc_2021_4.jpg  used on input line 37
+Package pdftex.def Info: pic/low//ofi_dci_brc_2021_4.jpg  used on input line 36
 .
 (pdftex.def)             Requested size: 161.32767pt x 90.74529pt.
-) [1
+) (./sections/us/educacion.tex [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./pic/low//cara2020_novo.p
-ng>] (./sections/us/educacion.tex
+ng>]
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 3.
 LaTeX Font Info:    Trying to load font information for TS1+lmss on input line 
@@ -1901,7 +1897,7 @@ Package rerunfilecheck Info: File `cv.out' has not changed.
 Here is how much of TeX's memory you used:
  29427 strings out of 478994
  537167 string characters out of 5864751
- 1054954 words of memory out of 5000000
+ 1053954 words of memory out of 5000000
  45764 multiletter control sequences out of 15000+600000
  509072 words of font info for 202 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
