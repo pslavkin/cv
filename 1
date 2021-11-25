@@ -1,0 +1,24 @@
+\subsection{\href{\linkpalrobotics}{PAL Robotics}}
+   \hypertarget{subsec:pal_robotics}
+   I begin working on the firmware for the fresh new roboot \href{https://pal-robotics.com/robots/kangaroo/}{\emph{Kangaroo}}. I study the hardware platform, main SoC capabilities and then a master plan was designed.
+     \begin{figure}
+      \begin{center}
+         \includegraphics[width=0.3\textwidth]{pal_robotics1.jpg}
+         \includegraphics[width=0.3\textwidth]{pal_robotics2.jpg}
+         \includegraphics[width=0.3\textwidth]{pal_robotics3.jpg}
+      \end{center}
+        \caption{Fresh new robot from PAL Robotics \href{https://pal-robotics.com/robots/kangaroo/}{\emph{Kangaroo}}. It has a new mechanics and extremely powerful electronics. I work on the motors control loop, bootloaders and software in general running on it.}
+      \label{fig:novo_space}
+   \end{figure}
+
+During my job at \href{\linkpalrobotics}{PAL Robotics} I mainly work as a bootloader firmware design and developer.
+The main core is a 5x core 1xARM Cortex + 2x C2000 aqrquitecture + 2 small but fast cores with custom RISC architecture.
+   \begin{itemize}
+      \item{Design the main architecture of the bootloader taking in account the restricted resources}
+      \item{Implement the IPC for intercores communication pattern}
+      \item{Design the IPC for intercores communication}
+      \item{Implement a baremetal framework with full featured CLI to interact with bootloader}
+      \item{Implement a realtime time and frequency visualizer over EtherCAT and UART using matplotlib\+numpy}
+      \item{Implement a persistent telemetry over EtherCAT and UART with custom json lib converter to a python -> influxDB <- Graphana}
+      \item{"Three cores one code" pattern to reuse the same files for each code with minor changes related to hardware, memory layout and so, usin makefiles and #ifdef's}
+   \end{itemize}
