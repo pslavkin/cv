@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1637847188 "cv.tex" "cv.pdf" "cv" 1637847192
+["pdflatex"] 1638182941 "cv.tex" "cv.pdf" "cv" 1638182946
   "/home/pslavkin/texmf/tex/latex/modern_cv_link/moderncv.cls" 1621278225 31829 ddbe139436888cee215486e552aec1b5 ""
   "/home/pslavkin/texmf/tex/latex/modern_cv_link/moderncvbodyi.sty" 1621278225 7263 b0eec674e8a364780faf2f7d5efa2dbe ""
   "/home/pslavkin/texmf/tex/latex/modern_cv_link/moderncvcollection.sty" 1621278225 3390 d797a6d60ef49f5acd2d573a9a4ba418 ""
@@ -195,8 +195,8 @@
   "courses/latam_2018.pdf" 1621278225 334434 904561195fba509356e413546764e779 ""
   "courses/latam_2020.pdf" 1621278225 87746 f116800f95a979a74fe8b319248e0c3f ""
   "courses/toeic.jpg" 1621278225 40927 dd41d631c08209538b22ec55dc7d5fea ""
-  "cv.aux" 1637847192 25105 584718bb6c1f5b9fe38d3aa2a263e19c "pdflatex"
-  "cv.out" 1637847192 6263 c0299c06aec5e9a184d53a594bf9f33c "pdflatex"
+  "cv.aux" 1638182945 25105 584718bb6c1f5b9fe38d3aa2a263e19c "pdflatex"
+  "cv.out" 1638182945 6263 c0299c06aec5e9a184d53a594bf9f33c "pdflatex"
   "cv.tex" 1631464851 924 7f179d9bcec4104d7eb291061e8d95e5 ""
   "pic/high//cacic.jpg" 1621278226 497795 934c6eff1cb5e518368898a150c75c35 ""
   "pic/high//cara2020_novo.png" 1621278226 121024 ce9b3970d9b1a9a9d81d013955ff0654 ""
@@ -327,7 +327,7 @@
   "portfolio/us/mse.tex" 1621278226 939 c45138466039d3fbf9e186547c281580 ""
   "portfolio/us/nanocut.tex" 1637844841 5134 2d88d8503996362ea480a838021667a1 ""
   "portfolio/us/noto.tex" 1621278226 1946 90dc9deee3d426bde05ae6026213a976 ""
-  "portfolio/us/novo.tex" 1637847182 2614 1717cb30828e24aef49f995cd6169966 ""
+  "portfolio/us/novo.tex" 1637847199 2614 1717cb30828e24aef49f995cd6169966 ""
   "portfolio/us/pal_robotics.tex" 1637846907 3180 b71c1b183015314d9bc57b07856caff0 ""
   "portfolio/us/pap.tex" 1621278226 1270 9581092d5341328fdb6c4beddbdde79c ""
   "portfolio/us/piscina.tex" 1621278226 1044 c866e1850e3b029ba01abe68d5b5b779 ""
@@ -337,7 +337,7 @@
   "portfolio/us/titulos.tex" 1621278226 6564 43110cec895695962a0eabc19e5b13c7 ""
   "portfolio/us/wolfcut.tex" 1621278226 1859 12b112e24fc01d7d537d440a8a46d21e ""
   "portfolio/us/xenon.tex" 1621278226 859 6727a5d06f0b91d1cc56448e609b9f29 ""
-  "sections/all/microcontrollers.tex" 1621278226 16044 a50a782a2c28f647f3a5a3cc1ca90187 ""
+  "sections/all/microcontrollers.tex" 1638182933 16097 543eaeb53e77f7e850a9649d12b184a9 ""
   "sections/all/portfolio.tex" 1636739005 751 2d58d9510d523629002f258446c9c6e7 ""
   "sections/all/tecnologias.tex" 1631462631 4702 64bbb9d0ab5097d87425e96d145b13c4 ""
   "sections/all/tittle.tex" 1637322662 838 e332b9e1eb0e1d4dc9daccb8a4499de3 ""
@@ -351,7 +351,7 @@
   "sections/us/recreacion.tex" 1621278226 1105 39239de27113c64f4510f20d123d70b4 ""
   "sections/us/tecnologias.tex" 1621278226 1528 6348f23275d66016af3c22e0dc7ca420 ""
   (generated)
-  "cv.pdf"
-  "cv.out"
-  "cv.aux"
   "cv.log"
+  "cv.out"
+  "cv.pdf"
+  "cv.aux"
