@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.9.12)  29 NOV 2021 11:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.9.12)  29 NOV 2021 20:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1109,15 +1109,15 @@ File: pic/low//pal_robotics3.jpg Graphic file (type jpg)
 <use pic/low//pal_robotics3.jpg>
 Package pdftex.def Info: pic/low//pal_robotics3.jpg  used on input line 8.
 (pdftex.def)             Requested size: 161.32767pt x 120.99005pt.
-<pic/low//pal_robotics4.jpg, id=404, 1124.2pt x 886.31125pt>
+<pic/low//pal_robotics8.jpg, id=404, 4143.48pt x 3107.61pt>
+File: pic/low//pal_robotics8.jpg Graphic file (type jpg)
+<use pic/low//pal_robotics8.jpg>
+Package pdftex.def Info: pic/low//pal_robotics8.jpg  used on input line 33.
+(pdftex.def)             Requested size: 161.32767pt x 120.96394pt.
+<pic/low//pal_robotics4.jpg, id=405, 1124.2pt x 886.31125pt>
 File: pic/low//pal_robotics4.jpg Graphic file (type jpg)
 <use pic/low//pal_robotics4.jpg>
-Package pdftex.def Info: pic/low//pal_robotics4.jpg  used on input line 33.
-(pdftex.def)             Requested size: 161.32767pt x 127.17972pt.
-<pic/low//pal_robotics5.jpg, id=405, 1124.2pt x 886.31125pt>
-File: pic/low//pal_robotics5.jpg Graphic file (type jpg)
-<use pic/low//pal_robotics5.jpg>
-Package pdftex.def Info: pic/low//pal_robotics5.jpg  used on input line 34.
+Package pdftex.def Info: pic/low//pal_robotics4.jpg  used on input line 34.
 (pdftex.def)             Requested size: 161.32767pt x 127.17972pt.
 <pic/low//pal_robotics6.jpg, id=406, 1124.2pt x 886.31125pt>
 File: pic/low//pal_robotics6.jpg Graphic file (type jpg)
@@ -1126,8 +1126,8 @@ Package pdftex.def Info: pic/low//pal_robotics6.jpg  used on input line 35.
 (pdftex.def)             Requested size: 161.32767pt x 127.17972pt.
 )
 (./portfolio/us/novo.tex [8 <./pic/low//pal_robotics1.jpg> <./pic/low//pal_robo
-tics2.jpg> <./pic/low//pal_robotics3.jpg> <./pic/low//pal_robotics4.jpg> <./pic
-/low//pal_robotics5.jpg> <./pic/low//pal_robotics6.jpg>]
+tics2.jpg> <./pic/low//pal_robotics3.jpg> <./pic/low//pal_robotics8.jpg> <./pic
+/low//pal_robotics4.jpg> <./pic/low//pal_robotics6.jpg>]
 <pic/low//novo1.jpg, id=415, 1204.5pt x 903.375pt>
 File: pic/low//novo1.jpg Graphic file (type jpg)
 <use pic/low//novo1.jpg>
@@ -1972,7 +1972,7 @@ ssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsso10.pfb></usr/share
 /texmf-dist/fonts/type1/public/lm/lmsso12.pfb></usr/share/texmf-dist/fonts/type
 1/public/lm/lmsso17.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsso8.pfb
 ></usr/share/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on cv.pdf (24 pages, 6341857 bytes).
+Output written on cv.pdf (24 pages, 6160726 bytes).
 PDF statistics:
  868 PDF objects out of 1000 (max. 8388607)
  641 compressed objects within 7 object streams
