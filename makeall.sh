@@ -1,3 +1,16 @@
+#---VARIABLES------------
+#\def\picHigh{}
+#\def\picLow{}
+#------------------------
+#\def\idiomaUs{}
+#\def\idiomaEs{}
+#------------------------
+#\def\portfolioSi{}
+#\def\portfolioFull{} agrega mas detalles sobre las tareas que se hicieron en cada trabajo
+#\def\portfolioNo{
+#------------------------
+#\def\direccionValencia{}
+#\def\direccionBrc{}
 #---------------------------------------------------
 #espaniol
 #---------------------------------------------------
