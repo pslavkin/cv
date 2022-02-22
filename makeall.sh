@@ -65,5 +65,6 @@ pdflatex "\def\picLow{}\def\idiomaUs{}\def\portfolioSi{}\def\direccionValencia{}
 pdflatex "\def\picLow{}\def\idiomaUs{}\def\portfolioSi{}\def\direccionValencia{}\input{cv}" &&\
 cp -v cv.pdf ./pdfs/us/cv_us_low_valencia.pdf &&\
 
+git add .             &&\
 git commit -a -m "$1" &&\
 git push
