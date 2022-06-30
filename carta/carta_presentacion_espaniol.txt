@@ -12,5 +12,33 @@ Saludos cordiales. Pablo Slavkin
 
 carta ingles generica
 ----------------------------------------------------------------------
-Hi, I'm very interested in the work , I'm an electronic engineer with a embedded systems specialization with many years of experience in real time microcontrollers coding and embedded dev, ASM, C, C++, bash, python, Linux, VHDL, Verilog, FreeRtos, lwIP and many others, experience in protocols like sci, spi, 485, USB, can, ethernet, wifi, 802.11, i2c and others. You'd call or mail me if you found my CV appropriate. Linkedin:https://www.linkedin.com/in/pablo-slavkin/ wapp:0054 911 6243 3463
+Hi, I'm very interested in the work , I'm an electronic engineer with a embedded
+systems specialization with many years of experience in real time
+microcontrollers coding and embedded dev, ASM, C, C++, bash, python, Linux,
+VHDL, Verilog, FreeRtos, lwIP and many others, experience in protocols like sci,
+spi, 485, USB, can, ethernet, wifi, 802.11, i2c and others. You'd call or mail
+me if you found my CV appropriate.
+Linkedin:https://www.linkedin.com/in/pablo-slavkin/ wapp:0054 911 6243 3463
 Regards. Pablo Slavkin
+
+carta ingles para kns.com in netherlands
+--------------------------------------------------------------
+Hi, I'm Pablo Slavkin, I'm an electronic engineer from an electromechanical
+tecnicitian base. I've more than 15 years of experience in the electronic
+industry working in a very abroad technology. I'd began taking the client
+requirement and end with the fully working prototype, I mean schematics, parts
+selection, PCB layout , bare firmware, bootloader, RTOS, drivers, Linux
+embedded, device drivers, PCB batch production, 3D cases modeling in sync with
+PCB, and why not, some companion software like web pages, frontend and backend
+services, databases, WebSocket's, python/bash scripting and so. During the dev
+phase I use to use a whole stack of up-to date software tools like git, agile
+methodologies, unit testing, docker, GitLab/GitHub CI/CD with custom runners and
+if it deserves hardware in the loop too. Recently I've worked as a lead of small
+electronics teams with very good results I've many years of experience in
+mounting PCB's at my own lab, using p&p at my own electronic lab, reflow-owen,
+stencils, etc. I'm very good with CNC machines, laser cutting , and also very
+passionate about 3d printers, I've one of each at my lab and use them regularly.
+I've been working in the robot/cnc industry from the past 5 years. Recently, in
+2021, I've got a master's degree in embedded system from the UBA university. I'm
+interested in a new challenge where I'd share my expertise and knowledge and at
+the same time, move my professional career much further Pablo
